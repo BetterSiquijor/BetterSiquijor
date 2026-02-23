@@ -58,18 +58,20 @@ const Footer: FC = () => {
             <div className='flex items-center mb-4'>
               <img
                 src='/logos/svg/BetterGov_Icon-White.svg'
-                alt='BetterGov Logo'
+                alt='BetterSiquijor Logo'
                 className='h-12 w-12 mr-3'
               />
 
               <div>
-                <div className='font-bold'>Better Philippines</div>
-                <div className='text-xs text-gray-400'>BetterGov.ph Portal</div>
+                <div className='font-bold'>Better Siquijor</div>
+                <div className='text-xs text-gray-400'>
+                  BetterSiquijor Portal
+                </div>
               </div>
             </div>
             <p className='text-gray-400 text-sm mb-4'>
-              A community portal providing Philippine citizens, businesses, and
-              visitors with information and services.
+              A community portal for Siquijor Island — local government
+              directory, services, and island information.
             </p>
             <div className='flex space-x-4'>
               {footerNavigation.socialLinks.map(link => (
@@ -124,7 +126,7 @@ const Footer: FC = () => {
             </p>
             <div className='flex space-x-6'>
               <Link
-                to='https://github.com/bettergovph/bettergov'
+                to='https://github.com/BetterSiquijor/BetterSiquijor'
                 className='text-gray-400 hover:text-white text-sm transition-colors'
               >
                 Contribute at GitHub

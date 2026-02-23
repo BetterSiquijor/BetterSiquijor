@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Welcome to BetterGov.ph",
-    "subtitle": "The volunteer run portal of the Republic of the Philippines. Find information, access government services, stay updated with the latest news about the Philippines.",
+    "title": "Welcome to BetterSiquijor",
+    "subtitle": "Your community portal for Siquijor Island. Find local government services, municipal information, and everything about the Province of Siquijor.",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Business Registration"
@@ -23,7 +23,7 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "2025 BetterGov.ph - All content is public domain unless otherwise specified."
+    "copyright": "2025 BetterSiquijor - All content is public domain unless otherwise specified."
   },
   "navbar": {
     "siquijor": "Siquijor",
@@ -36,11 +36,11 @@
   },
   "joinUs": {
     "stripTitle": "🚀 Join the #CivicTech Revolution",
-    "stripSubtitle": "Help build the future of the Philippines and governance through technology",
+    "stripSubtitle": "Help build a better Siquijor through technology",
     "joinNow": "Join Now",
     "discord": "Discord",
     "bannerTitle": "Join the #CivicTech Revolution",
-    "bannerSubtitle": "Help build the future of the Philippines and governance through technology.",
+    "bannerSubtitle": "Help build a better Siquijor through technology.",
     "bannerHighlight": "Volunteer-led. Open source. Community-driven.",
     "joinMovement": "Join Our Movement",
     "or": "or",
@@ -49,7 +49,7 @@
   },
   "data": {
     "title": "Real-Time Data Services",
-    "description": "Access up-to-date information on weather conditions and foreign exchange rates across the Philippines.",
+    "description": "Access up-to-date information on weather conditions and foreign exchange rates.",
     "weatherForecast": "Weather Forecast",
     "realtimeConditions": "Real-time conditions",
     "viewArrow": "View →",

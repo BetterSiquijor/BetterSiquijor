@@ -5,19 +5,19 @@ test.describe('Homepage', () => {
     await page.goto('/');
 
     // Check page title
-    await expect(page).toHaveTitle(/BetterGov.ph/);
+    await expect(page).toHaveTitle(/BetterSiquijor/);
 
     // Check navbar is visible
     await expect(page.locator('nav')).toBeVisible();
 
     // Check logo and site name
     await expect(
-      page.getByRole('link', { name: /BetterGov Logo BetterGov.ph/i })
+      page.getByRole('link', { name: /BetterSiquijor Logo BetterSiquijor/i })
     ).toBeVisible();
 
     // Check hero section
     await expect(
-      page.getByRole('heading', { name: /Welcome to BetterGov.ph/i })
+      page.getByRole('heading', { name: /Welcome to BetterSiquijor/i })
     ).toBeVisible();
 
     // Check search input exists

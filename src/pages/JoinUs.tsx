@@ -20,13 +20,13 @@ const JoinUs: FC = () => {
   return (
     <div className='min-h-screen bg-linear-to-br from-blue-50 via-white to-purple-50'>
       <Helmet>
-        <title>Join Us | BetterGov.ph</title>
+        <title>Join Us | BetterSiquijor</title>
         <meta
           name='description'
-          content='Join BetterGov.ph—A volunteer-led civic tech initiative building open-source tools to make government more transparent, efficient, and accessible.'
+          content='Join BetterSiquijor—A volunteer-led civic tech initiative building open-source tools to make government more transparent, efficient, and accessible.'
         />
         <link rel='canonical' href='https://bettergov.ph/join-us' />
-        <meta property='og:title' content='Join Us | BetterGov.ph' />
+        <meta property='og:title' content='Join Us | BetterSiquijor' />
         <meta
           property='og:description'
           content='Be part of a volunteer-led civic tech initiative building open-source projects for a better government.'
@@ -52,7 +52,7 @@ const JoinUs: FC = () => {
             </h1>
             <p className='text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed'>
               Together with industry veterans, we&apos;re building{' '}
-              <strong>BetterGov.ph</strong> — making government transparent,
+              <strong>BetterSiquijor</strong> — making government transparent,
               efficient, and accessible to every Filipino.
             </p>
             <div className='flex flex-col sm:flex-row gap-4 justify-center'>
@@ -103,8 +103,9 @@ const JoinUs: FC = () => {
           <div className='max-w-4xl mx-auto'>
             <div className='bg-linear-to-r from-primary-50 to-blue-50 rounded-2xl p-8 md:p-12 mb-8'>
               <p className='text-lg text-gray-800 leading-relaxed mb-6'>
-                BetterGov is a <strong>volunteer-led tech initiative</strong>{' '}
-                committed to creating
+                BetterSiquijor is a{' '}
+                <strong>volunteer-led tech initiative</strong> committed to
+                creating
                 <span className='inline-flex items-center mx-2 px-3 py-1 bg-primary-600 text-white rounded-full text-sm font-semibold'>
                   <ZapIcon className='h-4 w-4 mr-1' />
                   #civictech

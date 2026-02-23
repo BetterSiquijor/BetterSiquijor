@@ -21,10 +21,10 @@ const AboutPage: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <Helmet>
-        <title>About | BetterGov.ph</title>
+        <title>About | BetterSiquijor</title>
         <meta
           name='description'
-          content='BetterGov is a volunteer-led tech initiative committed to creating #civictech projects aimed at making government more transparent, efficient, and accessible to citizens.'
+          content='BetterSiquijor is a volunteer-led tech initiative committed to creating #civictech projects aimed at making government more transparent, efficient, and accessible to citizens.'
         />
         <meta
           name='keywords'
@@ -33,10 +33,10 @@ const AboutPage: FC = () => {
         <link rel='canonical' href='https://bettergov.ph/about' />
 
         {/* Open Graph / Social */}
-        <meta property='og:title' content='About | BetterGov.ph' />
+        <meta property='og:title' content='About | BetterSiquijor' />
         <meta
           property='og:description'
-          content='BetterGov is a volunteer-led tech initiative committed to creating #civictech projects aimed at making government more transparent, efficient, and accessible to citizens.'
+          content='BetterSiquijor is a volunteer-led tech initiative committed to creating #civictech projects aimed at making government more transparent, efficient, and accessible to citizens.'
         />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/about' />
@@ -57,7 +57,7 @@ const AboutPage: FC = () => {
                 </h2>
                 <div className='bg-gradient-to-r from-primary-50 to-blue-50 rounded-xl p-6 md:p-8 mb-6'>
                   <p className='text-lg text-gray-800 leading-relaxed mb-4'>
-                    BetterGov is a{' '}
+                    BetterSiquijor is a{' '}
                     <strong>volunteer-led tech initiative</strong> committed to
                     creating
                     <span className='inline-flex items-center mx-2 px-3 py-1 bg-primary-600 text-white rounded-full text-sm font-semibold'>
