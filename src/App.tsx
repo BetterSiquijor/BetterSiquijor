@@ -88,6 +88,7 @@ import ScrollToTop from './components/ui/ScrollToTop';
 import Discord from './pages/Discord';
 import SalaryGradePage from './pages/government/salary-grade/index';
 import NotFound from './pages/NotFound';
+import SiquijorPage from './pages/siquijor';
 
 function App() {
   return (
@@ -111,6 +112,7 @@ function App() {
             <Route path='/terms-of-service' element={<TermsOfService />} />
             <Route path='/sitemap' element={<SitemapPage />} />
             <Route path='/discord' Component={Discord} />
+            <Route path='/siquijor' element={<SiquijorPage />} />
 
             <Route path='/philippines'>
               <Route index element={<Navigate to='about' replace />} />
