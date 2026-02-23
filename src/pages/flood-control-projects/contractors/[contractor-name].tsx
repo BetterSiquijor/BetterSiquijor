@@ -642,7 +642,7 @@ const ContractorDetail: FC = () => {
     <div className='min-h-screen bg-gray-50'>
       <Helmet>
         <title>
-          {contractor.value} - Flood Control Projects | BetterGov.ph
+          {contractor.value} - Flood Control Projects | BetterSiquijor
         </title>
         <meta
           name='description'

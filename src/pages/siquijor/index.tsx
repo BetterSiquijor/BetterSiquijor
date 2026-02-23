@@ -105,10 +105,10 @@ const SiquijorPage: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <Helmet>
-        <title>Siquijor Island | BetterGov.ph</title>
+        <title>Siquijor Island | BetterSiquijor</title>
         <meta
           name='description'
-          content='Explore Siquijor Island — local government directory, municipal services, and island information. A BetterGov.ph community portal for the Province of Siquijor, Negros Island Region.'
+          content='Explore Siquijor Island — local government directory, municipal services, and island information. A BetterSiquijor community portal for the Province of Siquijor, Negros Island Region.'
         />
         <link rel='canonical' href='https://bettergov.ph/siquijor' />
       </Helmet>

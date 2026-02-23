@@ -117,10 +117,9 @@ export default function SEO({
   }
 
   // Default values
-  const defaultTitle =
-    'BetterGov.ph Philippines | Community Powered Government Portal';
+  const defaultTitle = 'BetterSiquijor | Community Portal for Siquijor Island';
   const defaultDescription =
-    'Community-powered portal of the Philippines. Access government services, stay updated with the latest news, and find information about the Philippines.';
+    'Community portal for Siquijor Island. Access local government services, municipal directories, and island information for the Province of Siquijor.';
   const defaultCanonical = location.pathname + location.search;
 
   useEffect(() => {
@@ -133,7 +132,7 @@ export default function SEO({
   const finalDescription =
     description || routeDescription || defaultDescription;
 
-  const siteTitle = 'BetterGov.ph';
+  const siteTitle = 'BetterSiquijor';
   const fullTitle = title ? `${title} | ${siteTitle}` : finalTitle;
   const baseUrl = 'https://bettergov.ph';
   const fullCanonical = defaultCanonical
@@ -190,8 +189,8 @@ export default function SEO({
       <meta name='geo.country' content='PH' />
       <meta name='geo.region' content='PH' />
       <meta name='DC.language' content='en' />
-      <meta name='DC.creator' content='BetterGov.ph' />
-      <meta name='DC.publisher' content='BetterGov.ph' />
+      <meta name='DC.creator' content='BetterSiquijor' />
+      <meta name='DC.publisher' content='BetterSiquijor' />
 
       {/* Structured Data */}
       {jsonLd && (

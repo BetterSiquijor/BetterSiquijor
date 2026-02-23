@@ -1,5 +1,5 @@
 {
-  "title": "About BetterGov.ph",
+  "title": "About BetterSiquijor",
   "whyBuilding": {
     "title": "Why We're Building This Project",
     "intro": "The current state of Philippine government websites, particularly the main portal",
@@ -39,7 +39,7 @@
   },
   "volunteer": {
     "title": "Join Us as a Volunteer",
-    "intro": "We're always looking for passionate individuals to help improve BetterGov.ph. We need volunteers with various skills:",
+    "intro": "We're always looking for passionate individuals to help improve BetterSiquijor. We need volunteers with various skills:",
     "technical": {
       "title": "Technical",
       "skills": [

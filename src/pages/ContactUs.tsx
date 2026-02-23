@@ -52,15 +52,15 @@ const ContactUs: FC = () => {
 
   const faqs = [
     {
-      question: 'How can I volunteer for BetterGov?',
+      question: 'How can I volunteer for BetterSiquijor?',
       answer:
         'We welcome volunteers with various skills! Check out our Join Us page to see current opportunities and fill out our volunteer form.',
       link: { text: 'Join Us page', href: '/join-us' },
     },
     {
-      question: 'Is BetterGov affiliated with the Philippine government?',
+      question: 'Is BetterSiquijor affiliated with the Philippine government?',
       answer:
-        'No, BetterGov is an independent volunteer-led initiative. We work alongside government agencies but are not officially part of the Philippine government.',
+        'No, BetterSiquijor is an independent volunteer-led initiative. We work alongside government agencies but are not officially part of the Philippine government.',
     },
     {
       question: 'How do I report a bug or request a feature?',
@@ -72,12 +72,12 @@ const ContactUs: FC = () => {
       },
     },
     {
-      question: 'Can I use BetterGov content for my project?',
+      question: 'Can I use BetterSiquijor content for my project?',
       answer:
-        'Yes! BetterGov is released under Creative Commons CC0, meaning our content is in the public domain and can be used freely for any purpose.',
+        'Yes! BetterSiquijor is released under Creative Commons CC0, meaning our content is in the public domain and can be used freely for any purpose.',
     },
     {
-      question: 'Where does the data on BetterGov come from?',
+      question: 'Where does the data on BetterSiquijor come from?',
       answer:
         'Our data is aggregated from various publicly available government sources. We use custom scripts and tools to collect, process, and display this information in a way that is easy for citizens to access and understand.',
     },
@@ -88,20 +88,20 @@ const ContactUs: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       <Helmet>
-        <title>Contact Us | BetterGov.ph</title>
+        <title>Contact Us | BetterSiquijor</title>
         <meta
           name='description'
-          content='Contact the BetterGov.ph team. Get in touch with our volunteers, report issues, or join our community.'
+          content='Contact the BetterSiquijor team. Get in touch with our volunteers, report issues, or join our community.'
         />
         <meta
           name='keywords'
           content='contact, bettergov, volunteer, feedback, support, philippines government'
         />
         <link rel='canonical' href='https://bettergov.ph/contact' />
-        <meta property='og:title' content='Contact Us | BetterGov.ph' />
+        <meta property='og:title' content='Contact Us | BetterSiquijor' />
         <meta
           property='og:description'
-          content='Contact the BetterGov.ph team. Get in touch with our volunteers, report issues, or join our community.'
+          content='Contact the BetterSiquijor team. Get in touch with our volunteers, report issues, or join our community.'
         />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://bettergov.ph/contact' />
@@ -168,7 +168,7 @@ const ContactUs: FC = () => {
                 Frequently Asked Questions
               </h2>
               <p className='text-gray-600'>
-                Find answers to common questions about BetterGov
+                Find answers to common questions about BetterSiquijor
               </p>
             </div>
 

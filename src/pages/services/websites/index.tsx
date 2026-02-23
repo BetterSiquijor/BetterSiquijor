@@ -84,7 +84,7 @@ const WebsitesDirectory: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50'>
       {/* <SEO
-        title="Government Websites Directory | BetterGov.ph"
+        title="Government Websites Directory | BetterSiquijor"
         description="Comprehensive directory of Philippine government websites, agencies, and services."
         keywords="philippines government websites, philippine agencies online, government directory"
       /> */}

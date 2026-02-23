@@ -139,7 +139,7 @@ const Navbar: FC = () => {
               to='/about'
               className='text-xs leading-12 text-gray-800 hover:text-primary-600 transition-colors'
             >
-              About <span className='hidden md:inline'>BetterGov.ph</span>
+              About <span className='hidden md:inline'>BetterSiquijor</span>
             </Link>
             <a
               href='https://www.gov.ph'
@@ -185,13 +185,13 @@ const Navbar: FC = () => {
             <Link to='/' className='flex items-center'>
               <img
                 src='/logos/svg/BetterGov_Icon-Primary.svg'
-                alt='BetterGov Logo'
+                alt='BetterSiquijor Logo'
                 className='h-12 w-12 mr-3'
               />
               <div>
-                <div className='text-black font-bold'>BetterGov.ph</div>
+                <div className='text-black font-bold'>BetterSiquijor</div>
                 <div className='text-xs text-gray-800'>
-                  A community-run portal for the Philippines
+                  A community portal for Siquijor Island
                 </div>
               </div>
             </Link>

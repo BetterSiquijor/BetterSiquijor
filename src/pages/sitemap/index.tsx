@@ -29,7 +29,7 @@ const SitemapPage: FC = () => {
       icon: <Home className='h-5 w-5' />,
       links: [
         { title: 'Home', url: '/', description: 'Main landing page' },
-        { title: 'About', url: '/about', description: 'About BetterGov.ph' },
+        { title: 'About', url: '/about', description: 'About BetterSiquijor' },
         {
           title: 'Accessibility',
           url: '/accessibility',
@@ -316,8 +316,8 @@ const SitemapPage: FC = () => {
   return (
     <div className='min-h-screen bg-gray-50 py-12'>
       <SEO
-        title='Sitemap | BetterGov.ph'
-        description='Complete sitemap of BetterGov.ph - Find all pages and services available on the Philippine Government Portal.'
+        title='Sitemap | BetterSiquijor'
+        description='Complete sitemap of BetterSiquijor - Find all pages and services available on the Siquijor community portal.'
         keywords={[
           'sitemap',
           'navigation',
@@ -334,7 +334,7 @@ const SitemapPage: FC = () => {
               <h1 className='text-3xl font-bold text-gray-900'>Sitemap</h1>
               <p className='mt-2 text-gray-800'>
                 A complete guide to all pages and services available on
-                BetterGov.ph
+                BetterSiquijor
               </p>
             </div>
 

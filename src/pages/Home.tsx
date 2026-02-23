@@ -6,12 +6,14 @@ import InfoWidgets from '../components/home/InfoWidgets';
 import PromotionBanner from '../components/home/PromotionBanner';
 import JoinUsBanner from '../components/home/JoinUsBanner';
 import GovernmentSection from '../components/home/GovernmentSection';
+import SiquijorHighlights from '../components/home/SiquijorHighlights';
 
 const Home: FC = () => {
   return (
     <main className='grow'>
       <JoinUsStrip />
       <Hero />
+      <SiquijorHighlights />
       <ServicesSection />
       {/* <NewsSection /> */}
       <InfoWidgets />

@@ -66,7 +66,7 @@ const CommunicatingPrintPage: FC = () => {
               <h1 className='text-base font-bold text-gray-900'>
                 Travel Phrasebook
               </h1>
-              <p className='text-xs text-gray-600'>BetterGov.ph</p>
+              <p className='text-xs text-gray-600'>BetterSiquijor</p>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ const CommunicatingPrintPage: FC = () => {
             <div className='flex items-center gap-3'>
               <img
                 src='/logo.svg'
-                alt='BetterGov Logo'
+                alt='BetterSiquijor Logo'
                 className='h-8 w-8'
                 onError={e => {
                   e.currentTarget.style.display = 'none';
@@ -87,7 +87,7 @@ const CommunicatingPrintPage: FC = () => {
                 <h1 className='text-2xl font-bold text-gray-900'>
                   Travel Phrasebook
                 </h1>
-                <p className='text-sm text-gray-600'>BetterGov.ph</p>
+                <p className='text-sm text-gray-600'>BetterSiquijor</p>
               </div>
             </div>
 
@@ -221,7 +221,7 @@ const CommunicatingPrintPage: FC = () => {
         {/* Print-only footer */}
         <div className='hidden print:block max-w-7xl mx-auto mt-4 pt-2 border-t border-gray-300'>
           <p className='text-xs text-gray-600 text-center'>
-            Generated from BetterGov.ph • Travel Phrasebook • For personal use
+            Generated from BetterSiquijor • Travel Phrasebook • For personal use
             only
           </p>
         </div>
