@@ -20,7 +20,8 @@ const quickFacts = [
   {
     icon: <UsersIcon className='h-6 w-6' />,
     title: 'Population',
-    description: 'Approximately 105,000 residents across 6 municipalities.',
+    description:
+      'Approximately 105,000 residents (2020 Census) across 6 municipalities.',
   },
   {
     icon: <Building2Icon className='h-6 w-6' />,
@@ -84,7 +85,7 @@ const SiquijorHighlights: FC = () => {
         <div className='text-center mt-8'>
           <Link
             to='/siquijor'
-            className='inline-flex items-center justify-center rounded-md font-medium transition-colors px-6 py-3 bg-primary-500 text-white hover:bg-primary-600 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 shadow-xs'
+            className='inline-flex items-center justify-center rounded-md font-medium transition-colors px-6 py-3 bg-primary-500 text-white hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 shadow-xs'
           >
             Learn More About Siquijor
           </Link>

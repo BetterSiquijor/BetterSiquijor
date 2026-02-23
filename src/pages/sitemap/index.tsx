@@ -317,7 +317,7 @@ const SitemapPage: FC = () => {
     <div className='min-h-screen bg-gray-50 py-12'>
       <SEO
         title='Sitemap | BetterSiquijor'
-        description='Complete sitemap of BetterSiquijor - Find all pages and services available on the Philippine Government Portal.'
+        description='Complete sitemap of BetterSiquijor - Find all pages and services available on the Siquijor community portal.'
         keywords={[
           'sitemap',
           'navigation',
