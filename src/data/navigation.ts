@@ -88,6 +88,18 @@ export const ourProjects = [
 
 export const mainNavigation: NavigationItem[] = [
   {
+    label: 'Siquijor',
+    href: '/siquijor',
+    children: [
+      { label: 'About Siquijor', href: '/siquijor' },
+      {
+        label: 'Local Government',
+        href: '/government/local/negros-island-region',
+      },
+      { label: 'Government Services', href: '/services' },
+    ],
+  },
+  {
     label: 'Philippines',
     href: '/philippines',
     children: [

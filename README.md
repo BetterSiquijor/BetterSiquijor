@@ -1,9 +1,9 @@
-# BetterGov.ph
+# BetterGov.ph — Siquijor Island
 
-![GitHub Repo Banner](https://ghrb.waren.build/banner?header=BetterGov.ph&subheader=Building+a+better+Philippines%27+national+website&bg=0051BA&color=fff&support=true)
+![GitHub Repo Banner](https://ghrb.waren.build/banner?header=BetterGov.ph&subheader=Building+a+better+government+portal+for+Siquijor+Island&bg=0051BA&color=fff&support=true)
 <!-- Created with GitHub Repo Banner by Waren Gonzaga: https://ghrb.waren.build -->
 
-A community-led initiative to create a better and more usable Philippine national government website.
+A community-led initiative to create a better and more usable government portal for the Province of Siquijor, part of the Negros Island Region.
 
 ## Why We're Building This Project
 
