@@ -4,6 +4,8 @@ An independent, volunteer-run information portal for **Siquijor Province**, main
 
 Built from [Better Local Gov](https://github.com/iyanski/betterlocalgov), retaining its original blue theme, typography, navigation, cards, and footer. The application uses React, TypeScript, Vite, Tailwind CSS, and Kapwa components.
 
+**Live website:** [bettersiquijor.vercel.app](https://bettersiquijor.vercel.app/).
+
 **Source repository:** [BetterSiquijor/BetterSiquijor](https://github.com/BetterSiquijor/BetterSiquijor). Production hosting uses Vercel with the build settings below. Running the local development commands does not publish the website.
 
 ## Requirements
