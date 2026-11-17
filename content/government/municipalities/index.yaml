@@ -1,0 +1,22 @@
+title: Municipalities
+layout: list
+pages:
+- name: Enrique Villanueva
+  slug: enrique-villanueva
+  description: Official PSA profile and 2024 census information for Enrique Villanueva,
+    Siquijor.
+- name: Larena
+  slug: larena
+  description: Official PSA profile and 2024 census information for Larena, Siquijor.
+- name: Lazi
+  slug: lazi
+  description: Official PSA profile and 2024 census information for Lazi, Siquijor.
+- name: Maria
+  slug: maria
+  description: Official PSA profile and 2024 census information for Maria, Siquijor.
+- name: San Juan
+  slug: san-juan
+  description: Official PSA profile and 2024 census information for San Juan, Siquijor.
+- name: Siquijor
+  slug: siquijor
+  description: Official PSA profile and 2024 census information for Siquijor, Siquijor.

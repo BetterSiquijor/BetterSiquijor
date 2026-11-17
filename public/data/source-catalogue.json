@@ -1,0 +1,135 @@
+{
+  "reviewed": "2026-11-17",
+  "sources": [
+    {
+      "id": "psa-psgc",
+      "name": "PSA geographic and census listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/citimuni/1806100000",
+      "scope": "Province and six municipalities",
+      "coverage": "Municipality names, PSGC codes, 2024 population",
+      "reviewed": "2026-11-17",
+      "status": "Reviewed"
+    },
+    {
+      "id": "dbm-directory",
+      "name": "2026 Philippine Government Directory",
+      "publisher": "Department of Budget and Management",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/AboutDBM/2026-Government-Directory.pdf",
+      "scope": "Provincial officials and contact",
+      "coverage": "Governor, vice governor, published office contacts",
+      "reviewed": "2026-11-17",
+      "status": "Reviewed reference"
+    },
+    {
+      "id": "pia-officials",
+      "name": "New ferry route links Siquijor, Bohol, Misamis Occidental",
+      "publisher": "Philippine Information Agency",
+      "url": "https://pia.gov.ph/news/new-ferry-route-links-siquijor-bohol-misamis-occidental/",
+      "scope": "Province",
+      "coverage": "Official names corroborated; article dated 29 October 2026",
+      "reviewed": "2026-11-17",
+      "status": "Reviewed"
+    },
+    {
+      "id": "tourism",
+      "name": "Provincial Tourism Office",
+      "publisher": "Siquijor Provincial Tourism Office",
+      "url": "https://siquijorprovince.com/",
+      "scope": "Provincial tourism",
+      "coverage": "Tourism source; some older advisories remain",
+      "reviewed": "2026-11-17",
+      "status": "Reviewed with dated-content caution"
+    },
+    {
+      "id": "tourism-contacts",
+      "name": "Provincial Tourism Office contact directory",
+      "publisher": "Siquijor Provincial Tourism Office",
+      "url": "https://siquijorprovince.com/contact-information/",
+      "scope": "Published provincial contacts",
+      "coverage": "Published contacts; not independently called",
+      "reviewed": "2026-11-17",
+      "status": "Published reference only"
+    },
+    {
+      "id": "deped",
+      "name": "Schools Division of Siquijor",
+      "publisher": "Department of Education",
+      "url": "https://www.deped-siquijor.com/",
+      "scope": "Basic education",
+      "coverage": "Division information and directory links",
+      "reviewed": "2026-11-17",
+      "status": "Reviewed"
+    },
+    {
+      "id": "philhealth",
+      "name": "PhilHealth online services",
+      "publisher": "Philippine Health Insurance Corporation",
+      "url": "https://www.philhealth.gov.ph/services/",
+      "scope": "National",
+      "coverage": "Official online service entry points",
+      "reviewed": "2026-11-17",
+      "status": "Reviewed"
+    },
+    {
+      "id": "psa-serbilis",
+      "name": "PSA Serbilis",
+      "publisher": "PSA civil registry service channel",
+      "url": "https://www.psaserbilis.com.ph/",
+      "scope": "National",
+      "coverage": "Online civil registry document requests; linked by PSA",
+      "reviewed": "2026-11-17",
+      "status": "Official service reference"
+    },
+    {
+      "id": "digital-id",
+      "name": "Digital National ID",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://national-id.gov.ph/",
+      "scope": "National",
+      "coverage": "Official Digital National ID access",
+      "reviewed": "2026-11-17",
+      "status": "Official service reference"
+    },
+    {
+      "id": "dot",
+      "name": "DOT Siquijor destination",
+      "publisher": "Department of Tourism",
+      "url": "https://www.tourism.gov.ph/destination/nir/siquijor/",
+      "scope": "Provincial tourism",
+      "coverage": "Official destination information; Negros Island Region",
+      "reviewed": "2026-11-17",
+      "status": "Reviewed"
+    },
+    {
+      "id": "fdp",
+      "name": "DILG Full Disclosure Policy Portal",
+      "publisher": "Department of the Interior and Local Government",
+      "url": "https://fdpp.dilg.gov.ph/fdpp/default",
+      "scope": "National repository; select provincial LGU",
+      "coverage": "Province-specific documents not retrieved",
+      "reviewed": "2026-11-17",
+      "status": "External portal; no local dataset"
+    },
+    {
+      "id": "coa",
+      "name": "COA LGU annual audit reports",
+      "publisher": "Commission on Audit",
+      "url": "https://www.coa.gov.ph/reports/annual-audit-reports/aar-local-government-units/",
+      "scope": "National repository; select Province of Siquijor",
+      "coverage": "Automated retrieval restricted; no local report reviewed",
+      "reviewed": "2026-11-17",
+      "status": "External portal; access limited"
+    },
+    {
+      "id": "philgeps",
+      "name": "PhilGEPS notices",
+      "publisher": "Philippine Government Electronic Procurement System",
+      "url": "https://notices.philgeps.gov.ph/",
+      "scope": "National repository; search PROVINCE OF SIQUIJOR",
+      "coverage": "No reconciled local project dataset",
+      "reviewed": "2026-11-17",
+      "status": "External portal; no local dataset"
+    }
+  ]
+}

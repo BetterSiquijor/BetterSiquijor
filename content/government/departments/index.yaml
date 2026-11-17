@@ -1,0 +1,15 @@
+title: Departments
+layout: list
+pages:
+- name: Provincial officials
+  slug: provincial-officials
+  description: Governor and vice governor of Siquijor, with official source references.
+- name: Published office directory
+  slug: office-directory
+  description: Find the available government-published contact sources.
+- name: Schools Division of Siquijor
+  slug: education-office
+  description: The official division channel for basic education information.
+- name: Provincial Tourism Office
+  slug: tourism-office
+  description: The province’s tourism information channel.

@@ -1,0 +1,16 @@
+title: Transparency
+layout: list
+pages:
+- name: Local financial disclosure
+  slug: full-disclosure
+  description: 'Official source: DILG Full Disclosure Policy Portal.'
+- name: COA annual audit reports
+  slug: audit-reports
+  description: 'Official source: Commission on Audit local government reports.'
+- name: Procurement notices
+  slug: procurement
+  description: 'Official source: Philippine Government Electronic Procurement System.'
+- name: Data coverage and pending records
+  slug: data-coverage
+  description: See exactly which provincial datasets are available and which are still
+    being gathered.

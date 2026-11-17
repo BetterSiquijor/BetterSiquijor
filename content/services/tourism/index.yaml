@@ -1,0 +1,10 @@
+title: Tourism
+layout: list
+pages:
+- name: Provincial Tourism Office
+  slug: provincial-tourism-office
+  description: 'Provincial service: official visitor information and tourism contacts.'
+- name: Official Siquijor destination guide
+  slug: official-destination-guide
+  description: 'National tourism information: the Department of Tourism’s Siquijor
+    guide.'

@@ -1,0 +1,13 @@
+title: Education
+layout: list
+pages:
+- name: Schools Division of Siquijor
+  slug: schools-division
+  description: 'Local education: official division information and announcements.'
+- name: Find districts and schools
+  slug: school-directory
+  description: 'Local education: open the official Siquijor school directory.'
+- name: Public higher education information
+  slug: public-higher-education
+  description: 'Local education: consult Siquijor State College for its current official
+    information.'

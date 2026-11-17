@@ -1,0 +1,53 @@
+{
+  "site_name": "BetterSiquijor",
+  "site_description": "An independent, volunteer-run information portal for Siquijor Province.",
+  "hero": {
+    "title": "Welcome to BetterSiquijor",
+    "subtitle": "Find services, local government information, and public records for Siquijor Province.",
+    "nationalId": "National ID",
+    "birthCertificate": "Birth Certificate",
+    "businessRegistration": "Public Records"
+  },
+  "services": {
+    "title": "Services & Information",
+    "governmentServices": "Government Services",
+    "description": "Find trusted official resources for health, education, civil documents, and tourism.",
+    "viewAll": "View All Services",
+    "viewAllCategory": "View All"
+  },
+  "governmentActivity": {
+    "title": "Government & Transparency",
+    "description": "Explore provincial offices, all six municipalities, public record sources, and our verification notes."
+  },
+  "weather": {
+    "title": "Weather Updates"
+  },
+  "forex": {
+    "title": "Foreign Exchange Rates"
+  },
+  "news": {
+    "title": "Latest News & Updates"
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 BetterSiquijor. Independent and volunteer-run. Source materials retain their original terms."
+  },
+  "navbar": {
+    "government": "Government",
+    "services": "Services",
+    "hotlines": "Hotlines",
+    "holidays": "Holidays"
+  },
+  "joinUs": {
+    "stripTitle": "\ud83d\ude80 Join the #CivicTech Revolution",
+    "stripSubtitle": "Help build the future of the Philippines and governance through technology",
+    "joinNow": "Join Now",
+    "discord": "Discord",
+    "bannerTitle": "Join the #CivicTech Revolution",
+    "bannerSubtitle": "Help build the future of the Philippines and governance through technology.",
+    "bannerHighlight": "Volunteer-led. Open source. Community-driven.",
+    "joinMovement": "Join Our Movement",
+    "or": "or",
+    "joinDiscord": "Join Discord",
+    "features": "\ud83d\ude80 Infrastructure \u2022 \ud83d\udca1 Mentorship \u2022 \ud83e\udd1d Community \u2022 \ud83c\udfe2 Office Space"
+  }
+}

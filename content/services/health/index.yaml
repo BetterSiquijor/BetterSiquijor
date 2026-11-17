@@ -1,0 +1,9 @@
+title: Health
+layout: list
+pages:
+- name: PhilHealth member services
+  slug: philhealth
+  description: 'National service: membership records, contributions, and benefit information.'
+- name: Find provincial health contacts
+  slug: provincial-health-contacts
+  description: 'Provincial information: a route to the published office directory.'

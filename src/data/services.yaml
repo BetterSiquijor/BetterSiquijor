@@ -1,0 +1,20 @@
+description: Sourced information for Siquijor Province. Independent and volunteer-run.
+categories:
+- category: Health
+  slug: health
+  description: Find official health coverage resources and provincial office information.
+  icon: Heart
+- category: Education
+  slug: education
+  description: Find Siquijor schools, division announcements, and public higher education
+    resources.
+  icon: GraduationCap
+- category: Civil Documents
+  slug: civil-documents
+  description: Use official national channels for civil registry documents and National
+    ID information.
+  icon: FileText
+- category: Tourism
+  slug: tourism
+  description: Reach the Provincial Tourism Office and official visitor information.
+  icon: MapPin

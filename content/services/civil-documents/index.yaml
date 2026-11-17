@@ -1,0 +1,10 @@
+title: Civil Documents
+layout: list
+pages:
+- name: Birth, marriage, and death certificates
+  slug: birth-certificates
+  description: 'National service: official PSA channels for civil registry documents.'
+- name: National ID information
+  slug: national-id
+  description: 'National service: official information and access to the Digital National
+    ID.'
