@@ -1,18 +1,31 @@
 # Provincial Tourism Office
 
-Provincial service: official visitor information and tourism contacts.
+Contact the Provincial Tourism Office for help with destinations, accommodation, transport, and visitor information.
 
-## Official tourism information
+## Contact the office
 
-[Visit the Siquijor Provincial Tourism Office website](https://siquijorprovince.com/). It identifies itself as the tourism office’s official website and publishes visitor information and tourism-related directories.
+**Telephone: 0935 055 9866.** [1–2]
 
-[Open the office’s contact directory](https://siquijorprovince.com/contact-information/). A number displayed on the office website is **0935 055 9866**; this is a published office contact, not a number we have confirmed by calling.
+## Plan your visit
 
-Some pages retain older travel advisories. Confirm current requirements, operating hours, accreditation, and transport arrangements with the responsible office or operator. BetterSiquijor does not accept tourism bookings or payments.
+The office’s tourism information covers:
 
-## Sources and review
+- Places to stay and restaurants.
+- Transport and inbound tour operators.
+- Coastal trips, nature, and marine biodiversity.
+- Cultural attractions and local traditions.
 
-- [Provincial Tourism Office](https://siquijorprovince.com/)
-- [Tourism contact directory](https://siquijorprovince.com/contact-information/)
+For enquiries, share your travel dates, the municipality or attraction you plan to visit, and the information you need. Ask about current operator listings, access arrangements, and accessibility.
 
-Source review: **17 November 2026**. This is a community reference. Confirm current requirements with the responsible office; BetterSiquijor does not process applications.
+## Explore Siquijor
+
+Start with the [Siquijor destination guide](/services/tourism/official-destination-guide) for Cambugahay Falls, Lazi Convent, Mount Bandilaan, and other cultural attractions.
+
+## Sources and dates
+
+Tourism office contact listings are undated and were reviewed on 17 November 2026. Telephone operation was not tested. Destination descriptions do not establish current opening hours, prices, accreditation, or treatment effectiveness. The ferry announcement records a launch, not a live timetable.
+
+1. [Siquijor Provincial Tourism Office — Official Website](https://siquijorprovince.com/)
+2. [Siquijor Provincial Tourism Office — Published Contact Directory (older listing)](https://siquijorprovince.com/contact-information/)
+
+Source review: **17 November 2026**. Source editions and publication dates are identified above.

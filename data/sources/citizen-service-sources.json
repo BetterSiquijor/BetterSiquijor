@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "reviewed": "2026-11-17",
+    "scope": "National service guidance for Siquijor residents"
+  },
+  "sources": [
+    {
+      "id": "dswd-aics-charter-2025",
+      "publisher": "Department of Social Welfare and Development",
+      "title": "2025 Unified Citizen’s Charter, 2nd edition — onsite AICS",
+      "edition": "2025, 2nd edition",
+      "url": "https://fo6.dswd.gov.ph/wp-content/uploads/2026/01/2025-2nd-Edition-DSWD-Unified-Citizens-Charter.pdf",
+      "coverage": "Eligibility, assistance types, delivery channels, and original ID plus two photocopies.",
+      "reviewed": "2026-11-17",
+      "scope": "National Philippines service"
+    },
+    {
+      "id": "dswd-aics-faq",
+      "publisher": "Department of Social Welfare and Development",
+      "title": "AICS/AKAP FAQs — AICS requirements",
+      "url": "https://aics.dswd.gov.ph/about-us/faqs/",
+      "coverage": "Medical, funeral, and transportation documentary requirements; AICS section only.",
+      "reviewed": "2026-11-17",
+      "scope": "National Philippines service"
+    },
+    {
+      "id": "dswd-aics-mc2022-015",
+      "publisher": "Department of Social Welfare and Development",
+      "title": "Memorandum Circular 15, series of 2022",
+      "edition": "2022",
+      "url": "https://aics.dswd.gov.ph/wp-content/uploads/2023/03/MC_2022-015.pdf",
+      "coverage": "Individual-client screening, social-worker interview and assessment, recommendation and release.",
+      "reviewed": "2026-11-17",
+      "scope": "National Philippines service"
+    },
+    {
+      "id": "dfa-passport-charter-2025",
+      "publisher": "Department of Foreign Affairs",
+      "title": "2025 Citizen’s Charter, first edition — passport services",
+      "edition": "2025, 1st edition",
+      "url": "https://dfa.gov.ph/images/2025/transparency/DFA_Citizens_Charter_2025_1st_Edition_1.pdf",
+      "coverage": "New adult application requirements and published domestic passport fees.",
+      "reviewed": "2026-11-17",
+      "scope": "National Philippines service"
+    },
+    {
+      "id": "dfa-passport-charter-2024",
+      "publisher": "Department of Foreign Affairs",
+      "title": "2024 Citizen’s Charter, first edition — passport workflow",
+      "edition": "2024, 1st edition",
+      "url": "https://dfa.gov.ph/images/2024/transparency/DFA_Citizens_Charter_2024_1st_Edition.pdf",
+      "coverage": "Domestic appointment verification, processing, enrollment, and release workflow.",
+      "reviewed": "2026-11-17",
+      "scope": "National Philippines service"
+    },
+    {
+      "id": "dfa-passport-appointment",
+      "publisher": "Department of Foreign Affairs",
+      "title": "Passport Appointment System",
+      "url": "https://passport.gov.ph/appointment/",
+      "coverage": "Official transaction endpoint and notice that appointment booking is free.",
+      "reviewed": "2026-11-17",
+      "scope": "National Philippines service"
+    }
+  ]
+}

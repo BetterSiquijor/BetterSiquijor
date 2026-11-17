@@ -1,0 +1,252 @@
+{
+  "reviewed": "2026-11-17",
+  "sources": [
+    {
+      "id": "birth",
+      "title": "PSA — Birth Certificate (undated service page)",
+      "url": "https://psa.gov.ph/birth-certificate",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "marriage",
+      "title": "PSA — Marriage Certificate (undated service page)",
+      "url": "https://psa.gov.ph/marriage-certificate",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "death",
+      "title": "PSA — Death Certificate (undated service page)",
+      "url": "https://psa.gov.ph/death-certificate",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ph-services",
+      "title": "PhilHealth — Online Services",
+      "url": "https://www.philhealth.gov.ph/services/",
+      "publisher": "PhilHealth",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ph-register",
+      "title": "PhilHealth — Formal Economy Registration Procedures",
+      "url": "https://www.philhealth.gov.ph/members/formal/registration.php",
+      "publisher": "PhilHealth",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ph-informal",
+      "title": "PhilHealth — Informal Economy Registration Procedures",
+      "url": "https://www.philhealth.gov.ph/members/informal/registration.php",
+      "publisher": "PhilHealth",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ph-account",
+      "title": "PhilHealth — Member Portal Account Creation",
+      "url": "https://memberinquiry.philhealth.gov.ph/member/accountCreation.xhtml",
+      "publisher": "PhilHealth",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ph-reset",
+      "title": "PhilHealth — Password Reset",
+      "url": "https://memberinquiry.philhealth.gov.ph/member/forgotPassword.xhtml",
+      "publisher": "PhilHealth",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ph-dir",
+      "title": "PhilHealth — Regional Offices Directory, Siquijor entry",
+      "url": "https://www.philhealth.gov.ph/about_us/directory/",
+      "publisher": "PhilHealth",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "local-contacts",
+      "title": "Siquijor Provincial Tourism Office — Published Contact Directory (older listing)",
+      "url": "https://siquijorprovince.com/contact-information/",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "sourceType": "government-published-directory",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "dbm",
+      "title": "DBM — 2026 Philippine Government Directory",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/AboutDBM/2026-Government-Directory.pdf",
+      "publisher": "Department of Budget and Management",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "id-steps",
+      "title": "PSA RSSO VIII — Digital National ID instructions, 9 August 2024",
+      "url": "https://rsso08.psa.gov.ph/content/digital-national-id-now-downloadable-all-filipinos-registered-philsys",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "id-charter",
+      "title": "PSA — 2025 Citizen’s Charter, PhilSys Registry Office external services",
+      "url": "https://psa.gov.ph/system/files/citizens-charter/5-PSA-2025-Citizens-Charter-Philippine-Identification-System-Registry%20Office-External-Services.pdf",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "id-register",
+      "title": "PSA — PhilSys registration notice",
+      "url": "https://maintenance.register.philsys.gov.ph/",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "edu-office",
+      "title": "Schools Division of Siquijor — Division Office",
+      "url": "https://www.deped-siquijor.com/districts/",
+      "publisher": "Schools Division of Siquijor, Department of Education",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "edu-enroll",
+      "title": "DepEd — Revised enrollment policy explainer, 14 June 2025",
+      "url": "https://www.deped.gov.ph/2025/06/14/deped-may-mas-pinadali-at-mas-abot-kayang-enrollment-sa-ilalim-ng-pbbm-admin/",
+      "publisher": "Department of Education",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "edu-policy",
+      "title": "DepEd Order 017, s. 2025 — Revised Basic Education Enrollment Policy, 13 June 2025",
+      "url": "https://www.deped.gov.ph/2025/06/13/june-13-2025-do-017-s-2025-revised-basic-education-enrollment-policy/",
+      "publisher": "Department of Education",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "edu-charter",
+      "title": "DepEd — Citizen’s Charter 2026 (2nd Edition)",
+      "url": "https://www.deped.gov.ph/wp-content/uploads/DepEd-Citizens-Charter-2026-2nd-Edition.pdf",
+      "publisher": "Department of Education",
+      "sourceDate": "2026, 2nd Edition",
+      "reviewed": "2026-11-17",
+      "pages": "531–532 and 540–543",
+      "verification": "Requirements, fees and processing totals checked in the original PDF and rendered pages.",
+      "sourceType": "primary-government",
+      "localDocument": "/documents/deped-citizens-charter-2026-2nd-edition.pdf",
+      "sourceSha256": "4286aa04fd9f62229cb7d1330b6eda28cacdbccf0a01302d1766d108450ddcc3"
+    },
+    {
+      "id": "edu-directory",
+      "title": "Schools Division of Siquijor — Districts and Schools",
+      "url": "https://www.deped-siquijor.com/schools-2/",
+      "publisher": "Schools Division of Siquijor, Department of Education",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ssc-programs",
+      "title": "Siquijor State College — Published Program Offerings",
+      "url": "https://siquijorstate.edu.ph/programs-offered/",
+      "publisher": "Siquijor State College",
+      "sourceType": "primary-government-institution",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "ssc-location",
+      "title": "Central Mindanao University — Admission test pilot at SSC, August 2026",
+      "url": "https://www.cmu.edu.ph/cmu-conducts-pilot-testing-of-updated-admission-test-at-siquijor-state-college/",
+      "publisher": "Central Mindanao University",
+      "sourceType": "primary-government-institution",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "dot",
+      "title": "Department of Tourism — Siquijor destination profile",
+      "url": "https://www.tourism.gov.ph/destination/nir/siquijor/",
+      "publisher": "Department of Tourism",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "tourism",
+      "title": "Siquijor Provincial Tourism Office — Official Website",
+      "url": "https://siquijorprovince.com/",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "sourceType": "government-published-directory",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "pia-ferry",
+      "title": "Philippine Information Agency — New Lazi ferry route, 29 October 2026",
+      "url": "https://pia.gov.ph/news/new-ferry-route-links-siquijor-bohol-misamis-occidental/",
+      "publisher": "Philippine Information Agency",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "pia-911",
+      "title": "PIA — Calling 911: Lesson Siquijor students learn from CampusSaya activity, 16 November 2026",
+      "url": "https://pia.gov.ph/news/calling-911-lesson-siquijor-students-learn-from-campussaya-activity/",
+      "publisher": "Philippine Information Agency",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "psa-serbilis-fees",
+      "title": "PSA Serbilis FAQ — receiving options and fees",
+      "url": "https://www.psaserbilis.com.ph/GetFaQs",
+      "publisher": "PSA Serbilis (PSA-authorized certificate request service)",
+      "sourceType": "agency-authorized-provider",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    },
+    {
+      "id": "psa-serbilis-delivery",
+      "title": "PSA Serbilis delivery estimates",
+      "url": "https://psaserbilis.com.ph/Delivery",
+      "publisher": "PSA Serbilis (PSA-authorized certificate request service)",
+      "sourceType": "agency-authorized-provider",
+      "reviewed": "2026-11-17",
+      "sourceDate": null
+    }
+  ]
+}

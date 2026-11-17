@@ -1,16 +1,15 @@
 title: Sources
 layout: list
 pages:
-- name: Source catalogue
-  slug: catalogue
-  description: The primary sources used in BetterSiquijor, with review and coverage
-    notes.
-- name: How we review information
-  slug: methodology
-  description: Our approach to source selection, dates, and corrections.
-- name: Siquijor province profile
-  slug: province-profile
-  description: A dated PSA snapshot covering the whole province.
-- name: Suggest a source or correction
-  slug: corrections
-  description: Help improve this independent public information portal.
+  - name: Sources and downloads
+    slug: catalogue
+    description: Find original government publications and download Siquijor data.
+  - name: Sources and updates
+    slug: methodology
+    description: Understand reference dates and how information is checked.
+  - name: Siquijor province profile
+    slug: province-profile
+    description: Province-wide counts, municipality totals, and access to all 134 barangays.
+  - name: Suggest a source or correction
+    slug: corrections
+    description: Help improve this independent public information portal.

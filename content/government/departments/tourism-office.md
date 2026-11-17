@@ -1,16 +1,23 @@
 # Provincial Tourism Office
 
-The province’s tourism information channel.
+Plan your visit with destination information and assistance from the Siquijor Provincial Tourism Office.
 
-The [Siquijor Provincial Tourism Office website](https://siquijorprovince.com/) is an official tourism information source. Its scope is tourism; it should not be treated as a comprehensive archive of provincial finances, ordinances, or services.
+## Contact
 
-Use its [contact directory](https://siquijorprovince.com/contact-information/) for published tourism contacts and check the publication date of any advisory before relying on it.
+**0935 055 9866** [1–2]
 
-See [tourism services](/services/tourism) for official visitor links.
+## Visitor information
 
-## Sources and review
+Get help with accommodation, restaurants, transport, tour operators, and places to visit.
 
-- [Provincial Tourism Office](https://siquijorprovince.com/)
-- [Contact directory](https://siquijorprovince.com/contact-information/)
+- [Explore Siquijor destinations](/services/tourism/official-destination-guide).
+- [Plan a Tourism Office enquiry](/services/tourism/provincial-tourism-office).
 
-Source review: **17 November 2026**. This is a community reference. Confirm current requirements with the responsible office; BetterSiquijor does not process applications.
+## Sources and dates
+
+Tourism office contact listings are undated and were reviewed on 17 November 2026. Telephone operation was not tested. Destination descriptions do not establish current opening hours, prices, accreditation, or treatment effectiveness. The ferry announcement records a launch, not a live timetable.
+
+1. [Siquijor Provincial Tourism Office — Official Website](https://siquijorprovince.com/)
+2. [Siquijor Provincial Tourism Office — Published Contact Directory (older listing)](https://siquijorprovince.com/contact-information/)
+
+Source review: **17 November 2026**. Source editions and publication dates are identified above.

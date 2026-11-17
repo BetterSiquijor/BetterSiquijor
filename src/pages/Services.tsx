@@ -8,7 +8,7 @@ import {
   type Subcategory,
   type CategoryIndex,
 } from '../data/yamlLoader';
-import {getCategoryIcon} from '../lib/categoryIcons';
+import { getCategoryIcon } from '../lib/categoryIcons';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import ServicesSection from '../components/home/ServicesSection';
 import SEO from '../components/SEO';
@@ -47,12 +47,12 @@ const Services: React.FC = () => {
       <>
         <SEO
           title="Services"
-          description={`Independent guide to official services and public information for Siquijor Province. Follow the original source for applications and current requirements.`}
+          description={`Find government services in Siquijor. Get the documents, application steps, fees, and office contacts you need.`}
           keywords="government services, public services, local government, civic services"
         />
         <ServicesSection
           title={`Services & information`}
-          description={`Independent guide to official services and public information for Siquijor Province. Follow the original source for applications and current requirements.`}
+          description={`Find government services in Siquijor. Get the documents, application steps, fees, and office contacts you need.`}
         />
       </>
     );
@@ -103,6 +103,7 @@ const Services: React.FC = () => {
                 {subcategories.map(subcategory => (
                   <Link
                     key={subcategory.slug}
+                    aria-label={subcategory.name}
                     to={`/services/${category}/${subcategory.slug}`}
                   >
                     <Card
@@ -131,6 +132,7 @@ const Services: React.FC = () => {
                 {subcategories.map(subcategory => (
                   <Link
                     key={subcategory.slug}
+                    aria-label={subcategory.name}
                     to={`/services/${category}/${subcategory.slug}`}
                   >
                     <Card hoverable className="mb-4">

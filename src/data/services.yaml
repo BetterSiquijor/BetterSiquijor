@@ -1,20 +1,30 @@
-description: Sourced information for Siquijor Province. Independent and volunteer-run.
+description: Government services and information for Siquijor.
 categories:
-- category: Health
-  slug: health
-  description: Find official health coverage resources and provincial office information.
-  icon: Heart
-- category: Education
-  slug: education
-  description: Find Siquijor schools, division announcements, and public higher education
-    resources.
-  icon: GraduationCap
-- category: Civil Documents
-  slug: civil-documents
-  description: Use official national channels for civil registry documents and National
-    ID information.
-  icon: FileText
-- category: Tourism
-  slug: tourism
-  description: Reach the Provincial Tourism Office and official visitor information.
-  icon: MapPin
+  - category: Health
+    slug: health
+    description: Find hospitals, contact health offices, and manage your PhilHealth membership.
+    icon: Heart
+  - category: Education
+    slug: education
+    description: Enroll in school, request records, and explore college courses.
+    icon: GraduationCap
+  - category: Civil Documents
+    slug: civil-documents
+    description: Get PSA certificates and register for your National ID.
+    icon: FileText
+  - category: Tourism
+    slug: tourism
+    description: Explore destinations and plan your visit to Siquijor.
+    icon: MapPin
+  - category: Business and Livelihood
+    slug: business
+    description: Register your business, understand tax registration, and find work.
+    icon: Building2
+  - category: Citizen Services
+    slug: citizen-services
+    description: Prepare for a passport application or get help during a crisis.
+    icon: IdCard
+  - category: Public Safety
+    slug: public-safety
+    description: Find police stations, contact local officers, and get emergency assistance.
+    icon: ShieldCheck

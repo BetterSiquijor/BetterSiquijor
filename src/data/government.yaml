@@ -1,20 +1,18 @@
-description: Sourced information for Siquijor Province. Independent and volunteer-run.
+description: Government services and information for Siquijor.
 categories:
-- category: Departments
-  slug: departments
-  description: Find provincial leadership and official office contact sources.
-  icon: Building2
-- category: Municipalities
-  slug: municipalities
-  description: Explore all six municipalities using PSA geographic and census records.
-  icon: Map
-- category: Transparency
-  slug: transparency
-  description: Find official disclosure, audit, and procurement sources and see data
-    coverage.
-  icon: FileText
-- category: Sources
-  slug: sources
-  description: Check where information comes from, how it is reviewed, and what is
-    still missing.
-  icon: BookOpen
+  - category: Departments
+    slug: departments
+    description: Find your local officials and contact government offices.
+    icon: Building2
+  - category: Municipalities
+    slug: municipalities
+    description: Explore the people and barangays of Siquijor’s six municipalities.
+    icon: Map
+  - category: Transparency
+    slug: transparency
+    description: Explore provincial income, spending, procurement, and audit records.
+    icon: FileText
+  - category: Sources
+    slug: sources
+    description: Find original publications, data downloads, and information updates.
+    icon: BookOpen

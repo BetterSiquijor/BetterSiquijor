@@ -1,19 +1,28 @@
-# COA annual audit reports
+# Provincial compliance audit record
 
-Official source: Commission on Audit local government reports.
+The Commission on Audit published the following catalogue record for a compliance audit covering the **Province of Siquijor’s 20% Development Fund**.
 
-## Search the COA repository
+## COA report catalogue
 
-[Open COA’s Local Government Unit Annual Audit Reports](https://www.coa.gov.ph/reports/annual-audit-reports/aar-local-government-units/). Search for the **Province of Siquijor** and the reporting year. Distinguish the provincial government from the **Municipality of Siquijor**, other towns, and government-owned entities.
+| Field | Published information |
+| --- | --- |
+| Report title | Siquijor Compliance Audit Report 2022 |
+| Record type | Management Letter / compliance audit |
+| Government entity | Province of Siquijor |
+| Subject | Utilization of the 20% Development Fund |
+| Reporting label | 2022 |
+| Catalogue creation date | 27 July 2023 |
+| Published file size | 661.74 KB |
+| Data reproduced here | COA catalogue metadata |
 
-## Local archive status
+The source names the province under Region VII, its historical regional classification. A compliance audit of a specified fund is distinct from an annual opinion on all provincial financial statements.
 
-**No province-specific audit report is currently archived or summarized by BetterSiquijor.** The COA site restricted automated retrieval during source review. This portal therefore does not claim an audit opinion, audit rating, or financial amount.
+## Related provincial financial statement
 
-Read the report’s scope and original findings before drawing conclusions. Source access problems are not a statement about the province’s compliance.
+The [FY 2024 receipts and expenditures page](/government/transparency/full-disclosure) contains all **50 numeric fields** from the provincial row of DBM’s published statement. Its [original two-page PDF is stored on this site](/documents/siquijor-finance-sre-2024-dbm-besf2026-f10.pdf). That DBM/BLGF financial statement is a separate record from a COA audit report.
 
-## Sources and review
+[Download the local financial record register](/data/financial-records.json).
 
-- [COA Annual Audit Reports](https://www.coa.gov.ph/reports/annual-audit-reports/aar-local-government-units/)
+## Source citation
 
-Source review: **17 November 2026**. This is a community reference. Confirm current requirements with the responsible office; BetterSiquijor does not process applications.
+[Commission on Audit: Siquijor Compliance Audit Report 2022](https://www.coa.gov.ph/wpfd_file/siquijor-compliance-audit-report-2022/). Catalogue metadata checked **17 November 2026**. This entry reproduces the catalogue, not the report’s findings or an audit rating.

@@ -1,9 +1,12 @@
 title: Health
 layout: list
 pages:
-- name: PhilHealth member services
-  slug: philhealth
-  description: 'National service: membership records, contributions, and benefit information.'
-- name: Find provincial health contacts
-  slug: provincial-health-contacts
-  description: 'Provincial information: a route to the published office directory.'
+  - name: Hospitals in Siquijor
+    slug: hospitals
+    description: Find hospital locations, phone numbers, email addresses, and Facebook pages.
+  - name: PhilHealth registration and member services
+    slug: philhealth
+    description: Register, access your Member Data Record, and contact PhilHealth Siquijor.
+  - name: Health office contacts
+    slug: provincial-health-contacts
+    description: Find contacts for health insurance and provincial health enquiries.

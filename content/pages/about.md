@@ -12,13 +12,19 @@ This site uses the [Better Local Gov starter by iyanski](https://github.com/iyan
 
 - Official service links with scope and source notes.
 - Six municipality profiles with the **2024 POPCEN** population figures.
-- Sourced provincial officials.
-- Links to DILG financial disclosures, COA audit reports, and PhilGEPS procurement notices.
+- Provincial and municipal officials, published office contacts, and source dates.
+- Provincial financial tables, procurement notices, and an audit catalogue entry.
 - A [source catalogue and review method](/government/sources).
 
-## What is still being collected
+## Information available on this site
 
-Provincial budget figures, project progress, ordinances, additional officials, and verified office contacts are not yet compiled. Missing records do not mean zero spending or no government activity.
+- All **134 barangays** and **six municipalities**, including PSA geographic codes and 2024 census figures.
+- **71 elected-office records** and **24 published office contacts**, with their directory dates.
+- The **FY 2024 provincial financial statement** with 50 figures, plus 24 cash and receipt figures from the separately dated **2025** table.
+- **Five provincial procurement notices**, their dates, reference numbers, and published budgets.
+- Practical service guides with procedures, requirements, published fees, and local contact information.
+
+[Browse local records](/data). Source documents and datasets can be read or downloaded from this website. Original-source links are provided as citations.
 
 ## Contribute or suggest a correction
 

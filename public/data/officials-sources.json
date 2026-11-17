@@ -1,0 +1,65 @@
+{
+  "reviewedAt": "2026-11-17",
+  "sources": [
+    {
+      "id": "dilg-officials-2026-02",
+      "publisher": "Department of the Interior and Local Government",
+      "title": "Directory of LGU Elective Officials for Term 2025–2028 as of February 2026",
+      "url": "https://docs.google.com/spreadsheets/d/1B2N5SjZEBP-29tUioFHaSk-6R_1YFGcYIkSPjuApxZw/htmlview/sheet?headers=true&gid=1213553854",
+      "asOf": "2026-02",
+      "retrievedAt": "2026-11-17",
+      "coverage": "Sixty municipal and ten provincial elected-office records; source rows 27145–27214. A dated directory snapshot, not a live tenure register.",
+      "provenance": "Directory linked from DILG key-officials; DILG FOI response to request DILG-322932022542 directs requesters to the DILG LGU Directory.",
+      "provenanceUrl": "https://www.foi.gov.ph/agencies/dilg/lgu-elective-officials-for-term-2025-2028/"
+    },
+    {
+      "id": "dbm-directory-2026",
+      "publisher": "Department of Budget and Management",
+      "title": "2026 Philippine Government Directory",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/AboutDBM/2026-Government-Directory.pdf",
+      "localDocument": "/documents/2026-philippine-government-directory.pdf",
+      "sourceYear": 2026,
+      "retrievedAt": "2026-11-17",
+      "pages": [
+        {
+          "pdfPage": 151,
+          "printedPage": 147,
+          "coverage": "Siquijor State College"
+        },
+        {
+          "pdfPage": 171,
+          "printedPage": 167,
+          "coverage": "Siquijor lone-district House representative"
+        },
+        {
+          "pdfPage": 195,
+          "printedPage": 191,
+          "coverage": "Siquijor governor/vice governor and provincial office phones"
+        },
+        {
+          "pdfPage": 237,
+          "printedPage": 233,
+          "coverage": "Six municipal mayors and vice mayors"
+        }
+      ]
+    },
+    {
+      "id": "tourism-office-contacts",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "title": "Contact Information",
+      "url": "https://siquijorprovince.com/contact-information/",
+      "publicationDate": null,
+      "retrievedAt": "2026-11-17",
+      "coverage": "Published office telephone list. Source does not show a contact update date. Named staff and their individual numbers are omitted."
+    },
+    {
+      "id": "deped-division-contacts",
+      "publisher": "Schools Division of Siquijor, Department of Education",
+      "title": "Schools Division Office",
+      "url": "https://www.deped-siquijor.com/districts/",
+      "publicationDate": null,
+      "retrievedAt": "2026-11-17",
+      "coverage": "Division office address, email, and mobile number shown on its official website."
+    }
+  ]
+}

@@ -1,16 +1,18 @@
 title: Transparency
 layout: list
 pages:
-- name: Local financial disclosure
-  slug: full-disclosure
-  description: 'Official source: DILG Full Disclosure Policy Portal.'
-- name: COA annual audit reports
-  slug: audit-reports
-  description: 'Official source: Commission on Audit local government reports.'
-- name: Procurement notices
-  slug: procurement
-  description: 'Official source: Philippine Government Electronic Procurement System.'
-- name: Data coverage and pending records
-  slug: data-coverage
-  description: See exactly which provincial datasets are available and which are still
-    being gathered.
+  - name: Provincial cash and receipts, 2025
+    slug: receipts-2025
+    description: Explore opening cash, local income, and external receipts from DBM’s 2025 table.
+  - name: Provincial income and spending, 2024
+    slug: full-disclosure
+    description: Explore receipts, expenditures, and cash balances for the provincial government.
+  - name: Provincial compliance audit catalogue
+    slug: audit-reports
+    description: View COA’s catalogue entry for the 2022 Development Fund compliance audit.
+  - name: Provincial procurement notices
+    slug: procurement
+    description: Browse procurement notices, budget ceilings, and past deadlines.
+  - name: Financial records
+    slug: data-coverage
+    description: Choose a financial statement, procurement notice, or audit record.

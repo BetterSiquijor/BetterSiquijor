@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "reviewedAt": "2026-11-18",
+    "title": "Colleges in Siquijor",
+    "scope": "Four Siquijor institutions listed in the UniFAST RA 10931 participating-HEI directory. This is a directory of institutions, not a certification of current degree accreditation or scholarship eligibility.",
+    "identitySourceId": "unifast-colleges"
+  },
+  "colleges": [
+    {
+      "id": "siquijor-state-college",
+      "name": "Siquijor State College",
+      "shortName": "SSC",
+      "sector": "Public",
+      "municipality": "Larena",
+      "address": "Larena, Siquijor",
+      "addressSourceIds": ["ssc-facebook"],
+      "identitySourceId": "unifast-colleges",
+      "facebook": {
+        "url": "https://www.facebook.com/siquijorstatecollege.officialpage",
+        "sourceId": "ssc-facebook"
+      },
+      "website": "https://siquijorstate.edu.ph/",
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "0995 663 2898",
+          "label": "College phone",
+          "sourceId": "ssc-facebook"
+        },
+        {
+          "kind": "email",
+          "value": "registrar@siquijorstate.edu.ph",
+          "label": "Registrar",
+          "sourceId": "ssc-contact"
+        },
+        {
+          "kind": "email",
+          "value": "siquijorstatecollege@gmail.com",
+          "label": "College email",
+          "sourceId": "ssc-facebook"
+        }
+      ],
+      "programs": [
+        {
+          "name": "Bachelor of Science in Criminology",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Arts in English Language",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Arts in Filipino",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Development Communication",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Arts in Political Science",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Business Administration",
+          "level": "Undergraduate",
+          "majors": [
+            "General Management",
+            "Human Resource Management",
+            "Marketing"
+          ],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Hospitality Management",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Tourism Management",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Elementary Education",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Secondary Education",
+          "level": "Undergraduate",
+          "majors": ["English", "Mathematics", "Filipino"],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Industrial Technology",
+          "level": "Undergraduate",
+          "majors": [
+            "Electronics Technology",
+            "Electrical Technology",
+            "Mechanical Technology",
+            "Automotive Technology"
+          ],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Information Technology",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Marine Transportation",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Bachelor of Science in Marine Engineering",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Master in Public Management",
+          "level": "Graduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Master in Educational Management",
+          "level": "Graduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        },
+        {
+          "name": "Master of Arts in Industrial Education",
+          "level": "Graduate",
+          "majors": [],
+          "sourceId": "ssc-programs"
+        }
+      ],
+      "notes": [
+        "Program names follow the college’s undated catalogue. Its indexed publisher text was readable; direct access to the catalogue and contact pages returned 403 during this review. Admission schedules and current program intakes require confirmation with the college."
+      ],
+      "reviewedAt": "2026-11-18",
+      "websiteSourceId": "ssc-facebook",
+      "additionalSourceIds": []
+    },
+    {
+      "id": "bit-siquijor",
+      "name": "BIT International College – Siquijor, Inc.",
+      "shortName": "BIT-IC Siquijor",
+      "sector": "Private",
+      "municipality": "Siquijor",
+      "address": "Polangyuta, Siquijor, Siquijor",
+      "addressSourceIds": ["bit-facebook", "bit-ched"],
+      "identitySourceId": "unifast-colleges",
+      "facebook": {
+        "url": "https://www.facebook.com/BITICSIQUIJOR15",
+        "sourceId": "bit-facebook"
+      },
+      "website": "https://www.bitic.edu.ph/siquijor/",
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "(035) 480 9415",
+          "label": "Campus phone (Facebook listing)",
+          "sourceId": "bit-facebook"
+        },
+        {
+          "kind": "email",
+          "value": "bit.siquijor@gmail.com",
+          "label": "Campus email",
+          "sourceId": "bit-facebook"
+        }
+      ],
+      "programs": [
+        {
+          "name": "Bachelor of Elementary Education",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "bit-siquijor-programs"
+        },
+        {
+          "name": "Bachelor of Secondary Education",
+          "level": "Undergraduate",
+          "majors": ["English", "Filipino"],
+          "sourceId": "bit-siquijor-programs"
+        },
+        {
+          "name": "Bachelor of Science in Business Administration",
+          "level": "Undergraduate",
+          "majors": ["Marketing Management"],
+          "sourceId": "bit-siquijor-programs"
+        },
+        {
+          "name": "Bachelor of Arts",
+          "level": "Undergraduate",
+          "majors": ["English"],
+          "sourceId": "bit-siquijor-programs"
+        }
+      ],
+      "notes": [
+        "Courses are taken only from the Siquijor campus page, not other BIT campuses. The campus Facebook page publishes (035) 480 9415; the system contact page lists 038 4809415. This directory uses the campus-published number and preserves the discrepancy here.",
+        "CHED spells the barangay Polangyuta; the campus Facebook page spells it Pulangyuta."
+      ],
+      "reviewedAt": "2026-11-18",
+      "additionalSourceIds": ["bit-contact"],
+      "websiteSourceId": "bit-siquijor-programs"
+    },
+    {
+      "id": "carmelite-college",
+      "name": "Carmelite College of Siquijor, Inc.",
+      "shortName": "Carmelite College",
+      "sector": "Private",
+      "municipality": "Siquijor",
+      "address": "Balas-balas, Tinago, Siquijor, Siquijor 6225",
+      "addressSourceIds": [
+        "carmelite-facebook",
+        "carmelite-contact",
+        "carmelite-ched"
+      ],
+      "identitySourceId": "unifast-colleges",
+      "facebook": {
+        "url": "https://www.facebook.com/carmelitecollegesiquijor2010",
+        "sourceId": "carmelite-facebook"
+      },
+      "website": "https://www.carmelitecollegesiquijor.com/",
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "(035) 344 2098",
+          "label": "College phone (website listing)",
+          "sourceId": "carmelite-contact"
+        },
+        {
+          "kind": "phone",
+          "value": "(035) 542 6276",
+          "label": "College phone (Facebook listing)",
+          "sourceId": "carmelite-facebook"
+        },
+        {
+          "kind": "email",
+          "value": "carmelitecollege.registrar@gmail.com",
+          "label": "Registrar (CHED listing)",
+          "sourceId": "carmelite-ched"
+        },
+        {
+          "kind": "email",
+          "value": "carmelitecollege.siquijor@gmail.com",
+          "label": "College email",
+          "sourceId": "carmelite-contact"
+        }
+      ],
+      "programs": [
+        {
+          "name": "Bachelor of Elementary Education",
+          "level": "Undergraduate",
+          "majors": ["General"],
+          "sourceId": "carmelite-programs"
+        },
+        {
+          "name": "Bachelor of Secondary Education",
+          "level": "Undergraduate",
+          "majors": ["English", "Mathematics"],
+          "sourceId": "carmelite-programs"
+        },
+        {
+          "name": "Bachelor of Science in Entrepreneurship",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "carmelite-programs"
+        }
+      ],
+      "notes": [
+        "The college website and official Facebook page publish different telephone numbers; both are labelled by their publication. The shared email appears in the website footer and Facebook Intro."
+      ],
+      "reviewedAt": "2026-11-18",
+      "websiteSourceId": "carmelite-contact",
+      "additionalSourceIds": []
+    },
+    {
+      "id": "quezon-memorial-institute",
+      "name": "Quezon Memorial Institute of Siquijor, Inc.",
+      "shortName": "QMIS",
+      "sector": "Private",
+      "municipality": "Siquijor",
+      "address": "Canal, Siquijor, Siquijor 6225",
+      "addressSourceIds": ["qmis-ched", "qmis-facebook"],
+      "identitySourceId": "unifast-colleges",
+      "facebook": {
+        "url": "https://www.facebook.com/qmisinc",
+        "sourceId": "qmis-facebook"
+      },
+      "website": null,
+      "contacts": [
+        {
+          "kind": "phone",
+          "value": "(035) 542 5002",
+          "label": "College phone (CHED listing)",
+          "sourceId": "qmis-ched"
+        },
+        {
+          "kind": "email",
+          "value": "qmisinc@gmail.com",
+          "label": "College email",
+          "sourceId": "qmis-facebook"
+        }
+      ],
+      "programs": [],
+      "notes": [
+        "Location and phone follow CHED’s undated HEIDA institution entry. The college Facebook page provides the email and postal code. Contact the college about degree offerings and admission requirements."
+      ],
+      "reviewedAt": "2026-11-18",
+      "additionalSourceIds": [],
+      "websiteSourceId": null
+    }
+  ]
+}

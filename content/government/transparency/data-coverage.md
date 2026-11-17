@@ -1,30 +1,29 @@
-# Data coverage and pending records
+# Financial data coverage
 
-See exactly which provincial datasets are available and which are still being gathered.
+Explore provincial income, spending, procurement notices, and audit records. Choose a record below to see the figures and reporting period.
 
-## Available in this release
+## Published local records
 
-- All six municipality names, PSA geographic codes, and 2024 POPCEN population counts.
-- Sourced governor and vice governor names.
-- A small collection of official service and office references.
-- Links to DILG financial disclosures, COA audit reports, and PhilGEPS notices.
+| Dataset | Local coverage | Reporting period |
+| --- | --- | --- |
+| Provincial cash and receipt categories | 24 values from the explicitly labelled 2025 page; original PDF | 2025 |
+| Provincial receipts and expenditures | Complete Siquijor provincial row: 50 numeric fields, original source PDF | FY 2024 |
+| Provincial procurement | Five PhilGEPS notices with ABCs, references, dates, and source-reported status | Notices published in 2024 and 2026 |
+| Provincial compliance audit catalogue | One source-verified catalogue entry; no report-body findings | 2022 |
 
-## Still being gathered
+- [Explore 2025 cash and receipts](/government/transparency/receipts-2025).
+- [Read the financial statement](/government/transparency/full-disclosure).
+- [Read the procurement records](/government/transparency/procurement).
+- [Read the audit catalogue details](/government/transparency/audit-reports).
+- [Download all eight financial records](/data/financial-records.json).
+- [Download the financial source register](/data/financial-sources.json).
 
-| Dataset | Current coverage |
-| --- | --- |
-| Approved annual and supplemental provincial budgets | No reviewed local dataset |
-| Provincial expenditure and revenue tables | No reviewed local dataset |
-| Provincial infrastructure project tracker | No verified project records |
-| Provincial ordinances and resolutions | No reviewed local archive |
-| Complete department and emergency telephone directory | Incomplete; published source links only |
+## Important distinctions
 
-“Not yet available here” does not mean that the government record does not exist. We will add original documents with reporting periods and source links as they are reviewed.
+The FY 2024 statement reports **PHP 1,238.46 million total receipts** and **PHP 643.26 million total expenditures**. Receipts include borrowing and other non-income items. These are historical reported amounts, not the approved budget for 2026.
 
-[Suggest a source or report a factual correction](https://github.com/BetterSiquijor/BetterSiquijor/issues/new). Do not include private documents or personal case details in a public issue.
+The five procurement ABCs are individual notice ceilings. They are not summed into a provincial expenditure figure. An “Awarded” source label is not proof of an awarded price, payment, or completion.
 
-## Sources and review
+## Source citations
 
-- [Source catalogue](/government/sources/catalogue)
-
-Source review: **17 November 2026**. This is a community reference. Confirm current requirements with the responsible office; BetterSiquijor does not process applications.
+[DBM Table F.10, FY 2024 provincial receipts and expenditures](https://www.dbm.gov.ph/wp-content/uploads/BESF/BESF2026/F10.pdf); individual PhilGEPS citations are attached to [each local procurement record](/government/transparency/procurement). Reviewed **17 November 2026**.

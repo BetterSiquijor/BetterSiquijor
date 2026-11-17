@@ -47,12 +47,12 @@ const Government: React.FC = () => {
       <>
         <SEO
           title="Government"
-          description={`Independent guide to official services and public information for Siquijor Province. Follow the original source for applications and current requirements.`}
+          description={`Independent guide to official services and public information for Siquijor Province. Read officials, office contacts, census tables, and provincial finances.`}
           keywords="government services, public services, local government, civic services"
         />
         <GovernmentActivitySection
           title={`Government information`}
-          description={`Independent guide to official services and public information for Siquijor Province. Follow the original source for applications and current requirements.`}
+          description={`Independent guide to official services and public information for Siquijor Province. Read officials, office contacts, census tables, and provincial finances.`}
         />
       </>
     );

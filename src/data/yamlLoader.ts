@@ -1,3 +1,4 @@
+import citizenServicesIndex from '../../content/services/citizen-services/index.yaml?raw';
 import * as yaml from 'js-yaml';
 
 // Type definitions for the services data
@@ -31,6 +32,9 @@ export interface CategoryIndexData {
 import servicesYamlContent from './services.yaml?raw';
 import governmentActivitiesYamlContent from './government.yaml?raw';
 
+import businessIndex from '../../content/services/business/index.yaml?raw';
+import publicSafetyIndex from '../../content/services/public-safety/index.yaml?raw';
+
 // Statically registered category indexes keep content routes explicit.
 import categoryIndex0 from '../../content/services/health/index.yaml?raw';
 import categoryIndex1 from '../../content/services/education/index.yaml?raw';
@@ -42,14 +46,17 @@ import categoryIndex6 from '../../content/government/transparency/index.yaml?raw
 import categoryIndex7 from '../../content/government/sources/index.yaml?raw';
 
 const categoryIndexMap: { [key: string]: string } = {
-  'health': categoryIndex0,
-  'education': categoryIndex1,
+  'public-safety': publicSafetyIndex,
+  business: businessIndex,
+  'citizen-services': citizenServicesIndex,
+  health: categoryIndex0,
+  education: categoryIndex1,
   'civil-documents': categoryIndex2,
-  'tourism': categoryIndex3,
-  'departments': categoryIndex4,
-  'municipalities': categoryIndex5,
-  'transparency': categoryIndex6,
-  'sources': categoryIndex7,
+  tourism: categoryIndex3,
+  departments: categoryIndex4,
+  municipalities: categoryIndex5,
+  transparency: categoryIndex6,
+  sources: categoryIndex7,
 };
 
 // Parse the YAML content

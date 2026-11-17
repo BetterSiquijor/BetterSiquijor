@@ -1,0 +1,4058 @@
+{
+  "province": "Siquijor",
+  "region": "Negros Island Region (NIR)",
+  "division": "Schools Division of Siquijor",
+  "exported_at": "2026-11-17T21:35:30+08:00",
+  "summary": {
+    "public_elementary_schools": 53,
+    "public_integrated_schools": 11,
+    "total_public_elementary_level": 64,
+    "private_elementary_schools_confirmed": 5,
+    "private_kindergarten_only_centers": 4,
+    "total_confirmed_elementary_schools": 69
+  },
+  "public": {
+    "elementary_schools": [
+      {
+        "name": "Bitaug Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120656",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Enrique Villanueva",
+        "barangay": "Bitaug",
+        "location": null,
+        "address": "Brgy. Bitaug, Enrique Villanueva, 6230 Siquijor, Philippines",
+        "postal_code": "6230",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 5,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Enrique Villanueva Central Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120658",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Enrique Villanueva",
+        "barangay": "Tulapos",
+        "location": null,
+        "address": "Brgy. Tulapos, Enrique Villanueva, 6230 Siquijor, Philippines",
+        "postal_code": "6230",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Libo Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120660",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Enrique Villanueva",
+        "barangay": "Libo",
+        "location": null,
+        "address": "Brgy. Libo, Enrique Villanueva, 6230 Siquijor, Philippines",
+        "postal_code": "6230",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 11,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Roxas Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120665",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Enrique Villanueva",
+        "barangay": "Cangmangki",
+        "location": null,
+        "address": "Brgy. Cangmangki, Enrique Villanueva, 6230 Siquijor, Philippines",
+        "postal_code": "6230",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Basac Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120655",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Basac",
+        "location": null,
+        "address": "Brgy. Basac, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Candigum Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "190005",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Candigum",
+        "location": null,
+        "address": "Brgy. Candigum, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "New Bataan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120661",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Cang-apa",
+        "location": null,
+        "address": "Brgy. Cang-apa, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 3,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "New Corregidor Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120662",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Calunasan",
+        "location": null,
+        "address": "Brgy. Calunasan, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 3,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Nonoc Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120663",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Nonoc",
+        "location": null,
+        "address": "Brgy. Nonoc, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Ponong Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120664",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Ponong",
+        "location": null,
+        "address": "Brgy. Ponong, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 5,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cadoldolan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120667",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Cadoldolan",
+        "location": null,
+        "address": "Brgy. Cadoldolan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 10,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Campalanas Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120668",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Campalanas",
+        "location": null,
+        "address": "Brgy. Campalanas, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 3,
+        "size_classification": "Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cangclaran Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "190001",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Cangclaran",
+        "location": null,
+        "address": "Brgy. Cangclaran, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cangomantong Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120670",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Cangomantong",
+        "location": null,
+        "address": "Brgy. Cangomantong, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Capalasanan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120672",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Capalasanan",
+        "location": null,
+        "address": "Brgy. Capalasanan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 5,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Dapdap Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120673",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Dapdap",
+        "location": null,
+        "address": "Brgy. Dapdap, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 9,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Gabayan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120674",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Gabayan",
+        "location": null,
+        "address": "Brgy. Gabayan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 9,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Kimba Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120675",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Kimba",
+        "location": null,
+        "address": "Brgy. Kimba, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Kinamandagan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120676",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Kinamandagan",
+        "location": null,
+        "address": "Brgy. Kinamandagan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Lazi Central Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120677",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Catamboan (Poblacion)",
+        "location": null,
+        "address": "Brgy. Catamboan (Poblacion), Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 14,
+        "size_classification": "Medium",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": "Evelyn Quiliana B. Dumam-ag (School Principal)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Po-o Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120685",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Po-o",
+        "location": null,
+        "address": "Brgy. Po-o, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 6,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Simacolong Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120686",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Simacolong",
+        "location": null,
+        "address": "Brgy. Simacolong, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 5,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Tagmanocan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120687",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Tagmanocan",
+        "location": null,
+        "address": "Brgy. Tagmanocan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 9,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Tignao Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120688",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Tignao",
+        "location": null,
+        "address": "Brgy. Tignao, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 1,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Ytaya Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "190002",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Lazi",
+        "barangay": "Ytaya",
+        "location": null,
+        "address": "Brgy. Ytaya, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": "Lazi",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Candaping Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120669",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Candaping",
+        "location": null,
+        "address": "Brgy. Candaping, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Minalulan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120682",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Minalulan",
+        "location": null,
+        "address": "Brgy. Minalulan, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 9,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Nabutay Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "190007",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Nabutay",
+        "location": null,
+        "address": "Brgy. Nabutay, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 9,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Pisong A Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120683",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Pisong A",
+        "location": null,
+        "address": "Brgy. Pisong A, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Pisong B Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120684",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Pisong B",
+        "location": null,
+        "address": "Brgy. Pisong B, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 3,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Can-asagan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "190003",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Can-asagan",
+        "location": null,
+        "address": "Brgy. Can-asagan, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cangmunag Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "190004",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Cangmunag",
+        "location": null,
+        "address": "Brgy. Cangmunag, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cansayang Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120697",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Cansayang",
+        "location": null,
+        "address": "Brgy. Cansayang, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Catulayan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120699",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Catulayan",
+        "location": "Siquijor Circumferential Road",
+        "address": "Siquijor Circumferential Road, Brgy. Catulayan, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Napo Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120702",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Napo",
+        "location": null,
+        "address": "Brgy. Napo, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Solangon Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120707",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Solangon",
+        "location": "Siquijor Circumferential Road",
+        "address": "Siquijor Circumferential Road, Brgy. Solangon, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 10,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Tag-ibo Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120708",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Tag-ibo",
+        "location": null,
+        "address": "Brgy. Tag-ibo, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Tambisan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120709",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Tambisan",
+        "location": null,
+        "address": "Brgy. Tambisan, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 10,
+        "size_classification": "Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Timbaon Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120710",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Timbaon",
+        "location": null,
+        "address": "Brgy. Timbaon, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Banban Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120689",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Banban",
+        "location": null,
+        "address": "Brgy. Banban, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 11,
+        "size_classification": "Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Bolos Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120690",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Bolos",
+        "location": null,
+        "address": "Brgy. Bolos, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Caipilan Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120691",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Caipilan",
+        "location": null,
+        "address": "Brgy. Caipilan, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Candanay Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120692",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Candanay Norte",
+        "location": null,
+        "address": "Brgy. Candanay Norte, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 1,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cang-agong Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120693",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Cang-agong",
+        "location": null,
+        "address": "Brgy. Cang-agong, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 1,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cang-alwang Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120694",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Tongo",
+        "location": null,
+        "address": "Brgy. Tongo, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 19,
+        "size_classification": "Medium",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cang-asa Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120695",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Cang-asa",
+        "location": null,
+        "address": "Brgy. Cang-asa, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cang-atuyom Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120696",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Cang-atuyom",
+        "location": null,
+        "address": "Brgy. Cang-atuyom, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cantabon Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120698",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Cantabon",
+        "location": null,
+        "address": "Brgy. Cantabon, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 9,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Ibabao Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120700",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Ibabao",
+        "location": null,
+        "address": "Brgy. Ibabao, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 5,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Luzong Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120701",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Luzong",
+        "location": null,
+        "address": "Brgy. Luzong, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 5,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Pangi Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "190006",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Pangi",
+        "location": null,
+        "address": "Brgy. Pangi, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Ponong Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120703",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Ponong",
+        "location": "Siquijor-San Antonio-Ponong-Ytaya Road",
+        "address": "Siquijor-San Antonio-Ponong-Ytaya Road, Brgy. Ponong, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 4,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "San Antonio Elementary School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "120704",
+        "legacy_school_id": null,
+        "sector": "Public",
+        "category": "Public Elementary School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "San Antonio",
+        "location": null,
+        "address": "Brgy. San Antonio, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Elementary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      }
+    ],
+    "integrated_schools": [
+      {
+        "name": "Cabulihan Integrated School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "500232",
+        "legacy_school_id": "120657",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Cangmalalag",
+        "location": null,
+        "address": "Brgy. Cangmalalag, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": "Originated as Cabulihan Elementary School around 1929 (per Mapcarta/local records); expanded to include a Secondary Department.",
+        "classrooms": 16,
+        "size_classification": "Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": "eve.guirti@deped.gov.ph",
+          "email_note": "Listed with spelling 'eve.guirti' in DepEd NIR directory",
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": "Eve Marie A. Guirit (Principal I)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Larena Integrated School",
+        "former_name": "Larena Central Elementary School",
+        "alternate_name": null,
+        "deped_school_id": "501427",
+        "legacy_school_id": "120659",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Larena",
+        "barangay": "Bagacay",
+        "location": null,
+        "address": "Brgy. Bagacay, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": "Larena",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 18,
+        "size_classification": "Medium",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": "Kenneth Pactol Llorente (Head Teacher I / Secondary Department Head)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Bogo Integrated School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "502891",
+        "legacy_school_id": "120666",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Bogo",
+        "location": null,
+        "address": "Brgy. Bogo, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cantaroc Integrated School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "502942",
+        "legacy_school_id": "120671",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Cantaroc B",
+        "location": null,
+        "address": "Brgy. Cantaroc B, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 6,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Cantugbas Integrated School",
+        "former_name": "Cantugbas Elementary School",
+        "alternate_name": null,
+        "deped_school_id": "502892",
+        "legacy_school_id": "190008",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Cantugbas",
+        "location": null,
+        "address": "Brgy. Cantugbas, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": "Listed in some legacy directories as Cantugbas Elementary School (ID 190008)."
+      },
+      {
+        "name": "Lico-an Integrated School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "502943",
+        "legacy_school_id": "120678",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Lico-an",
+        "location": null,
+        "address": "Brgy. Lico-an, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 8,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Lilo-an Integrated School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "502944",
+        "legacy_school_id": "120679",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Lilo-an",
+        "location": null,
+        "address": "Brgy. Lilo-an, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 7,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Logucan Integrated School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "502941",
+        "legacy_school_id": "120680",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Logucan",
+        "location": null,
+        "address": "Brgy. Logucan, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 5,
+        "size_classification": "Very Small",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Maria Integrated School",
+        "former_name": "Maria Central Elementary School",
+        "alternate_name": null,
+        "deped_school_id": "501429",
+        "legacy_school_id": "120681",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Maria",
+        "barangay": "Poblacion Norte",
+        "location": null,
+        "address": "Brgy. Poblacion Norte, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": "Maria",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": "Basic education with special science classes and ICT/TLE implementations (per PIA)",
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": "Medium",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": "Aldrin D. Magsalay (School Head / Principal)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "San Juan Integrated School",
+        "former_name": "San Juan Central Elementary School",
+        "alternate_name": null,
+        "deped_school_id": "501430",
+        "legacy_school_id": "120705",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "San Juan",
+        "barangay": "Maite",
+        "location": "Siquijor Circumferential Road",
+        "address": "Siquijor Circumferential Road, Brgy. Maite, San Juan, 6227 Siquijor, Philippines",
+        "postal_code": "6227",
+        "deped_district": "San Juan",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Secondary"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": 20,
+        "size_classification": "Medium",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": "Anita A. Denolan (Principal I)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Siquijor Integrated School",
+        "former_name": "Siquijor Central School",
+        "alternate_name": null,
+        "deped_school_id": "501431",
+        "legacy_school_id": "120706",
+        "sector": "Public",
+        "category": "Public Integrated School",
+        "affiliation": "Department of Education (DepEd) - Schools Division of Siquijor",
+        "municipality": "Siquijor",
+        "barangay": "Polangyuta",
+        "location": "Polangyuta, Poblacion",
+        "address": "Brgy. Polangyuta, Poblacion, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": "Siquijor",
+        "departments": [
+          "Elementary Department",
+          "Secondary Department"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Junior High School (Grades 7-10)",
+          "Senior High School (Grades 11-12)"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": 1923,
+        "founded_notes": null,
+        "classrooms": 26,
+        "size_classification": "Large",
+        "reported_enrollment": null,
+        "official_website": "https://www.deped-siquijor.com",
+        "division_portal": "https://www.deped-siquijor.com",
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": "deped.siquijor@deped.gov.ph",
+          "division_mobile": "0906-432-9162"
+        },
+        "leadership": {
+          "school_head": "Edwin D. Selim (Principal I)",
+          "previous_school_heads": [
+            "Mitchie S. Frago"
+          ],
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": "Operates both Elementary Department and Secondary Department (Junior High School Grades 7-10 and Senior High School Grades 11-12) under a single administration."
+      }
+    ]
+  },
+  "private": {
+    "elementary_schools": [
+      {
+        "name": "Larena UCCP Learning Center, Inc.",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "404624",
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Elementary School",
+        "affiliation": "United Church of Christ in the Philippines (UCCP)",
+        "municipality": "Larena",
+        "barangay": "South Poblacion",
+        "location": "South Poblacion (Damascus Drive)",
+        "address": "Damascus Drive, South Poblacion, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten",
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Kindergarten",
+          "Elementary (Grades 1-6)"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": "+63 35 542 6055",
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "St. Vincent Academy of Larena, Siquijor, Inc.",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "404626",
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private K-12 School",
+        "affiliation": "Roman Catholic (Diocese of Dumaguete / CEAP)",
+        "municipality": "Larena",
+        "barangay": "North Poblacion",
+        "location": "St. Joseph St., North Poblacion",
+        "address": "St. Joseph St., North Poblacion, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten",
+          "Elementary Department",
+          "Junior High School",
+          "Senior High School"
+        ],
+        "levels_offered": [
+          "Kindergarten",
+          "Elementary",
+          "Junior High School",
+          "Senior High School"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": [
+          "PEAC / GASTPE Senior High School Voucher Program participant"
+        ],
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": "https://www.facebook.com/stvincentacademy.larenasiquijorinc"
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": "+63 35 377 2405 / +63 35 377-2339",
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": "Dominador Enrera (Principal, historical UCANews / Diocese of Dumaguete directory)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "St. Isidore the Farmer Catholic School",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "404635",
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private K-12 School",
+        "affiliation": "Roman Catholic (Diocese of Dumaguete)",
+        "municipality": "Lazi",
+        "barangay": "Catamboan",
+        "location": "Catamboan (Lazi Church complex area)",
+        "address": "Brgy. Catamboan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": null,
+        "departments": [
+          "Elementary Department",
+          "Junior High School",
+          "Senior High School"
+        ],
+        "levels_offered": [
+          "Elementary",
+          "Junior High School",
+          "Senior High School"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": [
+          "PEAC / GASTPE Senior High School Voucher Program participant"
+        ],
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": "https://www.facebook.com/sifcsofficial1987"
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Adventist Elementary School-Siquijor, Inc.",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": null,
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Elementary School",
+        "affiliation": "Seventh-day Adventist (Negros Oriental-Siquijor Mission)",
+        "municipality": "Siquijor",
+        "barangay": "Canal",
+        "location": "Brgy. Canal",
+        "address": "Brgy. Canal, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten",
+          "Elementary Department"
+        ],
+        "levels_offered": [
+          "Kindergarten",
+          "Elementary (Grades 1-6)"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": "62 learners (TeacherPH record)",
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Assisi High School of Siquijor, Inc.",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "404631",
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private K-12 School",
+        "affiliation": "Roman Catholic (Diocese of Dumaguete)",
+        "municipality": "Siquijor",
+        "barangay": "North Poblacion",
+        "location": "Sta. Fe St., North Poblacion",
+        "address": "Sta. Fe St., North Poblacion, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten",
+          "Elementary Department",
+          "Junior High School",
+          "Senior High School"
+        ],
+        "levels_offered": [
+          "Kindergarten",
+          "Elementary (Grades 1-6)",
+          "Junior High School",
+          "Senior High School"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": [
+          "Academic",
+          "TVL (including Home Economics)"
+        ],
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": [
+          "PEAC / GASTPE Senior High School Voucher Program participant"
+        ],
+        "founded_year": 1964,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": "https://www.facebook.com/Assisi-High-School-of-Siquijor-Inc-111059530635677/"
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": "Manuel J. Briones (Principal, historical UCANews / Diocese of Dumaguete directory)",
+          "previous_school_heads": null,
+          "director": "Fr. Carmelito C. Torres (historical UCANews / Diocese of Dumaguete directory)",
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      }
+    ],
+    "kindergarten_only_centers": [
+      {
+        "name": "Tanbongco Learning Center, Inc.",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": null,
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Pre-Elementary Center",
+        "affiliation": null,
+        "municipality": "Larena",
+        "barangay": "North Poblacion",
+        "location": "North Poblacion (F. Tan Street)",
+        "address": "F. Tan Street (Siquijor Circumferential Road), North Poblacion, Larena, 6226 Siquijor, Philippines",
+        "postal_code": "6226",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten"
+        ],
+        "levels_offered": [
+          "Kindergarten"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Lazi Child Training Center",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": null,
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Pre-Elementary Center",
+        "affiliation": null,
+        "municipality": "Lazi",
+        "barangay": "Catamboan",
+        "location": "Catamboan (Rizal Street)",
+        "address": "Rizal St., Brgy. Catamboan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten"
+        ],
+        "levels_offered": [
+          "Kindergarten"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "Lazi Hope for the Flowers Learning Center, Inc.",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": null,
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Pre-Elementary Center",
+        "affiliation": null,
+        "municipality": "Lazi",
+        "barangay": "Tigbawan",
+        "location": "Tigbawan",
+        "address": "Brgy. Tigbawan, Lazi, 6228 Siquijor, Philippines",
+        "postal_code": "6228",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten"
+        ],
+        "levels_offered": [
+          "Kindergarten"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      },
+      {
+        "name": "St. Anne Ma'Ana Learning Center",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": null,
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Pre-Elementary Center",
+        "affiliation": null,
+        "municipality": "Siquijor",
+        "barangay": "Pangi",
+        "location": "Pangi St. / Siquijor Circumferential Road",
+        "address": "Pangi St. / Siquijor Circumferential Road, Brgy. Pangi, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": null,
+        "departments": [
+          "Kindergarten"
+        ],
+        "levels_offered": [
+          "Kindergarten"
+        ],
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": null,
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": "+63 35 344 2207",
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": null
+      }
+    ],
+    "secondary_focused_institutions_verify_elementary": [
+      {
+        "name": "Ave Maria Academy of Maria, Siquijor, Inc.",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "404629",
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Secondary-Focused Institution",
+        "affiliation": "Roman Catholic (Diocese of Dumaguete)",
+        "municipality": "Maria",
+        "barangay": "Poblacion Norte",
+        "location": "Poblacion Norte",
+        "address": "Poblacion Norte, Maria, 6229 Siquijor, Philippines",
+        "postal_code": "6229",
+        "deped_district": null,
+        "departments": [
+          "Junior High School",
+          "Senior High School"
+        ],
+        "levels_offered": null,
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": [
+          "PEAC / GASTPE Senior High School Voucher Program participant"
+        ],
+        "founded_year": 1955,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": null,
+          "email_note": null,
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": "Manuel J. Briones (Principal, historical UCANews / Diocese of Dumaguete directory)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": "Primarily tracked for Junior/Senior High School; verify directly for Grade 1-6 offerings"
+      },
+      {
+        "name": "BIT International College - Siquijor, Inc.",
+        "former_name": "Balite Institute of Technology - Siquijor",
+        "alternate_name": null,
+        "deped_school_id": "404632",
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Secondary-Focused Institution",
+        "affiliation": "Private Non-sectarian (BIT International College system)",
+        "municipality": "Siquijor",
+        "barangay": "Polangyuta",
+        "location": "Polangyuta (Pulangguta)",
+        "address": "Brgy. Pulangguta (Polangyuta), Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": null,
+        "departments": [
+          "Junior High School",
+          "Senior High School",
+          "College"
+        ],
+        "levels_offered": null,
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": [
+          "PEAC / GASTPE Senior High School Voucher Program participant"
+        ],
+        "founded_year": null,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": "https://www.bit-icschools.com",
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": "regis@bitic.edu.ph",
+          "email_note": "BIT International College system registrar email",
+          "phone": null,
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": null,
+          "previous_school_heads": null,
+          "director": null,
+          "president": "Atty. Dionisio Balite (System President Emeritus)",
+          "shs_principal": null
+        },
+        "note": "Multi-level network; DepEd Siquijor tracking is primarily for Junior/Senior High School"
+      },
+      {
+        "name": "Quezon Memorial Institute of Siquijor, Inc. (QMIS)",
+        "former_name": null,
+        "alternate_name": null,
+        "deped_school_id": "404633",
+        "legacy_school_id": null,
+        "sector": "Private",
+        "category": "Private Secondary-Focused Institution",
+        "affiliation": "Private Non-sectarian",
+        "municipality": "Siquijor",
+        "barangay": "Canal",
+        "location": "Canal St., Brgy. Canal",
+        "address": "Canal St., Brgy. Canal, Siquijor, 6225 Siquijor, Philippines",
+        "postal_code": "6225",
+        "deped_district": null,
+        "departments": [
+          "Junior High School",
+          "Senior High School",
+          "College"
+        ],
+        "levels_offered": null,
+        "curriculum_focus": null,
+        "shs_tracks": null,
+        "shs_strands": null,
+        "college_programs": null,
+        "programs_and_accreditations": [
+          "PEAC / GASTPE Senior High School Voucher Program participant"
+        ],
+        "founded_year": 1947,
+        "founded_notes": null,
+        "classrooms": null,
+        "size_classification": null,
+        "reported_enrollment": null,
+        "official_website": null,
+        "division_portal": null,
+        "social_media": {
+          "facebook_url": null
+        },
+        "contact": {
+          "email": "qmisinc@yahoo.com",
+          "email_note": null,
+          "phone": "0969-562-0182",
+          "division_email": null,
+          "division_mobile": null
+        },
+        "leadership": {
+          "school_head": "Sweetie Pearl Bati-on (Principal)",
+          "previous_school_heads": null,
+          "director": null,
+          "president": null,
+          "shs_principal": null
+        },
+        "note": "Primarily tracked for Junior/Senior High School and tertiary programs; verify directly for active Grade 1-6 enrollment"
+      }
+    ]
+  },
+  "governing_offices": {
+    "deped_division": {
+      "name": "DepEd Schools Division Office of Siquijor",
+      "superintendent": "Dr. Rosalie M. Pasaol, CESO V",
+      "office_address": "Helen, Larena, 6226 Siquijor, Philippines",
+      "official_website": "https://www.deped-siquijor.com",
+      "facebook_page_name": "DepEd Tayo Siquijor",
+      "email": "deped.siquijor@deped.gov.ph",
+      "alternate_email": "siquijor@deped.gov.ph",
+      "mobile": "0906-432-9162"
+    },
+    "deped_regional_office": {
+      "name": "DepEd Negros Island Region (NIR)",
+      "official_website": "https://depednir.net",
+      "facebook_page_name": "DepEd Tayo Negros Island Region",
+      "email": "nir@deped.gov.ph",
+      "landline": "(035) 527-5297"
+    }
+  }
+}

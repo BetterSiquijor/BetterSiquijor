@@ -1,0 +1,152 @@
+{
+  "reviewed": "2026-11-18",
+  "sources": [
+    {
+      "id": "philhealth-hospitals-2026-09",
+      "publisher": "PhilHealth",
+      "title": "Accredited Hospitals and Infirmaries for CY 2026, updated 30 September 2026",
+      "url": "https://www.philhealth.gov.ph/partners/providers/facilities/accredited/HOSP_093026.pdf",
+      "sourceDate": "2026-09-30",
+      "reviewed": "2026-11-18",
+      "localPage": "/services/health/hospitals",
+      "localDocument": "/documents/philhealth-hospitals-2026-09.pdf",
+      "sourceSha256": "9ef34056f893a5aa485619e71d8481f02da149ce61a1ca1d75686a2f4c81c0b4",
+      "coverage": "Page 52, rows 1334 and 1335: both facilities under the Siquijor heading; addresses, phones, emails, classifications and listed beds."
+    },
+    {
+      "id": "sph-facebook",
+      "publisher": "Siquijor Provincial Hospital",
+      "title": "Hospital Facebook page — Intro and contact details",
+      "url": "https://www.facebook.com/SiquijorProvincialHospital/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-social",
+      "localPage": "/services/health/hospitals",
+      "coverage": "Page title and Caipilan address confirmed; contact number, email, and Always open listing read directly in the page Intro."
+    },
+    {
+      "id": "sppo-facebook",
+      "publisher": "Siquijor Police Provincial Office",
+      "title": "Provincial police office Facebook page — Intro and contacts",
+      "url": "https://www.facebook.com/people/PNP-Siquijor-Police-Provincial-Office/61558544321314/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-social",
+      "localPage": "/services/public-safety/police-stations",
+      "coverage": "Page identifies itself as the official SPPO page, with Caipilan location, telephone, email, and a link to mystiquesppo.site."
+    },
+    {
+      "id": "enrique-police-facebook",
+      "publisher": "Enrique Villanueva Municipal Police Station",
+      "title": "Police station Facebook page — Intro and contacts",
+      "url": "https://www.facebook.com/people/PNP-Enrique-Villanueva-MPS/100069031275905/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-social",
+      "localPage": "/services/public-safety/police-stations",
+      "coverage": "Station name, 0906-835-1602 hotline, and evmps.sppo@yahoo.com read directly from the station page."
+    },
+    {
+      "id": "lazi-police-facebook",
+      "publisher": "Lazi Municipal Police Station",
+      "title": "Police station Facebook page — Intro and contacts",
+      "url": "https://www.facebook.com/lazipnp/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-social",
+      "localPage": "/services/public-safety/police-stations",
+      "coverage": "The page states it is the official station page in Tigbawan, Lazi; number and policelazi@yahoo.com read directly."
+    },
+    {
+      "id": "sppo-station-locations",
+      "publisher": "Siquijor Police Provincial Office",
+      "title": "SPPO headquarters — six municipal station locations",
+      "url": "https://mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-directory",
+      "localPage": "/services/public-safety/police-stations",
+      "accessNote": "Publisher domain is linked in the directly read SPPO Facebook page. Location listing read in the indexed publisher copy; live HTTPS certificate mismatched during this review. No hours or generic theme contacts copied. Live domain and station subdomains redirected to an Account Suspended page on 18 November 2026. Published fields were read from indexed publisher pages; they are not a current operational certification.",
+      "coverage": "Station locations in Helen, Tigbawan, Poblacion, Poblacion Sur, and Caipilan; no guessed street addresses or coordinates."
+    },
+    {
+      "id": "larena-police-site",
+      "publisher": "Larena Municipal Police Station",
+      "title": "Larena police station contact directory",
+      "url": "https://larena.mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-directory",
+      "localPage": "/services/public-safety/police-stations",
+      "accessNote": "Undated indexed publisher page. Postal code and generic theme address info@buconz.com excluded. Live domain and station subdomains redirected to an Account Suspended page on 18 November 2026. Published fields were read from indexed publisher pages; they are not a current operational certification.",
+      "coverage": "Helen, Larena; 0927-249-9551; larenamps.sppo@yahoo.com. Main SPPO page publishes a different Larena number; the station-specific directory reading is retained."
+    },
+    {
+      "id": "sanjuan-police-site",
+      "publisher": "San Juan Municipal Police Station",
+      "title": "San Juan police station contact directory",
+      "url": "https://sanjuan.mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-directory",
+      "localPage": "/services/public-safety/police-stations",
+      "accessNote": "Undated indexed publisher page; generic theme address info@buconz.com excluded. Live domain and station subdomains redirected to an Account Suspended page on 18 November 2026. Published fields were read from indexed publisher pages; they are not a current operational certification.",
+      "coverage": "Poblacion, San Juan; 0926-324-2820; sanjuanpolicestations@ymail.com."
+    },
+    {
+      "id": "siquijor-police-site",
+      "publisher": "Siquijor Municipal Police Station",
+      "title": "Siquijor police station contact directory",
+      "url": "https://siquijor.mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-directory",
+      "localPage": "/services/public-safety/police-stations",
+      "accessNote": "Undated indexed publisher page. The SPPO aggregate listing gives a different station number; the station-specific directory reading is retained. Live domain and station subdomains redirected to an Account Suspended page on 18 November 2026. Published fields were read from indexed publisher pages; they are not a current operational certification.",
+      "coverage": "Poblacion, Siquijor; 0977-180-3999; siquijorps@yahoo.com."
+    },
+    {
+      "id": "pna-safe-nir-911",
+      "publisher": "Philippine News Agency",
+      "title": "NegOr, Siquijor execs back PNP’s 911 hotline",
+      "url": "https://www.pna.gov.ph/articles/1278040",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "localPage": "/services/public-safety/police-stations",
+      "coverage": "Police Regional Office NIR SAFE NIR Dial 911 initiative for police and emergency assistance in Negros Island Region and Siquijor."
+    },
+    {
+      "id": "pia-sph-caipilan-2026",
+      "publisher": "Philippine Information Agency",
+      "title": "Provincial eye care facility restores vision of elderly Siquijodnon",
+      "url": "https://pia.gov.ph/news/visayas/nir/provincial-eye-care-facility-restores-vision-of-elderly-siquijodnon/",
+      "sourceDate": "2026-10-20",
+      "reviewed": "2026-11-18",
+      "localPage": "/services/health/hospitals",
+      "coverage": "Confirms the provincial hospital is in Barangay Caipilan; supports normalizing PhilHealth’s CAPILAN spelling to Caipilan."
+    },
+    {
+      "id": "pnp-itms-stations",
+      "publisher": "PNP Information Technology Management Service",
+      "title": "PRO 7 office and police station listing",
+      "url": "https://itms.pnp.gov.ph/wp-content/uploads/2025/04/PRO-7.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "primary-government",
+      "localPage": "/services/public-safety/police-stations",
+      "coverage": "Indexed publisher table, rows 147–152: Enrique Villanueva, Larena, Lazi, Maria, San Juan and Siquijor police stations under SIQUIJOR PPO. Supports office identity and municipality only, not phone numbers.",
+      "accessNote": "Original PDF access blocked by publisher security; station identity rows read in the indexed publisher table."
+    },
+    {
+      "id": "maria-police-facebook",
+      "publisher": "Maria Municipal Police Station",
+      "title": "Police station Facebook page — Intro and contacts",
+      "url": "https://www.facebook.com/mariangpulis/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "office-published-social",
+      "localPage": "/services/public-safety/police-stations",
+      "coverage": "Direct browser read confirms page title PNP Maria Municipal Police Station; page identifies itself as official and lists Poblacion Sur, Maria, Siquijor, 0927-249-9547, and mariapolicestationcads@gmail.com."
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "groups": [
+    {
+      "exportFile": "service-guides.json",
+      "metadata": {
+        "reviewed": "2026-11-17"
+      },
+      "guides": [
+        {
+          "path": "content/services/civil-documents/birth-certificates.md",
+          "title": "Birth, marriage, and death certificates",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "birth",
+            "marriage",
+            "death",
+            "psa-serbilis-fees",
+            "psa-serbilis-delivery"
+          ]
+        },
+        {
+          "path": "content/services/civil-documents/national-id.md",
+          "title": "National ID registration and Digital National ID",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "id-steps",
+            "id-charter",
+            "id-register"
+          ]
+        },
+        {
+          "path": "content/services/health/philhealth.md",
+          "title": "PhilHealth registration and member services",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "ph-register",
+            "ph-informal",
+            "ph-services",
+            "ph-account",
+            "ph-reset",
+            "ph-dir"
+          ]
+        },
+        {
+          "path": "content/services/health/provincial-health-contacts.md",
+          "title": "Health offices and published contacts",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "ph-dir",
+            "dbm",
+            "local-contacts",
+            "pia-911"
+          ]
+        },
+        {
+          "path": "content/services/education/schools-division.md",
+          "title": "Basic education enrollment in Siquijor",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "edu-office",
+            "edu-policy",
+            "edu-enroll"
+          ]
+        },
+        {
+          "path": "content/services/education/school-directory.md",
+          "title": "School records and school enquiries",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "edu-charter",
+            "edu-office",
+            "edu-directory"
+          ]
+        },
+        {
+          "path": "content/services/education/public-higher-education.md",
+          "title": "Public higher education in Siquijor",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "ssc-location",
+            "ssc-programs"
+          ]
+        },
+        {
+          "path": "content/services/tourism/provincial-tourism-office.md",
+          "title": "Provincial Tourism Office",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "tourism",
+            "local-contacts"
+          ]
+        },
+        {
+          "path": "content/services/tourism/official-destination-guide.md",
+          "title": "Siquijor destination guide",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "dot",
+            "pia-ferry",
+            "local-contacts"
+          ]
+        },
+        {
+          "path": "content/government/departments/education-office.md",
+          "title": "Schools Division of Siquijor",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "edu-office",
+            "edu-charter"
+          ]
+        },
+        {
+          "path": "content/government/departments/tourism-office.md",
+          "title": "Provincial Tourism Office",
+          "scope": "Provincial information or national service available to Siquijor residents",
+          "reviewed": "2026-11-17",
+          "sources": [
+            "tourism",
+            "local-contacts"
+          ]
+        }
+      ]
+    },
+    {
+      "exportFile": "business-service-guides.json",
+      "metadata": {
+        "reviewedAt": "2026-11-17"
+      },
+      "guides": [
+        {
+          "slug": "business-name-registration",
+          "title": "Register a sole-proprietor business name",
+          "url": "/services/business/business-name-registration",
+          "reviewedAt": "2026-11-17",
+          "sourceIds": [
+            "dti-bnrs-faq",
+            "dti-bnrs-guide",
+            "boi-costs-2026"
+          ],
+          "path": "content/services/business/business-name-registration.md"
+        },
+        {
+          "slug": "tax-registration",
+          "title": "Register a business with the BIR",
+          "url": "/services/business/tax-registration",
+          "reviewedAt": "2026-11-17",
+          "sourceIds": [
+            "bir-registration-guide",
+            "bir-newbizreg",
+            "bir-orus-setup",
+            "bir-arf-removal",
+            "bir-rdo79-2026"
+          ],
+          "path": "content/services/business/tax-registration.md"
+        },
+        {
+          "slug": "job-search",
+          "title": "Find work through PhilJobNet and PESO",
+          "url": "/services/business/job-search",
+          "reviewedAt": "2026-11-17",
+          "sourceIds": [
+            "ble-philjobnet",
+            "philjobnet-signup",
+            "philjobnet-services",
+            "peis-registration"
+          ],
+          "path": "content/services/business/job-search.md"
+        }
+      ]
+    },
+    {
+      "exportFile": "citizen-service-guides.json",
+      "metadata": {
+        "metadata": {
+          "reviewed": "2026-11-17",
+          "category": "Citizen assistance & travel",
+          "recordCount": 2
+        }
+      },
+      "guides": [
+        {
+          "id": "dswd-aics",
+          "path": "content/services/citizen-services/dswd-aics.md",
+          "sourceIds": [
+            "dswd-aics-charter-2025",
+            "dswd-aics-faq",
+            "dswd-aics-mc2022-015"
+          ]
+        },
+        {
+          "id": "adult-passport",
+          "path": "content/services/citizen-services/adult-passport.md",
+          "sourceIds": [
+            "dfa-passport-charter-2025",
+            "dfa-passport-charter-2024",
+            "dfa-passport-appointment"
+          ]
+        }
+      ]
+    }
+  ]
+}

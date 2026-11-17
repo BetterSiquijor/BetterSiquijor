@@ -1,10 +1,9 @@
 title: Civil Documents
 layout: list
 pages:
-- name: Birth, marriage, and death certificates
-  slug: birth-certificates
-  description: 'National service: official PSA channels for civil registry documents.'
-- name: National ID information
-  slug: national-id
-  description: 'National service: official information and access to the Digital National
-    ID.'
+  - name: Get a PSA certificate
+    slug: birth-certificates
+    description: Prepare your birth, marriage, or death certificate request and check delivery fees.
+  - name: National ID and Digital National ID
+    slug: national-id
+    description: Register for your ID or download a digital copy if you are already registered.

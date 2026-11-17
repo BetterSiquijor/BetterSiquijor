@@ -1,135 +1,1247 @@
 {
-  "reviewed": "2026-11-17",
+  "reviewed": "2026-11-18",
+  "sourceCount": 88,
   "sources": [
     {
-      "id": "psa-psgc",
-      "name": "PSA geographic and census listing",
-      "publisher": "Philippine Statistics Authority",
-      "url": "https://psa.gov.ph/classification/psgc/citimuni/1806100000",
-      "scope": "Province and six municipalities",
-      "coverage": "Municipality names, PSGC codes, 2024 population",
-      "reviewed": "2026-11-17",
-      "status": "Reviewed"
+      "id": "unifast-colleges",
+      "name": "List of RA 10931 Participating Higher Education Institutions",
+      "publisher": "UniFAST",
+      "url": "https://unifast.gov.ph/hei-list.html",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Four Siquijor institutions in the Negros Island Region entries: SSC (SUC), BIT Siquijor, Carmelite and QMIS (Private HEI). Participation does not establish individual scholarship eligibility or degree accreditation.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
     },
     {
-      "id": "dbm-directory",
+      "id": "ssc-facebook",
+      "name": "Official Facebook page — Intro and contacts",
+      "publisher": "Siquijor State College",
+      "url": "https://www.facebook.com/siquijorstatecollege.officialpage",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Official-page identity, Larena location, 0995 663 2898, siquijorstatecollege@gmail.com, and college website.",
+      "sourceType": "institution-published-social",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ssc-programs",
+      "name": "Program offerings",
+      "publisher": "Siquijor State College",
+      "url": "https://siquijorstate.edu.ph/programs-offered/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Degree names and specializations in the college catalogue. Publisher-indexed text read; direct access returns 403. Accreditation labels and intake availability are not reproduced.",
+      "sourceType": "institution-published",
+      "localPages": [
+        "/services/education/colleges",
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ssc-contact",
+      "name": "Contact us — office emails",
+      "publisher": "Siquijor State College",
+      "url": "https://siquijorstate.edu.ph/contact-us/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Registrar email registrar@siquijorstate.edu.ph from publisher-indexed contact-page text; direct access returns 403.",
+      "sourceType": "institution-published",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bit-facebook",
+      "name": "Campus Facebook page — Intro and contacts",
+      "publisher": "BIT International College Siquijor",
+      "url": "https://www.facebook.com/BITICSIQUIJOR15",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Campus identity, Pulangyuta address, (035) 480 9415 and bit.siquijor@gmail.com.",
+      "sourceType": "institution-published-social",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bit-siquijor-programs",
+      "name": "Siquijor campus — courses offered",
+      "publisher": "BIT International College",
+      "url": "https://www.bitic.edu.ph/siquijor/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Siquijor-campus degrees and specializations only. The shared site header and footer describe Tagbilaran, not this campus.",
+      "sourceType": "institution-published",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bit-contact",
+      "name": "Campus contact directory",
+      "publisher": "BIT International College",
+      "url": "https://www.bitic.edu.ph/contact/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Siquijor entry uses telephone code 038. This conflicts with the campus Facebook page, which explicitly publishes 035; neither code has been inferred or corrected.",
+      "sourceType": "institution-published",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "carmelite-facebook",
+      "name": "College Facebook page — Intro and contacts",
+      "publisher": "Carmelite College of Siquijor, Inc.",
+      "url": "https://www.facebook.com/carmelitecollegesiquijor2010",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Official-page identity, Tinago address, (035) 542 6276 and carmelitecollege.siquijor@gmail.com; page linked by the college website.",
+      "sourceType": "institution-published-social",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "carmelite-contact",
+      "name": "Visit us — address and contacts",
+      "publisher": "Carmelite College of Siquijor, Inc.",
+      "url": "https://www.carmelitecollegesiquijor.com/visit-us",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Tinago, Siquijor, Siquijor 6225; website telephone (035) 344 2098 and footer email carmelitecollege.siquijor@gmail.com.",
+      "sourceType": "institution-published",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "carmelite-programs",
+      "name": "Courses",
+      "publisher": "Carmelite College of Siquijor, Inc.",
+      "url": "https://www.carmelitecollegesiquijor.com/courses",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "BEEd (General), BSEd (English, Mathematics), BS Entrepreneurship. Senior-high strands are excluded from the college degree list.",
+      "sourceType": "institution-published",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "qmis-facebook",
+      "name": "Official Facebook page — Intro and About contacts",
+      "publisher": "Quezon Memorial Institute of Siquijor, Inc.",
+      "url": "https://www.facebook.com/qmisinc",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Official-page identity; About lists Siquijor, Philippines 6225 and qmisinc@gmail.com. No telephone or degree list inferred.",
+      "sourceType": "institution-published-social",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "qmis-ched",
+      "name": "HEIDA — Quezon Memorial Institute of Siquijor, Inc.",
+      "publisher": "Commission on Higher Education",
+      "url": "https://heida.ched.gov.ph/hei-directory/18?search=Quezon",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "HEI code 7083: Canal address, (035) 5425002, qmisinc@gmail.com.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "carmelite-ched",
+      "name": "HEIDA — Carmelite College of Siquijor, Inc.",
+      "publisher": "Commission on Higher Education",
+      "url": "https://heida.ched.gov.ph/hei-directory/18?search=Carmelite",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "HEI code 7177: Balas-balas, Tinago; (035) 542-6276; registrar and college emails.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bit-ched",
+      "name": "HEIDA — BIT International College – Siquijor, Inc.",
+      "publisher": "Commission on Higher Education",
+      "url": "https://heida.ched.gov.ph/hei-directory/18?search=BIT+International",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "HEI code 7003: Polangyuta address; bit.siquijor@gmail.com and siquijorbit@gmail.com.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/education/colleges"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "philhealth-hospitals-2026-09",
+      "name": "Accredited Hospitals and Infirmaries for CY 2026, updated 30 September 2026",
+      "publisher": "PhilHealth",
+      "url": "https://www.philhealth.gov.ph/partners/providers/facilities/accredited/HOSP_093026.pdf",
+      "sourceDate": "2026-09-30",
+      "reviewed": "2026-11-18",
+      "coverage": "Page 52, rows 1334 and 1335: both facilities under the Siquijor heading; addresses, phones, emails, classifications and listed beds.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/health/hospitals"
+      ],
+      "localDocument": "/documents/philhealth-hospitals-2026-09.pdf"
+    },
+    {
+      "id": "sph-facebook",
+      "name": "Hospital Facebook page — Intro and contact details",
+      "publisher": "Siquijor Provincial Hospital",
+      "url": "https://www.facebook.com/SiquijorProvincialHospital/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Page title and Caipilan address confirmed; contact number, email, and Always open listing read directly in the page Intro.",
+      "sourceType": "office-published-social",
+      "localPages": [
+        "/services/health/hospitals"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "sppo-facebook",
+      "name": "Provincial police office Facebook page — Intro and contacts",
+      "publisher": "Siquijor Police Provincial Office",
+      "url": "https://www.facebook.com/people/PNP-Siquijor-Police-Provincial-Office/61558544321314/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Page identifies itself as the official SPPO page, with Caipilan location, telephone, email, and a link to mystiquesppo.site.",
+      "sourceType": "office-published-social",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "enrique-police-facebook",
+      "name": "Police station Facebook page — Intro and contacts",
+      "publisher": "Enrique Villanueva Municipal Police Station",
+      "url": "https://www.facebook.com/people/PNP-Enrique-Villanueva-MPS/100069031275905/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Station name, 0906-835-1602 hotline, and evmps.sppo@yahoo.com read directly from the station page.",
+      "sourceType": "office-published-social",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "lazi-police-facebook",
+      "name": "Police station Facebook page — Intro and contacts",
+      "publisher": "Lazi Municipal Police Station",
+      "url": "https://www.facebook.com/lazipnp/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "The page states it is the official station page in Tigbawan, Lazi; number and policelazi@yahoo.com read directly.",
+      "sourceType": "office-published-social",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "sppo-station-locations",
+      "name": "SPPO headquarters — six municipal station locations",
+      "publisher": "Siquijor Police Provincial Office",
+      "url": "https://mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Station locations in Helen, Tigbawan, Poblacion, Poblacion Sur, and Caipilan; no guessed street addresses or coordinates.",
+      "sourceType": "office-published-directory",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "larena-police-site",
+      "name": "Larena police station contact directory",
+      "publisher": "Larena Municipal Police Station",
+      "url": "https://larena.mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Helen, Larena; 0927-249-9551; larenamps.sppo@yahoo.com. Main SPPO page publishes a different Larena number; the station-specific directory reading is retained.",
+      "sourceType": "office-published-directory",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "sanjuan-police-site",
+      "name": "San Juan police station contact directory",
+      "publisher": "San Juan Municipal Police Station",
+      "url": "https://sanjuan.mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Poblacion, San Juan; 0926-324-2820; sanjuanpolicestations@ymail.com.",
+      "sourceType": "office-published-directory",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "siquijor-police-site",
+      "name": "Siquijor police station contact directory",
+      "publisher": "Siquijor Municipal Police Station",
+      "url": "https://siquijor.mystiquesppo.site/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Poblacion, Siquijor; 0977-180-3999; siquijorps@yahoo.com.",
+      "sourceType": "office-published-directory",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "pna-safe-nir-911",
+      "name": "NegOr, Siquijor execs back PNP’s 911 hotline",
+      "publisher": "Philippine News Agency",
+      "url": "https://www.pna.gov.ph/articles/1278040",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Police Regional Office NIR SAFE NIR Dial 911 initiative for police and emergency assistance in Negros Island Region and Siquijor.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "pia-sph-caipilan-2026",
+      "name": "Provincial eye care facility restores vision of elderly Siquijodnon",
+      "publisher": "Philippine Information Agency",
+      "url": "https://pia.gov.ph/news/visayas/nir/provincial-eye-care-facility-restores-vision-of-elderly-siquijodnon/",
+      "sourceDate": "2026-10-20",
+      "reviewed": "2026-11-18",
+      "coverage": "Confirms the provincial hospital is in Barangay Caipilan; supports normalizing PhilHealth’s CAPILAN spelling to Caipilan.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/health/hospitals"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "pnp-itms-stations",
+      "name": "PRO 7 office and police station listing",
+      "publisher": "PNP Information Technology Management Service",
+      "url": "https://itms.pnp.gov.ph/wp-content/uploads/2025/04/PRO-7.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Indexed publisher table, rows 147–152: Enrique Villanueva, Larena, Lazi, Maria, San Juan and Siquijor police stations under SIQUIJOR PPO. Supports office identity and municipality only, not phone numbers.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "maria-police-facebook",
+      "name": "Police station Facebook page — Intro and contacts",
+      "publisher": "Maria Municipal Police Station",
+      "url": "https://www.facebook.com/mariangpulis/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "coverage": "Direct browser read confirms page title PNP Maria Municipal Police Station; page identifies itself as official and lists Poblacion Sur, Maria, Siquijor, 0927-249-9547, and mariapolicestationcads@gmail.com.",
+      "sourceType": "office-published-social",
+      "localPages": [
+        "/services/public-safety/police-stations"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-province",
+      "name": "Siquijor province and municipality census listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/citimuni/1806100000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "Province and municipality counts; population reference 1 July 2024",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/data"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-enrique-villanueva",
+      "name": "Enrique Villanueva barangay listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806101000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 14 barangays, codes, classifications and 2024 populations",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/municipalities/enrique-villanueva"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-larena",
+      "name": "Larena barangay listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806102000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 23 barangays, codes, classifications and 2024 populations",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/municipalities/larena"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-lazi",
+      "name": "Lazi barangay listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806103000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 18 barangays, codes, classifications and 2024 populations",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/municipalities/lazi"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-maria",
+      "name": "Maria barangay listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806104000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 22 barangays, codes, classifications and 2024 populations",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/municipalities/maria"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-san-juan",
+      "name": "San Juan barangay listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806105000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 15 barangays, codes, classifications and 2024 populations",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/municipalities/san-juan"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-siquijor",
+      "name": "Siquijor barangay listing",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806106000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 42 barangays, codes, classifications and 2024 populations",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/municipalities/siquijor"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-siquijor-popcen2024-release",
+      "name": "2024 POPCEN population counts of Siquijor Province declared official",
+      "publisher": "Philippine Statistics Authority — Negros Island Region",
+      "url": "https://rssonir.psa.gov.ph/content/2024-census-population-popcen-population-counts-siquijor-province-declared-official",
+      "sourceDate": "2025-07-28",
+      "reviewed": "2026-11-17",
+      "coverage": "Provincial and six municipality populations, as of 1 July 2024",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/data"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dilg-officials-2026-02",
+      "name": "Directory of LGU Elective Officials for Term 2025–2028 as of February 2026",
+      "publisher": "Department of the Interior and Local Government",
+      "url": "https://docs.google.com/spreadsheets/d/1B2N5SjZEBP-29tUioFHaSk-6R_1YFGcYIkSPjuApxZw/htmlview/sheet?headers=true&gid=1213553854",
+      "sourceDate": "2026-02",
+      "reviewed": "2026-11-17",
+      "coverage": "Sixty municipal and ten provincial elected-office records; source rows 27145–27214. A dated directory snapshot, not a live tenure register.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/departments/provincial-officials",
+        "/government/departments/office-directory"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dbm-directory-2026",
       "name": "2026 Philippine Government Directory",
       "publisher": "Department of Budget and Management",
       "url": "https://www.dbm.gov.ph/wp-content/uploads/AboutDBM/2026-Government-Directory.pdf",
-      "scope": "Provincial officials and contact",
-      "coverage": "Governor, vice governor, published office contacts",
+      "sourceDate": "2026",
       "reviewed": "2026-11-17",
-      "status": "Reviewed reference"
+      "coverage": "2026 Philippine Government Directory",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/departments/provincial-officials",
+        "/services",
+        "/government/departments/office-directory"
+      ],
+      "localDocument": "/documents/2026-philippine-government-directory.pdf"
     },
     {
-      "id": "pia-officials",
-      "name": "New ferry route links Siquijor, Bohol, Misamis Occidental",
-      "publisher": "Philippine Information Agency",
-      "url": "https://pia.gov.ph/news/new-ferry-route-links-siquijor-bohol-misamis-occidental/",
-      "scope": "Province",
-      "coverage": "Official names corroborated; article dated 29 October 2026",
-      "reviewed": "2026-11-17",
-      "status": "Reviewed"
-    },
-    {
-      "id": "tourism",
-      "name": "Provincial Tourism Office",
-      "publisher": "Siquijor Provincial Tourism Office",
-      "url": "https://siquijorprovince.com/",
-      "scope": "Provincial tourism",
-      "coverage": "Tourism source; some older advisories remain",
-      "reviewed": "2026-11-17",
-      "status": "Reviewed with dated-content caution"
-    },
-    {
-      "id": "tourism-contacts",
-      "name": "Provincial Tourism Office contact directory",
-      "publisher": "Siquijor Provincial Tourism Office",
+      "id": "tourism-office-contacts",
+      "name": "Contact Information",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
       "url": "https://siquijorprovince.com/contact-information/",
-      "scope": "Published provincial contacts",
-      "coverage": "Published contacts; not independently called",
+      "sourceDate": null,
       "reviewed": "2026-11-17",
-      "status": "Published reference only"
+      "coverage": "Published office telephone list. Source does not show a contact update date. Named staff and their individual numbers are omitted.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/departments/provincial-officials",
+        "/services",
+        "/government/departments/office-directory"
+      ],
+      "localDocument": null
     },
     {
-      "id": "deped",
-      "name": "Schools Division of Siquijor",
-      "publisher": "Department of Education",
-      "url": "https://www.deped-siquijor.com/",
-      "scope": "Basic education",
-      "coverage": "Division information and directory links",
+      "id": "deped-division-contacts",
+      "name": "Schools Division Office",
+      "publisher": "Schools Division of Siquijor, Department of Education",
+      "url": "https://www.deped-siquijor.com/districts/",
+      "sourceDate": null,
       "reviewed": "2026-11-17",
-      "status": "Reviewed"
+      "coverage": "Division office address, email, and mobile number shown on its official website.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/departments/provincial-officials",
+        "/services",
+        "/government/departments/office-directory"
+      ],
+      "localDocument": null
     },
     {
-      "id": "philhealth",
-      "name": "PhilHealth online services",
-      "publisher": "Philippine Health Insurance Corporation",
-      "url": "https://www.philhealth.gov.ph/services/",
-      "scope": "National",
-      "coverage": "Official online service entry points",
+      "id": "dbm-besf2027-f10",
+      "name": "Budget of Expenditures and Sources of Financing, FY 2027, Table F.10, page 586 only",
+      "publisher": "Department of Budget and Management",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/BESF/BESF2027/F10.pdf",
+      "sourceDate": "2025 (page 1); continuation heading conflict",
       "reviewed": "2026-11-17",
-      "status": "Reviewed"
+      "coverage": "24 values from the Siquijor provincial row on page 1 only",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": "/documents/siquijor-finance-sre-2025-receipts-dbm-besf2027-f10.pdf"
     },
     {
-      "id": "psa-serbilis",
-      "name": "PSA Serbilis",
-      "publisher": "PSA civil registry service channel",
-      "url": "https://www.psaserbilis.com.ph/",
-      "scope": "National",
-      "coverage": "Online civil registry document requests; linked by PSA",
+      "id": "dbm-besf2026-f10",
+      "name": "Budget of Expenditures and Sources of Financing, FY 2026, Table F.10",
+      "publisher": "Department of Budget and Management",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/BESF/BESF2026/F10.pdf",
+      "sourceDate": "2024",
       "reviewed": "2026-11-17",
-      "status": "Official service reference"
+      "coverage": "All 50 numeric fields from the Siquijor provincial row across both PDF pages",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": "/documents/siquijor-finance-sre-2024-dbm-besf2026-f10.pdf"
     },
     {
-      "id": "digital-id",
-      "name": "Digital National ID",
+      "id": "philgeps-13279551",
+      "name": "Supply and Delivery of Various Medical Supplies - SPH (502)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=13279551",
+      "sourceDate": "2026",
+      "reviewed": "2026-11-17",
+      "coverage": "Supply and Delivery of Various Medical Supplies - SPH (502)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": "/documents/siquijor-finance-philgeps-13279551.json"
+    },
+    {
+      "id": "philgeps-13258496",
+      "name": "Supply and Delivery of Printer (3-in-1) and Other Goods - BJMP/Siquijor District Jail (447)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=13258496",
+      "sourceDate": "2026",
+      "reviewed": "2026-11-17",
+      "coverage": "Supply and Delivery of Printer (3-in-1) and Other Goods - BJMP/Siquijor District Jail (447)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": "/documents/siquijor-finance-philgeps-13258496.json"
+    },
+    {
+      "id": "philgeps-11437029",
+      "name": "Supply and Delivery of Various Medical Equipments - LMCH (668)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=11437029",
+      "sourceDate": "2024",
+      "reviewed": "2026-11-17",
+      "coverage": "Supply and Delivery of Various Medical Equipments - LMCH (668)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": "/documents/siquijor-finance-philgeps-11437029.json"
+    },
+    {
+      "id": "philgeps-11385019",
+      "name": "Supply and Delivery of Various Medical & Laboratory Supplies - LMCH (604)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=11385019",
+      "sourceDate": "2024",
+      "reviewed": "2026-11-17",
+      "coverage": "Supply and Delivery of Various Medical & Laboratory Supplies - LMCH (604)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": "/documents/siquijor-finance-philgeps-11385019.json"
+    },
+    {
+      "id": "philgeps-11385096",
+      "name": "Supply and Delivery of Various Poly Ethylene Pipes & Other Goods - PGO (605)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=11385096",
+      "sourceDate": "2024",
+      "reviewed": "2026-11-17",
+      "coverage": "Supply and Delivery of Various Poly Ethylene Pipes & Other Goods - PGO (605)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": "/documents/siquijor-finance-philgeps-11385096.json"
+    },
+    {
+      "id": "coa-siquijor-development-fund-compliance-2022",
+      "name": "Siquijor Compliance Audit Report 2022 — 20% Development Fund",
+      "publisher": "Commission on Audit",
+      "url": "https://www.coa.gov.ph/wpfd_file/siquijor-compliance-audit-report-2022/",
+      "sourceDate": "2022",
+      "reviewed": "2026-11-17",
+      "coverage": "Siquijor Compliance Audit Report 2022 — 20% Development Fund",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/government/transparency"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "birth",
+      "name": "PSA — Birth Certificate (undated service page)",
       "publisher": "Philippine Statistics Authority",
-      "url": "https://national-id.gov.ph/",
-      "scope": "National",
-      "coverage": "Official Digital National ID access",
+      "url": "https://psa.gov.ph/birth-certificate",
+      "sourceDate": null,
       "reviewed": "2026-11-17",
-      "status": "Official service reference"
+      "coverage": "PSA — Birth Certificate (undated service page)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "marriage",
+      "name": "PSA — Marriage Certificate (undated service page)",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/marriage-certificate",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PSA — Marriage Certificate (undated service page)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "death",
+      "name": "PSA — Death Certificate (undated service page)",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/death-certificate",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PSA — Death Certificate (undated service page)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ph-services",
+      "name": "PhilHealth — Online Services",
+      "publisher": "PhilHealth",
+      "url": "https://www.philhealth.gov.ph/services/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PhilHealth — Online Services",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ph-register",
+      "name": "PhilHealth — Formal Economy Registration Procedures",
+      "publisher": "PhilHealth",
+      "url": "https://www.philhealth.gov.ph/members/formal/registration.php",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PhilHealth — Formal Economy Registration Procedures",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ph-informal",
+      "name": "PhilHealth — Informal Economy Registration Procedures",
+      "publisher": "PhilHealth",
+      "url": "https://www.philhealth.gov.ph/members/informal/registration.php",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PhilHealth — Informal Economy Registration Procedures",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ph-account",
+      "name": "PhilHealth — Member Portal Account Creation",
+      "publisher": "PhilHealth",
+      "url": "https://memberinquiry.philhealth.gov.ph/member/accountCreation.xhtml",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PhilHealth — Member Portal Account Creation",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ph-reset",
+      "name": "PhilHealth — Password Reset",
+      "publisher": "PhilHealth",
+      "url": "https://memberinquiry.philhealth.gov.ph/member/forgotPassword.xhtml",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PhilHealth — Password Reset",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ph-dir",
+      "name": "PhilHealth — Regional Offices Directory, Siquijor entry",
+      "publisher": "PhilHealth",
+      "url": "https://www.philhealth.gov.ph/about_us/directory/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PhilHealth — Regional Offices Directory, Siquijor entry",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services",
+        "/government/departments/office-directory"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "id-steps",
+      "name": "PSA RSSO VIII — Digital National ID instructions, 9 August 2024",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://rsso08.psa.gov.ph/content/digital-national-id-now-downloadable-all-filipinos-registered-philsys",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PSA RSSO VIII — Digital National ID instructions, 9 August 2024",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "id-charter",
+      "name": "PSA — 2025 Citizen’s Charter, PhilSys Registry Office external services",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/system/files/citizens-charter/5-PSA-2025-Citizens-Charter-Philippine-Identification-System-Registry%20Office-External-Services.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PSA — 2025 Citizen’s Charter, PhilSys Registry Office external services",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "id-register",
+      "name": "PSA — PhilSys registration notice",
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://maintenance.register.philsys.gov.ph/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PSA — PhilSys registration notice",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "edu-enroll",
+      "name": "DepEd — Revised enrollment policy explainer, 14 June 2025",
+      "publisher": "Department of Education",
+      "url": "https://www.deped.gov.ph/2025/06/14/deped-may-mas-pinadali-at-mas-abot-kayang-enrollment-sa-ilalim-ng-pbbm-admin/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "DepEd — Revised enrollment policy explainer, 14 June 2025",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "edu-policy",
+      "name": "DepEd Order 017, s. 2025 — Revised Basic Education Enrollment Policy, 13 June 2025",
+      "publisher": "Department of Education",
+      "url": "https://www.deped.gov.ph/2025/06/13/june-13-2025-do-017-s-2025-revised-basic-education-enrollment-policy/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "DepEd Order 017, s. 2025 — Revised Basic Education Enrollment Policy, 13 June 2025",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "edu-charter",
+      "name": "DepEd — Citizen’s Charter 2026 (2nd Edition)",
+      "publisher": "Department of Education",
+      "url": "https://www.deped.gov.ph/wp-content/uploads/DepEd-Citizens-Charter-2026-2nd-Edition.pdf",
+      "sourceDate": "2026, 2nd Edition",
+      "reviewed": "2026-11-17",
+      "coverage": "DepEd — Citizen’s Charter 2026 (2nd Edition)",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": "/documents/deped-citizens-charter-2026-2nd-edition.pdf"
+    },
+    {
+      "id": "edu-directory",
+      "name": "Schools Division of Siquijor — Districts and Schools",
+      "publisher": "Schools Division of Siquijor, Department of Education",
+      "url": "https://www.deped-siquijor.com/schools-2/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Schools Division of Siquijor — Districts and Schools",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ssc-location",
+      "name": "Central Mindanao University — Admission test pilot at SSC, August 2026",
+      "publisher": "Central Mindanao University",
+      "url": "https://www.cmu.edu.ph/cmu-conducts-pilot-testing-of-updated-admission-test-at-siquijor-state-college/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Central Mindanao University — Admission test pilot at SSC, August 2026",
+      "sourceType": "primary-government-institution",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
     },
     {
       "id": "dot",
-      "name": "DOT Siquijor destination",
+      "name": "Department of Tourism — Siquijor destination profile",
       "publisher": "Department of Tourism",
       "url": "https://www.tourism.gov.ph/destination/nir/siquijor/",
-      "scope": "Provincial tourism",
-      "coverage": "Official destination information; Negros Island Region",
+      "sourceDate": null,
       "reviewed": "2026-11-17",
-      "status": "Reviewed"
+      "coverage": "Department of Tourism — Siquijor destination profile",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
     },
     {
-      "id": "fdp",
-      "name": "DILG Full Disclosure Policy Portal",
-      "publisher": "Department of the Interior and Local Government",
-      "url": "https://fdpp.dilg.gov.ph/fdpp/default",
-      "scope": "National repository; select provincial LGU",
-      "coverage": "Province-specific documents not retrieved",
+      "id": "tourism",
+      "name": "Siquijor Provincial Tourism Office — Official Website",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "url": "https://siquijorprovince.com/",
+      "sourceDate": null,
       "reviewed": "2026-11-17",
-      "status": "External portal; no local dataset"
+      "coverage": "Siquijor Provincial Tourism Office — Official Website",
+      "sourceType": "government-published-directory",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
     },
     {
-      "id": "coa",
-      "name": "COA LGU annual audit reports",
-      "publisher": "Commission on Audit",
-      "url": "https://www.coa.gov.ph/reports/annual-audit-reports/aar-local-government-units/",
-      "scope": "National repository; select Province of Siquijor",
-      "coverage": "Automated retrieval restricted; no local report reviewed",
+      "id": "pia-ferry",
+      "name": "Philippine Information Agency — New Lazi ferry route, 29 October 2026",
+      "publisher": "Philippine Information Agency",
+      "url": "https://pia.gov.ph/news/new-ferry-route-links-siquijor-bohol-misamis-occidental/",
+      "sourceDate": null,
       "reviewed": "2026-11-17",
-      "status": "External portal; access limited"
+      "coverage": "Philippine Information Agency — New Lazi ferry route, 29 October 2026",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
     },
     {
-      "id": "philgeps",
-      "name": "PhilGEPS notices",
-      "publisher": "Philippine Government Electronic Procurement System",
-      "url": "https://notices.philgeps.gov.ph/",
-      "scope": "National repository; search PROVINCE OF SIQUIJOR",
-      "coverage": "No reconciled local project dataset",
+      "id": "pia-911",
+      "name": "PIA — Calling 911: Lesson Siquijor students learn from CampusSaya activity, 16 November 2026",
+      "publisher": "Philippine Information Agency",
+      "url": "https://pia.gov.ph/news/calling-911-lesson-siquijor-students-learn-from-campussaya-activity/",
+      "sourceDate": null,
       "reviewed": "2026-11-17",
-      "status": "External portal; no local dataset"
+      "coverage": "PIA — Calling 911: Lesson Siquijor students learn from CampusSaya activity, 16 November 2026",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-serbilis-fees",
+      "name": "PSA Serbilis FAQ — receiving options and fees",
+      "publisher": "PSA Serbilis (PSA-authorized certificate request service)",
+      "url": "https://www.psaserbilis.com.ph/GetFaQs",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PSA Serbilis FAQ — receiving options and fees",
+      "sourceType": "agency-authorized-provider",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "psa-serbilis-delivery",
+      "name": "PSA Serbilis delivery estimates",
+      "publisher": "PSA Serbilis (PSA-authorized certificate request service)",
+      "url": "https://psaserbilis.com.ph/Delivery",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PSA Serbilis delivery estimates",
+      "sourceType": "agency-authorized-provider",
+      "localPages": [
+        "/services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dti-bnrs-faq",
+      "name": "BNRS Frequently Asked Questions",
+      "publisher": "Department of Trade and Industry",
+      "url": "https://bnrs.dti.gov.ph/faq",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Eligibility, business-name versus municipal permit, territorial scope, registration fees, certificate retrieval, and validity.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dti-bnrs-guide",
+      "name": "BNRS Registration Guide",
+      "publisher": "Department of Trade and Industry",
+      "url": "https://bnrs.dti.gov.ph/resources/registration-guide",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "New registration, reference code, seven-calendar-day payment period, and certificate retrieval on the live BNRS website.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "boi-costs-2026",
+      "name": "2026 Cost of Doing Business, 11 March 2026",
+      "publisher": "Board of Investments / Department of Trade and Industry",
+      "url": "https://boi.gov.ph/wp-content/uploads/2026/03/2026-Cost-of-Doing-Business_11March2026.pdf",
+      "sourceDate": "2026-03-11",
+      "reviewed": "2026-11-17",
+      "coverage": "DTI registration fees by territorial scope and documentary stamp tax.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bir-registration-guide",
+      "name": "Ways to Register a Business",
+      "publisher": "Bureau of Internal Revenue",
+      "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/TP_Guide_on_Business_Registration.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Registration channels, individual/non-individual documents, and invoice alternatives.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bir-newbizreg",
+      "name": "New Business Registration portal instructions",
+      "publisher": "Bureau of Internal Revenue",
+      "url": "https://web-services.bir.gov.ph/newbizreg/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "PDF attachment size, questionnaire, DST, RDO routing, acknowledgment, and collection.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bir-orus-setup",
+      "name": "RMC 120-2023 attachment — ORUS account setup",
+      "publisher": "Bureau of Internal Revenue",
+      "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMC%20No.%20120-2023%20Attachment.pdf",
+      "sourceDate": "2023",
+      "reviewed": "2026-11-17",
+      "coverage": "Account creation and permanent-email requirements.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bir-arf-removal",
+      "name": "Revenue Memorandum Circular 14-2024",
+      "publisher": "Bureau of Internal Revenue",
+      "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMC%20No.%2014-2024.pdf",
+      "sourceDate": "2024-01-24",
+      "reviewed": "2026-11-17",
+      "coverage": "Annual Registration Fee collection ceased22January2024.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "bir-rdo79-2026",
+      "name": "RMC 117-2026 Annex2 — FOI Receiving Officers",
+      "publisher": "Bureau of Internal Revenue",
+      "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/RMC%20No.%20117-2026%20ANNEX%202-compressed.pdf",
+      "sourceDate": "2026",
+      "reviewed": "2026-11-17",
+      "coverage": "Negros Oriental and Siquijor RDO79 office address and telephone.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "ble-philjobnet",
+      "name": "About PhilJobNet",
+      "publisher": "DOLE Bureau of Local Employment",
+      "url": "https://ble.dole.gov.ph/about-philjobnet/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Jobseeker functions, client eligibility, and employer accreditation.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "philjobnet-signup",
+      "name": "Sign up — account creation guide",
+      "publisher": "DOLE PhilJobNet",
+      "url": "https://philjobnet.gov.ph/signup.aspx",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Applicant sign-up, valid email, activation, profile completion, and password rules.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "philjobnet-services",
+      "name": "Jobs and Labour Market Information Portal",
+      "publisher": "DOLE PhilJobNet",
+      "url": "https://philjobnet.gov.ph/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Free job matching and accredited employer participation.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "peis-registration",
+      "name": "How to register",
+      "publisher": "DOLE PESO Employment Information System",
+      "url": "https://peis.philjobnet.gov.ph/register.aspx",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Online or PESO-assisted jobseeker registration and National Skills Registry.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/business"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dswd-aics-charter-2025",
+      "name": "2025 Unified Citizen’s Charter, 2nd edition — onsite AICS",
+      "publisher": "Department of Social Welfare and Development",
+      "url": "https://fo6.dswd.gov.ph/wp-content/uploads/2026/01/2025-2nd-Edition-DSWD-Unified-Citizens-Charter.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Eligibility, assistance types, delivery channels, and original ID plus two photocopies.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/citizen-services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dswd-aics-faq",
+      "name": "AICS/AKAP FAQs — AICS requirements",
+      "publisher": "Department of Social Welfare and Development",
+      "url": "https://aics.dswd.gov.ph/about-us/faqs/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Medical, funeral, and transportation documentary requirements; AICS section only.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/citizen-services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dswd-aics-mc2022-015",
+      "name": "Memorandum Circular 15, series of 2022",
+      "publisher": "Department of Social Welfare and Development",
+      "url": "https://aics.dswd.gov.ph/wp-content/uploads/2023/03/MC_2022-015.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Individual-client screening, social-worker interview and assessment, recommendation and release.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/citizen-services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dfa-passport-charter-2025",
+      "name": "2025 Citizen’s Charter, first edition — passport services",
+      "publisher": "Department of Foreign Affairs",
+      "url": "https://dfa.gov.ph/images/2025/transparency/DFA_Citizens_Charter_2025_1st_Edition_1.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "New adult application requirements and published domestic passport fees.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/citizen-services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dfa-passport-charter-2024",
+      "name": "2024 Citizen’s Charter, first edition — passport workflow",
+      "publisher": "Department of Foreign Affairs",
+      "url": "https://dfa.gov.ph/images/2024/transparency/DFA_Citizens_Charter_2024_1st_Edition.pdf",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Domestic appointment verification, processing, enrollment, and release workflow.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/citizen-services"
+      ],
+      "localDocument": null
+    },
+    {
+      "id": "dfa-passport-appointment",
+      "name": "Passport Appointment System",
+      "publisher": "Department of Foreign Affairs",
+      "url": "https://passport.gov.ph/appointment/",
+      "sourceDate": null,
+      "reviewed": "2026-11-17",
+      "coverage": "Official transaction endpoint and notice that appointment booking is free.",
+      "sourceType": "primary-government",
+      "localPages": [
+        "/services/citizen-services"
+      ],
+      "localDocument": null
     }
   ]
 }

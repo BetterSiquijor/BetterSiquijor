@@ -1,0 +1,12 @@
+title: Business and livelihood
+layout: list
+pages:
+  - name: Register a sole-proprietor business name
+    slug: business-name-registration
+    description: Eligibility, registration steps, territorial-scope fees, and the distinction from a municipal business permit.
+  - name: Register a business with the BIR
+    slug: tax-registration
+    description: Documentary requirements, ORUS and NewBizReg workflows, registration charges, and the Siquijor revenue district.
+  - name: Find work through PhilJobNet and PESO
+    slug: job-search
+    description: Free account registration, email activation, job searching, employer matching, and assisted employment registration.

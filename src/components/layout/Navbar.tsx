@@ -5,7 +5,6 @@ import {
   ChevronDown,
   Globe,
   Search,
-  CheckCircle2,
 } from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
@@ -68,11 +67,11 @@ const Navbar: React.FC = () => {
             </a>
 
             <a
-              href="https://bettergov.ph/philippines/hotlines"
+              href="/government/departments/office-directory"
               className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
               target="_blank" rel="noopener noreferrer"
             >
-              Hotlines
+              Office contacts
             </a>
             <div className="hidden md:block">
               <select
@@ -97,12 +96,13 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <CheckCircle2 className="h-12 w-12 mr-3" />
-              {/* <img
-                src="/ph-logo.webp"
-                alt="Philippines Coat of Arms"
-                className="h-12 w-12 mr-3"
-              /> */}
+              <img
+                src="/better-siquijor.svg"
+                alt=""
+                width={48}
+                height={48}
+                className="h-12 w-12 mr-3 shrink-0"
+              />
               <div>
                 <div className="text-black font-bold">
                   {(import.meta.env.VITE_GOVERNMENT_NAME || 'BetterSiquijor')}

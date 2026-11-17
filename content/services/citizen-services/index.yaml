@@ -1,0 +1,9 @@
+title: Citizen assistance & travel
+layout: list
+pages:
+- name: DSWD crisis assistance (AICS)
+  slug: dswd-aics
+  description: Assistance types, supporting documents, and the social-worker assessment process.
+- name: First-time adult Philippine passport
+  slug: adult-passport
+  description: Citizenship documents, identification, application stages, and published domestic fees.

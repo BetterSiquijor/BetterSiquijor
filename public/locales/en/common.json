@@ -3,7 +3,7 @@
   "site_description": "An independent, volunteer-run information portal for Siquijor Province.",
   "hero": {
     "title": "Welcome to BetterSiquijor",
-    "subtitle": "Find services, local government information, and public records for Siquijor Province.",
+    "subtitle": "Your guide to government services and everyday life in Siquijor.",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
     "businessRegistration": "Public Records"
@@ -11,13 +11,13 @@
   "services": {
     "title": "Services & Information",
     "governmentServices": "Government Services",
-    "description": "Find trusted official resources for health, education, civil documents, and tourism.",
+    "description": "Get the documents, steps, fees, and office contacts you need for your next government transaction.",
     "viewAll": "View All Services",
     "viewAllCategory": "View All"
   },
   "governmentActivity": {
     "title": "Government & Transparency",
-    "description": "Explore provincial offices, all six municipalities, public record sources, and our verification notes."
+    "description": "Meet your local officials, find an office, explore your municipality, and see how provincial funds are used."
   },
   "weather": {
     "title": "Weather Updates"
@@ -29,16 +29,17 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "\u00a9 2026 BetterSiquijor. Independent and volunteer-run. Source materials retain their original terms."
+    "copyright": "© 2026 BetterSiquijor. Independent and volunteer-run. Source materials retain their original terms."
   },
   "navbar": {
     "government": "Government",
     "services": "Services",
     "hotlines": "Hotlines",
-    "holidays": "Holidays"
+    "holidays": "Holidays",
+    "data": "Local records"
   },
   "joinUs": {
-    "stripTitle": "\ud83d\ude80 Join the #CivicTech Revolution",
+    "stripTitle": "🚀 Join the #CivicTech Revolution",
     "stripSubtitle": "Help build the future of the Philippines and governance through technology",
     "joinNow": "Join Now",
     "discord": "Discord",
@@ -48,6 +49,6 @@
     "joinMovement": "Join Our Movement",
     "or": "or",
     "joinDiscord": "Join Discord",
-    "features": "\ud83d\ude80 Infrastructure \u2022 \ud83d\udca1 Mentorship \u2022 \ud83e\udd1d Community \u2022 \ud83c\udfe2 Office Space"
+    "features": "🚀 Infrastructure • 💡 Mentorship • 🤝 Community • 🏢 Office Space"
   }
 }

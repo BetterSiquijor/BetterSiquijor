@@ -1,0 +1,87 @@
+{
+  "reviewed": "2026-11-17",
+  "sources": [
+    {
+      "id": "dbm-besf2027-f10",
+      "title": "Budget of Expenditures and Sources of Financing, FY 2027, Table F.10, page 586 only",
+      "publisher": "Department of Budget and Management",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/BESF/BESF2027/F10.pdf",
+      "localDocument": "/documents/siquijor-finance-sre-2025-receipts-dbm-besf2027-f10.pdf",
+      "recordPeriod": "2025 (page 1); continuation heading conflict",
+      "reviewed": "2026-11-17",
+      "coverage": "24 values from the Siquijor provincial row on page 1 only",
+      "status": "Original PDF downloaded and visually reviewed. Page 2 retains a conflicting 2024 heading and is excluded from the 2025 extract."
+    },
+    {
+      "id": "dbm-besf2026-f10",
+      "title": "Budget of Expenditures and Sources of Financing, FY 2026, Table F.10",
+      "publisher": "Department of Budget and Management",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/BESF/BESF2026/F10.pdf",
+      "localDocument": "/documents/siquijor-finance-sre-2024-dbm-besf2026-f10.pdf",
+      "recordPeriod": "2024",
+      "coverage": "All 50 numeric fields from the Siquijor provincial row across both PDF pages",
+      "reviewed": "2026-11-17",
+      "status": "Original PDF downloaded; row labels, units and continuation visually verified"
+    },
+    {
+      "id": "philgeps-13279551",
+      "title": "Supply and Delivery of Various Medical Supplies - SPH (502)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=13279551",
+      "localDocument": "/documents/siquijor-finance-philgeps-13279551.json",
+      "recordPeriod": "2026",
+      "reviewed": "2026-11-17",
+      "status": "Notice fields reviewed; local structured transcription; no award amount or completion evidence"
+    },
+    {
+      "id": "philgeps-13258496",
+      "title": "Supply and Delivery of Printer (3-in-1) and Other Goods - BJMP/Siquijor District Jail (447)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=13258496",
+      "localDocument": "/documents/siquijor-finance-philgeps-13258496.json",
+      "recordPeriod": "2026",
+      "reviewed": "2026-11-17",
+      "status": "Notice fields reviewed; local structured transcription; no award amount or completion evidence"
+    },
+    {
+      "id": "philgeps-11437029",
+      "title": "Supply and Delivery of Various Medical Equipments - LMCH (668)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=11437029",
+      "localDocument": "/documents/siquijor-finance-philgeps-11437029.json",
+      "recordPeriod": "2024",
+      "reviewed": "2026-11-17",
+      "status": "Notice fields reviewed; local structured transcription; no award amount or completion evidence"
+    },
+    {
+      "id": "philgeps-11385019",
+      "title": "Supply and Delivery of Various Medical & Laboratory Supplies - LMCH (604)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=11385019",
+      "localDocument": "/documents/siquijor-finance-philgeps-11385019.json",
+      "recordPeriod": "2024",
+      "reviewed": "2026-11-17",
+      "status": "Notice fields reviewed; local structured transcription; no award amount or completion evidence"
+    },
+    {
+      "id": "philgeps-11385096",
+      "title": "Supply and Delivery of Various Poly Ethylene Pipes & Other Goods - PGO (605)",
+      "publisher": "PhilGEPS / Province of Siquijor",
+      "url": "https://notices.philgeps.gov.ph/GEPSNONPILOT/Tender/PrintableBidNoticeAbstractUI.aspx?refid=11385096",
+      "localDocument": "/documents/siquijor-finance-philgeps-11385096.json",
+      "recordPeriod": "2024",
+      "reviewed": "2026-11-17",
+      "status": "Notice fields reviewed; local structured transcription; no award amount or completion evidence"
+    },
+    {
+      "id": "coa-siquijor-development-fund-compliance-2022",
+      "title": "Siquijor Compliance Audit Report 2022 — 20% Development Fund",
+      "publisher": "Commission on Audit",
+      "url": "https://www.coa.gov.ph/wpfd_file/siquijor-compliance-audit-report-2022/",
+      "localDocument": null,
+      "recordPeriod": "2022",
+      "reviewed": "2026-11-17",
+      "status": "Catalogue metadata only; report body access restricted"
+    }
+  ]
+}

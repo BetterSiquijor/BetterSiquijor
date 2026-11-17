@@ -1,13 +1,18 @@
 title: Education
 layout: list
 pages:
-- name: Schools Division of Siquijor
-  slug: schools-division
-  description: 'Local education: official division information and announcements.'
-- name: Find districts and schools
-  slug: school-directory
-  description: 'Local education: open the official Siquijor school directory.'
-- name: Public higher education information
-  slug: public-higher-education
-  description: 'Local education: consult Siquijor State College for its current official
-    information.'
+  - name: Colleges in Siquijor
+    slug: colleges
+    description: Compare public and private colleges, explore courses, and find campus contacts.
+  - name: Find a school
+    slug: find-school
+    description: Search elementary schools, high schools, integrated schools, and kindergarten centers across Siquijor.
+  - name: Enroll in basic education
+    slug: schools-division
+    description: Prepare enrollment documents and submit them to the learner’s school.
+  - name: Request school records
+    slug: school-directory
+    description: Get school forms, certifications, and permanent records.
+  - name: Siquijor State College courses
+    slug: public-higher-education
+    description: Find programs at Siquijor State College in Larena.

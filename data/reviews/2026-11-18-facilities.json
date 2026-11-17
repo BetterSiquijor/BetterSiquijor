@@ -1,0 +1,47 @@
+{
+  "reviewDate": "2026-11-18",
+  "dataset": "data/records/facilities.json",
+  "scope": "Two health facilities in PhilHealth’s September 2026 list; six municipal police stations and the provincial police office. Published contacts are not call-tested.",
+  "evidence": [
+    {
+      "source": "PhilHealth HOSP_093026.pdf",
+      "method": "Original PDF downloaded; page 52 extracted and visually rendered. Rows 1334–1335 read for name, municipality, address, type, listed beds, phone and email.",
+      "sourceDate": "2026-09-30",
+      "localDocument": "/documents/philhealth-hospitals-2026-09.pdf"
+    },
+    {
+      "source": "Hospital and police Facebook Intro pages",
+      "method": "Direct unauthenticated browser reads of the hospital page, SPPO page, and Enrique Villanueva, Lazi and Maria station pages. Canonical redirects, page identity, location and published contact text inspected.",
+      "pages": [
+        "https://www.facebook.com/SiquijorProvincialHospital/",
+        "https://www.facebook.com/people/PNP-Siquijor-Police-Provincial-Office/61558544321314/",
+        "https://www.facebook.com/people/PNP-Enrique-Villanueva-MPS/100069031275905/",
+        "https://www.facebook.com/lazipnp/",
+        "https://www.facebook.com/mariangpulis/"
+      ]
+    },
+    {
+      "source": "PNP ITMS station table",
+      "method": "Indexed publisher rows 147–152 confirm the six station names and municipalities; PDF access itself was blocked. No telephone numbers inferred from this table."
+    },
+    {
+      "source": "mystiquesppo.site station directories",
+      "method": "Office affiliation confirmed by directly read SPPO and Lazi Facebook website links. Undated location and station contacts read from indexed publisher pages. Live site and subdomains are suspended. Cached numbers remain explicitly labelled as undated directory contacts."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "Siquijor Provincial Hospital email and telephone",
+      "action": "Keep PhilHealth September 2026 contacts separate from the directly read hospital Facebook contacts, with labels and source IDs."
+    },
+    {
+      "field": "Maria police station barangay",
+      "action": "The directly read Maria station Facebook Intro confirms Poblacion Sur, Maria, Siquijor; use that address and the station-published telephone and email."
+    },
+    {
+      "field": "Larena and Siquijor station telephone numbers",
+      "action": "Station-specific pages and the older SPPO aggregate page disagree. Retain station-specific entries with visible undated directory labels and source notes; no claim of live availability."
+    }
+  ],
+  "omitted": "No invented Facebook links, street addresses, exact coordinates, missing phone numbers, clinic schedules, fees, or current staffing. Unconfirmed social page candidates were excluded."
+}

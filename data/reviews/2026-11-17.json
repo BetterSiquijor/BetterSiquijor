@@ -1,0 +1,63 @@
+{
+  "reviewDate": "2026-11-17",
+  "scope": "Primary-source review and local consistency checks; not a blanket certification of live office tenure, telephone operation, or exhaustive publication coverage.",
+  "checks": [
+    {
+      "dataset": "census",
+      "publisher": "Philippine Statistics Authority",
+      "referencePeriod": "2024 POPCEN, 1 July 2024",
+      "evidenceUrl": "https://rssonir.psa.gov.ph/content/2024-census-population-popcen-population-counts-siquijor-province-declared-official",
+      "result": "The official 28 July 2025 release confirms 107642 provincial residents and all six municipality totals. The PSGC municipality and barangay tables retain their 31 July 2025 geographic reference date. All 134 counts reconcile locally."
+    },
+    {
+      "dataset": "officials",
+      "publisher": "DILG; DBM",
+      "referencePeriod": "DILG February 2026 snapshot, term 2025–2028; DBM 2026 directory",
+      "evidenceUrl": "https://www.foi.gov.ph/agencies/dilg/lgu-elective-officials-for-term-2025-2028/",
+      "result": "DILG's August 2026 FOI response identifies its official directory. The 71 local records retain their source dates and row/page locators. DILG and DBM disagree on two vice-mayor names; this remains an explicit source discrepancy, not a resolved current-tenure claim."
+    },
+    {
+      "dataset": "financial-records",
+      "publisher": "Department of Budget and Management",
+      "referencePeriod": "2025 page-one extract; complete 2024 statement",
+      "evidenceUrl": "https://www.dbm.gov.ph/wp-content/uploads/BESF/BESF2027/F10.pdf",
+      "result": "Newer BESF 2027 PDF downloaded and both pages rendered. Page 1 is headed 2025; page 2 is headed 2024 (Continuation). Only the 24 Siquijor values from the explicitly dated first page are added. The complete, previously verified 2024 statement remains separate."
+    },
+    {
+      "dataset": "school-records-guide",
+      "publisher": "Department of Education",
+      "referencePeriod": "Citizen's Charter 2026, 2nd Edition",
+      "evidenceUrl": "https://www.deped.gov.ph/wp-content/uploads/DepEd-Citizens-Charter-2026-2nd-Edition.pdf",
+      "sourcePages": [
+        531,
+        532,
+        540,
+        541,
+        542,
+        543
+      ],
+      "result": "The current charter landing page links this edition. Relevant PDF pages were read and the requirement and total-time tables rendered. Replaced the 2025 generic school-record guidance with the 2026 service-specific requirements and standards: SF9 59 minutes; good moral/enrollment certificates 54 minutes; certified academic records for local employment 3 hours 59 minutes. Each listed fee is None."
+    },
+    {
+      "dataset": "business-name-registration",
+      "publisher": "Department of Trade and Industry",
+      "referencePeriod": "Undated live BNRS FAQ and registration guide, read 17 November 2026",
+      "evidenceUrl": "https://bnrs.dti.gov.ph/faq",
+      "additionalEvidenceUrl": "https://bnrs.dti.gov.ph/resources/registration-guide",
+      "result": "Replaced department test-host citations with live production BNRS pages after comparing eligibility, registration fees, five-year validity and the seven-calendar-day payment requirement."
+    }
+  ],
+  "freshnessPolicy": "Use source-specific reference dates. No automatic latest or verified badge is inferred from a successful build, HTTP response, or recent retrieval. Other service-source reviews retain their recorded editions; a newer publication must be substantively checked before replacing them.",
+  "accessLimitations": [
+    {
+      "publisher": "Philippine Statistics Authority",
+      "url": "https://psa.gov.ph/citizens-charter",
+      "result": "Access blocked by the publisher. No unsupported newer PhilSys charter edition was inferred; the guide retains its explicitly labelled 2025 standard."
+    },
+    {
+      "publisher": "Department of Foreign Affairs",
+      "url": "https://dfa.gov.ph/dfa-citizens-charter",
+      "result": "Access blocked by the publisher. No newer edition was asserted; the passport guide retains its recorded source editions."
+    }
+  ]
+}

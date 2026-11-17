@@ -1,25 +1,21 @@
-# How we review information
+# Sources and updates
 
-Our approach to source selection, dates, and corrections.
+Find government publications, check the date behind a figure, and help keep Siquijor information accurate.
 
-## Primary sources first
+## Where information comes from
 
-We prefer the issuing government agency, PSA statistical releases, original official documents, and government-published directories. A link is labelled according to its scope: national service, provincial reference, municipal profile, or external document repository.
+Population and barangay details come from the **Philippine Statistics Authority**. Government directories come from **DILG and DBM**. Financial statements come from **DBM**, procurement notices from **PhilGEPS**, and audit catalogue entries from **COA**. Service guides use the responsible agency’s requirements and charters.
 
-## Keep dates visible
+## Check the reference date
 
-Census counts show their census year. Office references show the source edition. A source review date records when we checked a reference, not when the government created the information.
+A census year, financial year, directory edition, and review date describe different things. Each record keeps its original period. A recent website review does not turn a past figure into a current one.
 
-## Separate verified data from missing records
+Where official publications disagree, the source notes identify the difference. Historical notices remain labelled with their dates and deadlines.
 
-We do not use invented budgets, placeholder officials, fictional project statuses, or example service fees. A missing local dataset remains labelled as incomplete. Website access restrictions do not establish non-compliance or absence of a public record.
+## Find an original or download data
 
-## Service boundaries
+Browse [sources and downloads](/government/sources/catalogue), or [search local records](/data). Original documents and source notes are included alongside the information.
 
-BetterSiquijor is an independent volunteer portal. Applications, payments, and eligibility decisions belong to the responsible agency. We link to official channels and do not collect applications or identity documents.
+## Help keep information accurate
 
-## Sources and review
-
-- [Source catalogue](/government/sources/catalogue)
-
-Source review: **17 November 2026**. This is a community reference. Confirm current requirements with the responsible office; BetterSiquijor does not process applications.
+[Suggest a correction](/government/sources/corrections) with the page, the detail to change, and an official publication supporting it.

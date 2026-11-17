@@ -1,0 +1,159 @@
+{
+  "reviewed": "2026-11-18",
+  "sources": [
+    {
+      "id": "unifast-colleges",
+      "publisher": "UniFAST",
+      "title": "List of RA 10931 Participating Higher Education Institutions",
+      "url": "https://unifast.gov.ph/hei-list.html",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "primary-government",
+      "localPage": "/services/education/colleges",
+      "coverage": "Four Siquijor institutions in the Negros Island Region entries: SSC (SUC), BIT Siquijor, Carmelite and QMIS (Private HEI). Participation does not establish individual scholarship eligibility or degree accreditation."
+    },
+    {
+      "id": "ssc-facebook",
+      "publisher": "Siquijor State College",
+      "title": "Official Facebook page — Intro and contacts",
+      "url": "https://www.facebook.com/siquijorstatecollege.officialpage",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published-social",
+      "localPage": "/services/education/colleges",
+      "coverage": "Official-page identity, Larena location, 0995 663 2898, siquijorstatecollege@gmail.com, and college website."
+    },
+    {
+      "id": "ssc-programs",
+      "publisher": "Siquijor State College",
+      "title": "Program offerings",
+      "url": "https://siquijorstate.edu.ph/programs-offered/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published",
+      "localPage": "/services/education/colleges",
+      "coverage": "Degree names and specializations in the college catalogue. Publisher-indexed text read; direct access returns 403. Accreditation labels and intake availability are not reproduced."
+    },
+    {
+      "id": "ssc-contact",
+      "publisher": "Siquijor State College",
+      "title": "Contact us — office emails",
+      "url": "https://siquijorstate.edu.ph/contact-us/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published",
+      "localPage": "/services/education/colleges",
+      "coverage": "Registrar email registrar@siquijorstate.edu.ph from publisher-indexed contact-page text; direct access returns 403."
+    },
+    {
+      "id": "bit-facebook",
+      "publisher": "BIT International College Siquijor",
+      "title": "Campus Facebook page — Intro and contacts",
+      "url": "https://www.facebook.com/BITICSIQUIJOR15",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published-social",
+      "localPage": "/services/education/colleges",
+      "coverage": "Campus identity, Pulangyuta address, (035) 480 9415 and bit.siquijor@gmail.com."
+    },
+    {
+      "id": "bit-siquijor-programs",
+      "publisher": "BIT International College",
+      "title": "Siquijor campus — courses offered",
+      "url": "https://www.bitic.edu.ph/siquijor/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published",
+      "localPage": "/services/education/colleges",
+      "coverage": "Siquijor-campus degrees and specializations only. The shared site header and footer describe Tagbilaran, not this campus."
+    },
+    {
+      "id": "bit-contact",
+      "publisher": "BIT International College",
+      "title": "Campus contact directory",
+      "url": "https://www.bitic.edu.ph/contact/",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published",
+      "localPage": "/services/education/colleges",
+      "coverage": "Siquijor entry uses telephone code 038. This conflicts with the campus Facebook page, which explicitly publishes 035; neither code has been inferred or corrected."
+    },
+    {
+      "id": "carmelite-facebook",
+      "publisher": "Carmelite College of Siquijor, Inc.",
+      "title": "College Facebook page — Intro and contacts",
+      "url": "https://www.facebook.com/carmelitecollegesiquijor2010",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published-social",
+      "localPage": "/services/education/colleges",
+      "coverage": "Official-page identity, Tinago address, (035) 542 6276 and carmelitecollege.siquijor@gmail.com; page linked by the college website."
+    },
+    {
+      "id": "carmelite-contact",
+      "publisher": "Carmelite College of Siquijor, Inc.",
+      "title": "Visit us — address and contacts",
+      "url": "https://www.carmelitecollegesiquijor.com/visit-us",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published",
+      "localPage": "/services/education/colleges",
+      "coverage": "Tinago, Siquijor, Siquijor 6225; website telephone (035) 344 2098 and footer email carmelitecollege.siquijor@gmail.com."
+    },
+    {
+      "id": "carmelite-programs",
+      "publisher": "Carmelite College of Siquijor, Inc.",
+      "title": "Courses",
+      "url": "https://www.carmelitecollegesiquijor.com/courses",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published",
+      "localPage": "/services/education/colleges",
+      "coverage": "BEEd (General), BSEd (English, Mathematics), BS Entrepreneurship. Senior-high strands are excluded from the college degree list."
+    },
+    {
+      "id": "qmis-facebook",
+      "publisher": "Quezon Memorial Institute of Siquijor, Inc.",
+      "title": "Official Facebook page — Intro and About contacts",
+      "url": "https://www.facebook.com/qmisinc",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "institution-published-social",
+      "localPage": "/services/education/colleges",
+      "coverage": "Official-page identity; About lists Siquijor, Philippines 6225 and qmisinc@gmail.com. No telephone or degree list inferred."
+    },
+    {
+      "id": "qmis-ched",
+      "publisher": "Commission on Higher Education",
+      "title": "HEIDA — Quezon Memorial Institute of Siquijor, Inc.",
+      "url": "https://heida.ched.gov.ph/hei-directory/18?search=Quezon",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "primary-government",
+      "localPage": "/services/education/colleges",
+      "coverage": "HEI code 7083: Canal address, (035) 5425002, qmisinc@gmail.com."
+    },
+    {
+      "id": "carmelite-ched",
+      "publisher": "Commission on Higher Education",
+      "title": "HEIDA — Carmelite College of Siquijor, Inc.",
+      "url": "https://heida.ched.gov.ph/hei-directory/18?search=Carmelite",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "primary-government",
+      "localPage": "/services/education/colleges",
+      "coverage": "HEI code 7177: Balas-balas, Tinago; (035) 542-6276; registrar and college emails."
+    },
+    {
+      "id": "bit-ched",
+      "publisher": "Commission on Higher Education",
+      "title": "HEIDA — BIT International College – Siquijor, Inc.",
+      "url": "https://heida.ched.gov.ph/hei-directory/18?search=BIT+International",
+      "sourceDate": null,
+      "reviewed": "2026-11-18",
+      "sourceType": "primary-government",
+      "localPage": "/services/education/colleges",
+      "coverage": "HEI code 7003: Polangyuta address; bit.siquijor@gmail.com and siquijorbit@gmail.com."
+    }
+  ]
+}

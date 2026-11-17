@@ -1,0 +1,1036 @@
+{
+  "metadata": {
+    "publisher": "Philippine Statistics Authority",
+    "title": "Siquijor: municipalities and barangays, 2024 POPCEN",
+    "census": "2024 POPCEN",
+    "populationReferenceDate": "2024-07-01",
+    "geographyAsOf": "2025-07-31",
+    "retrievedOn": "2026-11-17",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://psa.gov.ph/classification/psgc/citimuni/1806100000",
+    "method": "Structured transcription of the six PSA municipality tables. Barangay counts, unique PSGC codes, and population sums checked against the province and municipality totals. Classifications and income classes are reproduced as displayed by PSA, not reassessed here."
+  },
+  "province": {
+    "name": "Siquijor",
+    "psgc": "1806100000",
+    "region": "Negros Island Region",
+    "population": 107642,
+    "municipalityCount": 6,
+    "barangayCount": 134,
+    "incomeClass": "3rd"
+  },
+  "municipalities": [
+    {
+      "name": "Enrique Villanueva",
+      "slug": "enrique-villanueva",
+      "psgc": "1806101000",
+      "correspondenceCode": "076101000",
+      "incomeClass": "5th",
+      "population": 6965,
+      "barangayCount": 14,
+      "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/1806101000",
+      "barangays": [
+        {
+          "name": "Balolong",
+          "psgc": "1806101001",
+          "correspondenceCode": "076101001",
+          "classification": "Rural",
+          "population": 148
+        },
+        {
+          "name": "Bino-ongan",
+          "psgc": "1806101002",
+          "correspondenceCode": "076101002",
+          "classification": "Rural",
+          "population": 511
+        },
+        {
+          "name": "Bitaug",
+          "psgc": "1806101003",
+          "correspondenceCode": "076101003",
+          "classification": "Rural",
+          "population": 1014
+        },
+        {
+          "name": "Bolot",
+          "psgc": "1806101004",
+          "correspondenceCode": "076101004",
+          "classification": "Rural",
+          "population": 205
+        },
+        {
+          "name": "Camogao",
+          "psgc": "1806101005",
+          "correspondenceCode": "076101005",
+          "classification": "Rural",
+          "population": 370
+        },
+        {
+          "name": "Cangmangki",
+          "psgc": "1806101006",
+          "correspondenceCode": "076101006",
+          "classification": "Rural",
+          "population": 459
+        },
+        {
+          "name": "Libo",
+          "psgc": "1806101007",
+          "correspondenceCode": "076101007",
+          "classification": "Rural",
+          "population": 928
+        },
+        {
+          "name": "Lomangcapan",
+          "psgc": "1806101008",
+          "correspondenceCode": "076101008",
+          "classification": "Rural",
+          "population": 765
+        },
+        {
+          "name": "Lotloton",
+          "psgc": "1806101009",
+          "correspondenceCode": "076101009",
+          "classification": "Rural",
+          "population": 524
+        },
+        {
+          "name": "Manan-ao",
+          "psgc": "1806101010",
+          "correspondenceCode": "076101010",
+          "classification": "Rural",
+          "population": 185
+        },
+        {
+          "name": "Olave",
+          "psgc": "1806101011",
+          "correspondenceCode": "076101011",
+          "classification": "Rural",
+          "population": 208
+        },
+        {
+          "name": "Parian",
+          "psgc": "1806101012",
+          "correspondenceCode": "076101012",
+          "classification": "Rural",
+          "population": 217
+        },
+        {
+          "name": "Poblacion",
+          "psgc": "1806101013",
+          "correspondenceCode": "076101013",
+          "classification": "Rural",
+          "population": 570
+        },
+        {
+          "name": "Tulapos",
+          "psgc": "1806101014",
+          "correspondenceCode": "076101014",
+          "classification": "Rural",
+          "population": 861
+        }
+      ]
+    },
+    {
+      "name": "Larena",
+      "slug": "larena",
+      "psgc": "1806102000",
+      "correspondenceCode": "076102000",
+      "incomeClass": "4th",
+      "population": 14933,
+      "barangayCount": 23,
+      "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/1806102000",
+      "barangays": [
+        {
+          "name": "Bagacay",
+          "psgc": "1806102001",
+          "correspondenceCode": "076102001",
+          "classification": "Rural",
+          "population": 617
+        },
+        {
+          "name": "Balolang",
+          "psgc": "1806102002",
+          "correspondenceCode": "076102002",
+          "classification": "Rural",
+          "population": 346
+        },
+        {
+          "name": "Basac",
+          "psgc": "1806102003",
+          "correspondenceCode": "076102003",
+          "classification": "Rural",
+          "population": 1020
+        },
+        {
+          "name": "Bintangan",
+          "psgc": "1806102004",
+          "correspondenceCode": "076102004",
+          "classification": "Rural",
+          "population": 355
+        },
+        {
+          "name": "Bontod",
+          "psgc": "1806102005",
+          "correspondenceCode": "076102005",
+          "classification": "Rural",
+          "population": 588
+        },
+        {
+          "name": "Cabulihan",
+          "psgc": "1806102006",
+          "correspondenceCode": "076102006",
+          "classification": "Rural",
+          "population": 319
+        },
+        {
+          "name": "Calunasan",
+          "psgc": "1806102007",
+          "correspondenceCode": "076102007",
+          "classification": "Rural",
+          "population": 410
+        },
+        {
+          "name": "Candigum",
+          "psgc": "1806102008",
+          "correspondenceCode": "076102008",
+          "classification": "Rural",
+          "population": 460
+        },
+        {
+          "name": "Cang-allas",
+          "psgc": "1806102009",
+          "correspondenceCode": "076102009",
+          "classification": "Rural",
+          "population": 414
+        },
+        {
+          "name": "Cang-apa",
+          "psgc": "1806102010",
+          "correspondenceCode": "076102010",
+          "classification": "Rural",
+          "population": 433
+        },
+        {
+          "name": "Cangbagsa",
+          "psgc": "1806102011",
+          "correspondenceCode": "076102011",
+          "classification": "Rural",
+          "population": 1046
+        },
+        {
+          "name": "Cangmalalag",
+          "psgc": "1806102012",
+          "correspondenceCode": "076102012",
+          "classification": "Rural",
+          "population": 505
+        },
+        {
+          "name": "Canlambo",
+          "psgc": "1806102013",
+          "correspondenceCode": "076102013",
+          "classification": "Rural",
+          "population": 799
+        },
+        {
+          "name": "Canlasog",
+          "psgc": "1806102014",
+          "correspondenceCode": "076102014",
+          "classification": "Rural",
+          "population": 330
+        },
+        {
+          "name": "Catamboan",
+          "psgc": "1806102015",
+          "correspondenceCode": "076102015",
+          "classification": "Rural",
+          "population": 495
+        },
+        {
+          "name": "Helen",
+          "psgc": "1806102016",
+          "correspondenceCode": "076102016",
+          "classification": "Rural",
+          "population": 1379
+        },
+        {
+          "name": "Nonoc",
+          "psgc": "1806102017",
+          "correspondenceCode": "076102017",
+          "classification": "Urban",
+          "population": 1226
+        },
+        {
+          "name": "North Poblacion",
+          "psgc": "1806102018",
+          "correspondenceCode": "076102018",
+          "classification": "Urban",
+          "population": 1032
+        },
+        {
+          "name": "South Poblacion",
+          "psgc": "1806102019",
+          "correspondenceCode": "076102019",
+          "classification": "Urban",
+          "population": 844
+        },
+        {
+          "name": "Ponong",
+          "psgc": "1806102020",
+          "correspondenceCode": "076102020",
+          "classification": "Rural",
+          "population": 308
+        },
+        {
+          "name": "Sabang",
+          "psgc": "1806102021",
+          "correspondenceCode": "076102021",
+          "classification": "Rural",
+          "population": 484
+        },
+        {
+          "name": "Sandugan",
+          "psgc": "1806102022",
+          "correspondenceCode": "076102022",
+          "classification": "Rural",
+          "population": 1123
+        },
+        {
+          "name": "Taculing",
+          "psgc": "1806102023",
+          "correspondenceCode": "076102023",
+          "classification": "Rural",
+          "population": 400
+        }
+      ]
+    },
+    {
+      "name": "Lazi",
+      "slug": "lazi",
+      "psgc": "1806103000",
+      "correspondenceCode": "076103000",
+      "incomeClass": "4th",
+      "population": 23092,
+      "barangayCount": 18,
+      "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/1806103000",
+      "barangays": [
+        {
+          "name": "Campalanas",
+          "psgc": "1806103001",
+          "correspondenceCode": "076103001",
+          "classification": "Rural",
+          "population": 2277
+        },
+        {
+          "name": "Cangclaran",
+          "psgc": "1806103002",
+          "correspondenceCode": "076103002",
+          "classification": "Rural",
+          "population": 616
+        },
+        {
+          "name": "Cangomantong",
+          "psgc": "1806103003",
+          "correspondenceCode": "076103003",
+          "classification": "Rural",
+          "population": 1133
+        },
+        {
+          "name": "Capalasanan",
+          "psgc": "1806103004",
+          "correspondenceCode": "076103004",
+          "classification": "Rural",
+          "population": 1317
+        },
+        {
+          "name": "Catamboan",
+          "psgc": "1806103005",
+          "correspondenceCode": "076103005",
+          "classification": "Rural",
+          "population": 1823
+        },
+        {
+          "name": "Gabayan",
+          "psgc": "1806103006",
+          "correspondenceCode": "076103006",
+          "classification": "Rural",
+          "population": 2159
+        },
+        {
+          "name": "Kimba",
+          "psgc": "1806103007",
+          "correspondenceCode": "076103007",
+          "classification": "Rural",
+          "population": 878
+        },
+        {
+          "name": "Kinamandagan",
+          "psgc": "1806103008",
+          "correspondenceCode": "076103008",
+          "classification": "Rural",
+          "population": 1043
+        },
+        {
+          "name": "Lower Cabangcalan",
+          "psgc": "1806103009",
+          "correspondenceCode": "076103009",
+          "classification": "Rural",
+          "population": 1069
+        },
+        {
+          "name": "Nagerong",
+          "psgc": "1806103010",
+          "correspondenceCode": "076103010",
+          "classification": "Rural",
+          "population": 1663
+        },
+        {
+          "name": "Po-o",
+          "psgc": "1806103011",
+          "correspondenceCode": "076103011",
+          "classification": "Rural",
+          "population": 762
+        },
+        {
+          "name": "Simacolong",
+          "psgc": "1806103012",
+          "correspondenceCode": "076103012",
+          "classification": "Rural",
+          "population": 2269
+        },
+        {
+          "name": "Tagmanocan",
+          "psgc": "1806103013",
+          "correspondenceCode": "076103013",
+          "classification": "Rural",
+          "population": 973
+        },
+        {
+          "name": "Talayong",
+          "psgc": "1806103014",
+          "correspondenceCode": "076103014",
+          "classification": "Rural",
+          "population": 674
+        },
+        {
+          "name": "Tigbawan",
+          "psgc": "1806103015",
+          "correspondenceCode": "076103015",
+          "classification": "Rural",
+          "population": 1646
+        },
+        {
+          "name": "Tignao",
+          "psgc": "1806103016",
+          "correspondenceCode": "076103016",
+          "classification": "Rural",
+          "population": 960
+        },
+        {
+          "name": "Upper Cabangcalan",
+          "psgc": "1806103017",
+          "correspondenceCode": "076103017",
+          "classification": "Rural",
+          "population": 774
+        },
+        {
+          "name": "Ytaya",
+          "psgc": "1806103018",
+          "correspondenceCode": "076103018",
+          "classification": "Rural",
+          "population": 1056
+        }
+      ]
+    },
+    {
+      "name": "Maria",
+      "slug": "maria",
+      "psgc": "1806104000",
+      "correspondenceCode": "076104000",
+      "incomeClass": "4th",
+      "population": 15146,
+      "barangayCount": 22,
+      "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/1806104000",
+      "barangays": [
+        {
+          "name": "Bogo",
+          "psgc": "1806104001",
+          "correspondenceCode": "076104001",
+          "classification": "Rural",
+          "population": 911
+        },
+        {
+          "name": "Bonga",
+          "psgc": "1806104002",
+          "correspondenceCode": "076104002",
+          "classification": "Rural",
+          "population": 578
+        },
+        {
+          "name": "Cabal-asan",
+          "psgc": "1806104003",
+          "correspondenceCode": "076104003",
+          "classification": "Rural",
+          "population": 394
+        },
+        {
+          "name": "Calunasan",
+          "psgc": "1806104004",
+          "correspondenceCode": "076104004",
+          "classification": "Rural",
+          "population": 644
+        },
+        {
+          "name": "Candaping A",
+          "psgc": "1806104005",
+          "correspondenceCode": "076104005",
+          "classification": "Rural",
+          "population": 718
+        },
+        {
+          "name": "Candaping B",
+          "psgc": "1806104006",
+          "correspondenceCode": "076104006",
+          "classification": "Rural",
+          "population": 782
+        },
+        {
+          "name": "Cantaroc A",
+          "psgc": "1806104007",
+          "correspondenceCode": "076104007",
+          "classification": "Rural",
+          "population": 484
+        },
+        {
+          "name": "Cantaroc B",
+          "psgc": "1806104008",
+          "correspondenceCode": "076104008",
+          "classification": "Rural",
+          "population": 564
+        },
+        {
+          "name": "Cantugbas",
+          "psgc": "1806104009",
+          "correspondenceCode": "076104009",
+          "classification": "Rural",
+          "population": 425
+        },
+        {
+          "name": "Lico-an",
+          "psgc": "1806104010",
+          "correspondenceCode": "076104010",
+          "classification": "Rural",
+          "population": 563
+        },
+        {
+          "name": "Lilo-an",
+          "psgc": "1806104011",
+          "correspondenceCode": "076104011",
+          "classification": "Rural",
+          "population": 1467
+        },
+        {
+          "name": "Looc",
+          "psgc": "1806104012",
+          "correspondenceCode": "076104012",
+          "classification": "Rural",
+          "population": 502
+        },
+        {
+          "name": "Logucan",
+          "psgc": "1806104013",
+          "correspondenceCode": "076104013",
+          "classification": "Rural",
+          "population": 663
+        },
+        {
+          "name": "Minalulan",
+          "psgc": "1806104014",
+          "correspondenceCode": "076104014",
+          "classification": "Rural",
+          "population": 898
+        },
+        {
+          "name": "Nabutay",
+          "psgc": "1806104015",
+          "correspondenceCode": "076104015",
+          "classification": "Rural",
+          "population": 1095
+        },
+        {
+          "name": "Olang",
+          "psgc": "1806104016",
+          "correspondenceCode": "076104016",
+          "classification": "Rural",
+          "population": 753
+        },
+        {
+          "name": "Pisong A",
+          "psgc": "1806104017",
+          "correspondenceCode": "076104017",
+          "classification": "Rural",
+          "population": 377
+        },
+        {
+          "name": "Pisong B",
+          "psgc": "1806104018",
+          "correspondenceCode": "076104018",
+          "classification": "Rural",
+          "population": 259
+        },
+        {
+          "name": "Poblacion Norte",
+          "psgc": "1806104019",
+          "correspondenceCode": "076104019",
+          "classification": "Rural",
+          "population": 1194
+        },
+        {
+          "name": "Poblacion Sur",
+          "psgc": "1806104020",
+          "correspondenceCode": "076104020",
+          "classification": "Rural",
+          "population": 637
+        },
+        {
+          "name": "Saguing",
+          "psgc": "1806104021",
+          "correspondenceCode": "076104021",
+          "classification": "Rural",
+          "population": 776
+        },
+        {
+          "name": "Sawang",
+          "psgc": "1806104022",
+          "correspondenceCode": "076104022",
+          "classification": "Rural",
+          "population": 462
+        }
+      ]
+    },
+    {
+      "name": "San Juan",
+      "slug": "san-juan",
+      "psgc": "1806105000",
+      "correspondenceCode": "076105000",
+      "incomeClass": "4th",
+      "population": 17291,
+      "barangayCount": 15,
+      "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/1806105000",
+      "barangays": [
+        {
+          "name": "Canasagan",
+          "psgc": "1806105001",
+          "correspondenceCode": "076105001",
+          "classification": "Rural",
+          "population": 818
+        },
+        {
+          "name": "Candura",
+          "psgc": "1806105002",
+          "correspondenceCode": "076105002",
+          "classification": "Rural",
+          "population": 516
+        },
+        {
+          "name": "Cangmunag",
+          "psgc": "1806105003",
+          "correspondenceCode": "076105003",
+          "classification": "Rural",
+          "population": 1332
+        },
+        {
+          "name": "Cansayang",
+          "psgc": "1806105004",
+          "correspondenceCode": "076105004",
+          "classification": "Rural",
+          "population": 582
+        },
+        {
+          "name": "Catulayan",
+          "psgc": "1806105005",
+          "correspondenceCode": "076105005",
+          "classification": "Rural",
+          "population": 2132
+        },
+        {
+          "name": "Lala-o",
+          "psgc": "1806105006",
+          "correspondenceCode": "076105006",
+          "classification": "Urban",
+          "population": 943
+        },
+        {
+          "name": "Maite",
+          "psgc": "1806105007",
+          "correspondenceCode": "076105007",
+          "classification": "Urban",
+          "population": 1204
+        },
+        {
+          "name": "Napo",
+          "psgc": "1806105008",
+          "correspondenceCode": "076105008",
+          "classification": "Rural",
+          "population": 974
+        },
+        {
+          "name": "Paliton",
+          "psgc": "1806105009",
+          "correspondenceCode": "076105009",
+          "classification": "Rural",
+          "population": 961
+        },
+        {
+          "name": "Poblacion",
+          "psgc": "1806105010",
+          "correspondenceCode": "076105010",
+          "classification": "Urban",
+          "population": 923
+        },
+        {
+          "name": "Solangon",
+          "psgc": "1806105011",
+          "correspondenceCode": "076105011",
+          "classification": "Rural",
+          "population": 1597
+        },
+        {
+          "name": "Tag-ibo",
+          "psgc": "1806105012",
+          "correspondenceCode": "076105012",
+          "classification": "Rural",
+          "population": 1035
+        },
+        {
+          "name": "Tambisan",
+          "psgc": "1806105013",
+          "correspondenceCode": "076105013",
+          "classification": "Rural",
+          "population": 1427
+        },
+        {
+          "name": "Timbaon",
+          "psgc": "1806105014",
+          "correspondenceCode": "076105014",
+          "classification": "Rural",
+          "population": 1624
+        },
+        {
+          "name": "Tubod",
+          "psgc": "1806105015",
+          "correspondenceCode": "076105015",
+          "classification": "Urban",
+          "population": 1223
+        }
+      ]
+    },
+    {
+      "name": "Siquijor",
+      "slug": "siquijor",
+      "psgc": "1806106000",
+      "correspondenceCode": "076106000",
+      "incomeClass": "3rd",
+      "population": 30215,
+      "barangayCount": 42,
+      "sourceUrl": "https://psa.gov.ph/classification/psgc/barangays/1806106000",
+      "barangays": [
+        {
+          "name": "Banban",
+          "psgc": "1806106001",
+          "correspondenceCode": "076106001",
+          "classification": "Rural",
+          "population": 834
+        },
+        {
+          "name": "Bolos",
+          "psgc": "1806106002",
+          "correspondenceCode": "076106002",
+          "classification": "Rural",
+          "population": 274
+        },
+        {
+          "name": "Caipilan",
+          "psgc": "1806106003",
+          "correspondenceCode": "076106003",
+          "classification": "Rural",
+          "population": 1233
+        },
+        {
+          "name": "Caitican",
+          "psgc": "1806106004",
+          "correspondenceCode": "076106004",
+          "classification": "Rural",
+          "population": 602
+        },
+        {
+          "name": "Calalinan",
+          "psgc": "1806106005",
+          "correspondenceCode": "076106005",
+          "classification": "Rural",
+          "population": 943
+        },
+        {
+          "name": "Cang-atuyom",
+          "psgc": "1806106006",
+          "correspondenceCode": "076106006",
+          "classification": "Rural",
+          "population": 407
+        },
+        {
+          "name": "Canal",
+          "psgc": "1806106007",
+          "correspondenceCode": "076106007",
+          "classification": "Rural",
+          "population": 555
+        },
+        {
+          "name": "Candanay Norte",
+          "psgc": "1806106008",
+          "correspondenceCode": "076106008",
+          "classification": "Rural",
+          "population": 1082
+        },
+        {
+          "name": "Candanay Sur",
+          "psgc": "1806106009",
+          "correspondenceCode": "076106009",
+          "classification": "Rural",
+          "population": 1057
+        },
+        {
+          "name": "Cang-adieng",
+          "psgc": "1806106010",
+          "correspondenceCode": "076106010",
+          "classification": "Rural",
+          "population": 323
+        },
+        {
+          "name": "Cang-agong",
+          "psgc": "1806106011",
+          "correspondenceCode": "076106011",
+          "classification": "Rural",
+          "population": 1047
+        },
+        {
+          "name": "Cang-alwang",
+          "psgc": "1806106012",
+          "correspondenceCode": "076106012",
+          "classification": "Rural",
+          "population": 971
+        },
+        {
+          "name": "Cang-asa",
+          "psgc": "1806106013",
+          "correspondenceCode": "076106013",
+          "classification": "Rural",
+          "population": 1194
+        },
+        {
+          "name": "Cang-inte",
+          "psgc": "1806106014",
+          "correspondenceCode": "076106014",
+          "classification": "Rural",
+          "population": 216
+        },
+        {
+          "name": "Cang-isad",
+          "psgc": "1806106015",
+          "correspondenceCode": "076106015",
+          "classification": "Rural",
+          "population": 191
+        },
+        {
+          "name": "Canghunoghunog",
+          "psgc": "1806106016",
+          "correspondenceCode": "076106016",
+          "classification": "Rural",
+          "population": 304
+        },
+        {
+          "name": "Cangmatnog",
+          "psgc": "1806106017",
+          "correspondenceCode": "076106017",
+          "classification": "Rural",
+          "population": 247
+        },
+        {
+          "name": "Cangmohao",
+          "psgc": "1806106018",
+          "correspondenceCode": "076106018",
+          "classification": "Rural",
+          "population": 244
+        },
+        {
+          "name": "Cantabon",
+          "psgc": "1806106019",
+          "correspondenceCode": "076106019",
+          "classification": "Rural",
+          "population": 514
+        },
+        {
+          "name": "Caticugan",
+          "psgc": "1806106020",
+          "correspondenceCode": "076106020",
+          "classification": "Rural",
+          "population": 1152
+        },
+        {
+          "name": "Dumanhog",
+          "psgc": "1806106021",
+          "correspondenceCode": "076106021",
+          "classification": "Urban",
+          "population": 761
+        },
+        {
+          "name": "Ibabao",
+          "psgc": "1806106022",
+          "correspondenceCode": "076106022",
+          "classification": "Rural",
+          "population": 347
+        },
+        {
+          "name": "Lambojon",
+          "psgc": "1806106023",
+          "correspondenceCode": "076106023",
+          "classification": "Rural",
+          "population": 315
+        },
+        {
+          "name": "Luyang",
+          "psgc": "1806106024",
+          "correspondenceCode": "076106024",
+          "classification": "Rural",
+          "population": 766
+        },
+        {
+          "name": "Luzong",
+          "psgc": "1806106025",
+          "correspondenceCode": "076106025",
+          "classification": "Rural",
+          "population": 498
+        },
+        {
+          "name": "Olo",
+          "psgc": "1806106026",
+          "correspondenceCode": "076106026",
+          "classification": "Rural",
+          "population": 859
+        },
+        {
+          "name": "Pangi",
+          "psgc": "1806106027",
+          "correspondenceCode": "076106027",
+          "classification": "Rural",
+          "population": 1865
+        },
+        {
+          "name": "Panlautan",
+          "psgc": "1806106028",
+          "correspondenceCode": "076106028",
+          "classification": "Rural",
+          "population": 285
+        },
+        {
+          "name": "Pasihagon",
+          "psgc": "1806106029",
+          "correspondenceCode": "076106029",
+          "classification": "Rural",
+          "population": 1306
+        },
+        {
+          "name": "Pili",
+          "psgc": "1806106030",
+          "correspondenceCode": "076106030",
+          "classification": "Rural",
+          "population": 445
+        },
+        {
+          "name": "Poblacion",
+          "psgc": "1806106031",
+          "correspondenceCode": "076106031",
+          "classification": "Urban",
+          "population": 1417
+        },
+        {
+          "name": "Polangyuta",
+          "psgc": "1806106032",
+          "correspondenceCode": "076106032",
+          "classification": "Rural",
+          "population": 931
+        },
+        {
+          "name": "Ponong",
+          "psgc": "1806106033",
+          "correspondenceCode": "076106033",
+          "classification": "Rural",
+          "population": 876
+        },
+        {
+          "name": "Sabang",
+          "psgc": "1806106034",
+          "correspondenceCode": "076106034",
+          "classification": "Rural",
+          "population": 507
+        },
+        {
+          "name": "San Antonio",
+          "psgc": "1806106035",
+          "correspondenceCode": "076106035",
+          "classification": "Rural",
+          "population": 890
+        },
+        {
+          "name": "Songculan",
+          "psgc": "1806106036",
+          "correspondenceCode": "076106036",
+          "classification": "Rural",
+          "population": 316
+        },
+        {
+          "name": "Tacdog",
+          "psgc": "1806106037",
+          "correspondenceCode": "076106037",
+          "classification": "Rural",
+          "population": 589
+        },
+        {
+          "name": "Tacloban",
+          "psgc": "1806106038",
+          "correspondenceCode": "076106038",
+          "classification": "Rural",
+          "population": 724
+        },
+        {
+          "name": "Tambisan",
+          "psgc": "1806106039",
+          "correspondenceCode": "076106039",
+          "classification": "Rural",
+          "population": 760
+        },
+        {
+          "name": "Tebjong",
+          "psgc": "1806106040",
+          "correspondenceCode": "076106040",
+          "classification": "Rural",
+          "population": 227
+        },
+        {
+          "name": "Tinago",
+          "psgc": "1806106041",
+          "correspondenceCode": "076106041",
+          "classification": "Rural",
+          "population": 1309
+        },
+        {
+          "name": "Tongo",
+          "psgc": "1806106042",
+          "correspondenceCode": "076106042",
+          "classification": "Rural",
+          "population": 832
+        }
+      ]
+    }
+  ]
+}
+

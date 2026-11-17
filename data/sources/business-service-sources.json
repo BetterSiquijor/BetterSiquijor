@@ -1,0 +1,107 @@
+{
+  "reviewedAt": "2026-11-17",
+  "sources": [
+    {
+      "id": "dti-bnrs-faq",
+      "publisher": "Department of Trade and Industry",
+      "title": "BNRS Frequently Asked Questions",
+      "url": "https://bnrs.dti.gov.ph/faq",
+      "coverage": "Eligibility, business-name versus municipal permit, territorial scope, registration fees, certificate retrieval, and validity.",
+      "reviewedAt": "2026-11-17",
+      "verification": "Live production BNRS page read on 17 November 2026; eligibility, fees, validity, registration sequence and payment period compared with the guide."
+    },
+    {
+      "id": "dti-bnrs-guide",
+      "publisher": "Department of Trade and Industry",
+      "title": "BNRS Registration Guide",
+      "url": "https://bnrs.dti.gov.ph/resources/registration-guide",
+      "coverage": "New registration, reference code, seven-calendar-day payment period, and certificate retrieval on the live BNRS website.",
+      "reviewedAt": "2026-11-17",
+      "verification": "Live production BNRS page read on 17 November 2026; eligibility, fees, validity, registration sequence and payment period compared with the guide."
+    },
+    {
+      "id": "boi-costs-2026",
+      "publisher": "Board of Investments / Department of Trade and Industry",
+      "title": "2026 Cost of Doing Business, 11 March 2026",
+      "url": "https://boi.gov.ph/wp-content/uploads/2026/03/2026-Cost-of-Doing-Business_11March2026.pdf",
+      "sourceDate": "2026-03-11",
+      "coverage": "DTI registration fees by territorial scope and documentary stamp tax.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "bir-registration-guide",
+      "publisher": "Bureau of Internal Revenue",
+      "title": "Ways to Register a Business",
+      "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/TP_Guide_on_Business_Registration.pdf",
+      "coverage": "Registration channels, individual/non-individual documents, and invoice alternatives.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "bir-newbizreg",
+      "publisher": "Bureau of Internal Revenue",
+      "title": "New Business Registration portal instructions",
+      "url": "https://web-services.bir.gov.ph/newbizreg/",
+      "coverage": "PDF attachment size, questionnaire, DST, RDO routing, acknowledgment, and collection.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "bir-orus-setup",
+      "publisher": "Bureau of Internal Revenue",
+      "title": "RMC 120-2023 attachment — ORUS account setup",
+      "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMC%20No.%20120-2023%20Attachment.pdf",
+      "sourceYear": 2023,
+      "coverage": "Account creation and permanent-email requirements.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "bir-arf-removal",
+      "publisher": "Bureau of Internal Revenue",
+      "title": "Revenue Memorandum Circular 14-2024",
+      "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMC%20No.%2014-2024.pdf",
+      "sourceDate": "2024-01-24",
+      "coverage": "Annual Registration Fee collection ceased22January2024.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "bir-rdo79-2026",
+      "publisher": "Bureau of Internal Revenue",
+      "title": "RMC 117-2026 Annex2 — FOI Receiving Officers",
+      "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/RMC%20No.%20117-2026%20ANNEX%202-compressed.pdf",
+      "sourceYear": 2026,
+      "coverage": "Negros Oriental and Siquijor RDO79 office address and telephone.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "ble-philjobnet",
+      "publisher": "DOLE Bureau of Local Employment",
+      "title": "About PhilJobNet",
+      "url": "https://ble.dole.gov.ph/about-philjobnet/",
+      "coverage": "Jobseeker functions, client eligibility, and employer accreditation.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "philjobnet-signup",
+      "publisher": "DOLE PhilJobNet",
+      "title": "Sign up — account creation guide",
+      "url": "https://philjobnet.gov.ph/signup.aspx",
+      "coverage": "Applicant sign-up, valid email, activation, profile completion, and password rules.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "philjobnet-services",
+      "publisher": "DOLE PhilJobNet",
+      "title": "Jobs and Labour Market Information Portal",
+      "url": "https://philjobnet.gov.ph/",
+      "coverage": "Free job matching and accredited employer participation.",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "peis-registration",
+      "publisher": "DOLE PESO Employment Information System",
+      "title": "How to register",
+      "url": "https://peis.philjobnet.gov.ph/register.aspx",
+      "coverage": "Online or PESO-assisted jobseeker registration and National Skills Registry.",
+      "reviewedAt": "2026-11-17"
+    }
+  ]
+}

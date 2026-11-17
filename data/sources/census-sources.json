@@ -1,0 +1,86 @@
+{
+  "reviewed": "2026-11-17",
+  "sources": [
+    {
+      "id": "psa-province",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Siquijor province and municipality census listing",
+      "url": "https://psa.gov.ph/classification/psgc/citimuni/1806100000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "Province and municipality counts; population reference 1 July 2024",
+      "localPage": "/data"
+    },
+    {
+      "id": "psa-enrique-villanueva",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Enrique Villanueva barangay listing",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806101000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 14 barangays, codes, classifications and 2024 populations",
+      "localPage": "/government/municipalities/enrique-villanueva"
+    },
+    {
+      "id": "psa-larena",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Larena barangay listing",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806102000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 23 barangays, codes, classifications and 2024 populations",
+      "localPage": "/government/municipalities/larena"
+    },
+    {
+      "id": "psa-lazi",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Lazi barangay listing",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806103000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 18 barangays, codes, classifications and 2024 populations",
+      "localPage": "/government/municipalities/lazi"
+    },
+    {
+      "id": "psa-maria",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Maria barangay listing",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806104000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 22 barangays, codes, classifications and 2024 populations",
+      "localPage": "/government/municipalities/maria"
+    },
+    {
+      "id": "psa-san-juan",
+      "publisher": "Philippine Statistics Authority",
+      "title": "San Juan barangay listing",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806105000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 15 barangays, codes, classifications and 2024 populations",
+      "localPage": "/government/municipalities/san-juan"
+    },
+    {
+      "id": "psa-siquijor",
+      "publisher": "Philippine Statistics Authority",
+      "title": "Siquijor barangay listing",
+      "url": "https://psa.gov.ph/classification/psgc/barangays/1806106000",
+      "sourceDate": "2024 POPCEN; geographic listing 31 July 2025",
+      "reviewed": "2026-11-17",
+      "coverage": "All 42 barangays, codes, classifications and 2024 populations",
+      "localPage": "/government/municipalities/siquijor"
+    },
+    {
+      "id": "psa-siquijor-popcen2024-release",
+      "title": "2024 POPCEN population counts of Siquijor Province declared official",
+      "publisher": "Philippine Statistics Authority — Negros Island Region",
+      "url": "https://rssonir.psa.gov.ph/content/2024-census-population-popcen-population-counts-siquijor-province-declared-official",
+      "sourceDate": "2025-07-28",
+      "reviewed": "2026-11-17",
+      "coverage": "Provincial and six municipality populations, as of 1 July 2024",
+      "sourceType": "primary-government",
+      "localPage": "/data"
+    }
+  ]
+}

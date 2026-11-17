@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "reviewed": "2026-11-17",
+    "category": "Citizen assistance & travel",
+    "recordCount": 2
+  },
+  "guides": [
+    {
+      "id": "dswd-aics",
+      "title": "DSWD crisis assistance (AICS)",
+      "category": "citizen-services",
+      "route": "/services/citizen-services/dswd-aics",
+      "scope": "National DSWD program; applicable to residents of Siquijor subject to assessment",
+      "eligibility": "Indigent, marginalized, vulnerable, disadvantaged, and financially incapacitated people and families in crisis, based on social-worker assessment.",
+      "assistanceTypes": [
+        "Medical",
+        "Funeral",
+        "Food",
+        "Transportation",
+        "Psychosocial support",
+        "Referrals"
+      ],
+      "requirements": [
+        {
+          "item": "Valid government-issued ID of client/person interviewed",
+          "copies": "Original presented during assessment and two photocopies",
+          "examples": [
+            "National ID",
+            "UMID",
+            "SSS or GSIS ID",
+            "PhilHealth ID",
+            "PRC ID",
+            "OWWA or OFW ID"
+          ]
+        },
+        {
+          "item": "Supporting documents specific to the crisis",
+          "details": "Medical records and bills/prescription/laboratory order and quotation, funeral death record and contract/account, or transportation circumstance records as applicable."
+        }
+      ],
+      "steps": [
+        "Document screening through DSWD crisis-intervention services.",
+        "Social-worker interview and assessment of eligibility, need, documents, appropriate assistance, and recommended amount.",
+        "Approval and release instructions for assistance or referral."
+      ],
+      "assessmentBasis": "Actual need, supporting records, and available program funds; no fixed grant amount promised.",
+      "sourceIds": [
+        "dswd-aics-charter-2025",
+        "dswd-aics-faq",
+        "dswd-aics-mc2022-015"
+      ],
+      "path": "content/services/citizen-services/dswd-aics.md",
+      "contentMarkdown": "# DSWD crisis assistance (AICS)\n\nThe **Assistance to Individuals in Crisis Situations** program supports people and families facing a crisis. DSWD's 2025 charter covers indigent, marginalized, vulnerable, disadvantaged, and financially incapacitated applicants, subject to a social worker's assessment. Assistance can include medical, funeral, food, transportation, psychosocial support, and referrals. [1]\n\n## Prepare your documents\n\nBring your **original valid government-issued ID and two photocopies**, as specified in the 2025 charter. Examples include National ID, UMID, SSS/GSIS, PhilHealth, PRC, and OWWA/OFW ID. [1]\n\nPrepare the records relevant to your request. DSWD's AICS FAQ lists these examples; documents are submitted as originals or certified true copies. [2]\n\n| Request | Supporting records |\n| --- | --- |\n| Hospital bill | Medical certificate, clinical abstract, discharge summary, or other accepted medical record; hospital bill or statement of account. For an outstanding obligation, certificate of balance or promissory note. |\n| Medicines | Medical record and prescription or treatment protocol; price quotation as applicable. |\n| Laboratory examination | Doctor's order or laboratory request and official price quotation. |\n| Funeral expenses | Death certificate or accepted death certification; funeral contract or statement of account. Outstanding obligations may require a balance certificate or promissory note. |\n| Transportation | Documents establishing the circumstance, such as a medical certificate, death certificate, police certification, court order, or subpoena, depending on the request. |\n\n## Application process\n\n1. Present the documents for screening through DSWD's crisis-intervention service. The charter identifies CIS, SWAD, satellite offices, and Malasakit Centers as delivery channels. [1]\n2. Attend the social worker's interview and assessment. The worker evaluates the actual need, documentary evidence, eligibility, appropriate service, and any financial assistance recommended for approval. [3]\n3. After approval, follow the release instructions for the assistance or referral. [3]\n\n**Assistance is assessed individually.** The amount depends on actual need, supporting records, and program funds; an application does not establish a fixed entitlement. [3]\n\n## Sources\n\n1. [DSWD — 2025 Unified Citizen's Charter, 2nd edition, onsite AICS service](https://fo6.dswd.gov.ph/wp-content/uploads/2026/01/2025-2nd-Edition-DSWD-Unified-Citizens-Charter.pdf)\n2. [DSWD — AICS/AKAP frequently asked questions, AICS documentary requirements](https://aics.dswd.gov.ph/about-us/faqs/)\n3. [DSWD — Memorandum Circular 15, series of 2022, individual-client screening, assessment, and release](https://aics.dswd.gov.ph/wp-content/uploads/2023/03/MC_2022-015.pdf)\n\nNational program information for residents of Siquijor. Source review: **17 November 2026**.\n"
+    },
+    {
+      "id": "adult-passport",
+      "title": "First-time adult Philippine passport",
+      "category": "citizen-services",
+      "route": "/services/citizen-services/adult-passport",
+      "scope": "Adult first-time applicants at domestic Philippine consular offices",
+      "requirements": [
+        "Personal appearance",
+        "Confirmed online appointment",
+        "Completed application form",
+        "DFA payment e-receipt",
+        "Documentary proof of Philippine citizenship, such as PSA Certificate of Live Birth or Report of Birth for natural-born applicants",
+        "At least one accepted valid ID, such as PhilID/ePhilID",
+        "PSA Certificate of Marriage or Report of Marriage for women choosing their spouse’s surname"
+      ],
+      "documentCopies": "Original documents and ID with one photocopy for submission. Citizenship and personal circumstances determine supporting records.",
+      "fees": {
+        "currency": "PHP",
+        "sourceEdition": "DFA Citizen’s Charter 2025, 1st edition",
+        "regularApplication": 950,
+        "expeditedApplication": 1200,
+        "additionalConvenienceFee": 50,
+        "appointmentBooking": 0
+      },
+      "steps": [
+        "Book at the official DFA appointment system and complete payment.",
+        "Attend the selected office for appointment verification.",
+        "Submit documents for evaluation.",
+        "Complete information encoding, document scanning, photo and biometric capture.",
+        "Follow release instructions and check passport details upon receipt."
+      ],
+      "transactionUrl": "https://passport.gov.ph/appointment/",
+      "sourceIds": [
+        "dfa-passport-charter-2025",
+        "dfa-passport-charter-2024",
+        "dfa-passport-appointment"
+      ],
+      "path": "content/services/citizen-services/adult-passport.md",
+      "contentMarkdown": "# First-time adult Philippine passport\n\nApply for your first Philippine passport as an adult. Prepare your documents, book an appointment, and check the application fees below.\n\n## Bring to your appointment\n\n- Confirmed online appointment, completed application form, and DFA payment e-receipt.\n- Documentary proof of Philippine citizenship. For a natural-born applicant, this includes a PSA-issued Certificate of Live Birth or Report of Birth. The charter also identifies separate citizenship records for foundlings, naturalized citizens, and people who elected, retained, or reacquired Philippine citizenship.\n- At least one accepted valid ID, such as PhilID/ePhilID or another government ID accepted by DFA.\n- For women choosing their spouse's surname: PSA-issued Certificate of Marriage or Report of Marriage.\n\n**Bring the original documents and ID, with one photocopy for submission. Personal appearance is required.** Supporting records depend on citizenship and personal circumstances. [1]\n\n## Published domestic fees\n\nDFA's **2025 charter** publishes these charges. [1]\n\n| Charge | Philippine pesos |\n| --- | ---: |\n| Regular passport application | ₱950 |\n| Expedited passport application | ₱1,200 |\n| Additional convenience fee | ₱50 |\n\n## Application stages\n\n1. Book through the official passport appointment system and complete the payment step.\n2. Attend your selected consular office. Present your printed application and ID for appointment verification.\n3. Submit the required records for document evaluation.\n4. Complete passport enrollment: information encoding, document scanning, photograph, and biometrics.\n5. Follow the release instructions and check the passport's details when you receive it. [2]\n\nDFA states that **appointment booking is free**. The application fees above are separate from obtaining an appointment. [3]\n\n[Book a DFA passport appointment](https://passport.gov.ph/appointment/)\n\n## Sources\n\n1. [DFA — 2025 Citizen's Charter, first edition: adult requirements and domestic passport fee table](https://dfa.gov.ph/images/2025/transparency/DFA_Citizens_Charter_2025_1st_Edition_1.pdf)\n2. [DFA — 2024 Citizen's Charter, first edition, domestic passport application workflow](https://dfa.gov.ph/images/2024/transparency/DFA_Citizens_Charter_2024_1st_Edition.pdf)\n3. [DFA — Official passport appointment system](https://passport.gov.ph/appointment/)\n\nNational service information for residents of Siquijor. Source review: **17 November 2026**.\n"
+    }
+  ]
+}

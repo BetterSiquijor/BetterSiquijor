@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "title": "Siquijor hospitals and police directory",
+    "reviewedAt": "2026-11-18",
+    "phoneAvailabilityTested": false,
+    "hospitals": 2,
+    "municipalPoliceStations": 6,
+    "provincialPoliceOffices": 1,
+    "sourcePolicy": "Agency documents and directly read office-published Facebook pages; undated station website entries retain explicit source notes. Missing details are not inferred.",
+    "emergencyNumber": "911",
+    "emergencySourceId": "pna-safe-nir-911"
+  },
+  "facilities": [
+    {
+      "id": "siquijor-provincial-hospital",
+      "name": "Siquijor Provincial Hospital",
+      "kind": "hospital",
+      "municipality": "Siquijor",
+      "barangay": "Caipilan",
+      "address": "Caipilan, Siquijor, Siquijor",
+      "addressSourceIds": [
+        "philhealth-hospitals-2026-09",
+        "pia-sph-caipilan-2026",
+        "sph-facebook"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "PhilHealth directory contact",
+          "value": "0953 110 4069",
+          "sourceId": "philhealth-hospitals-2026-09",
+          "sourceAsOf": "2026-09-30"
+        },
+        {
+          "kind": "phone",
+          "label": "Hospital Facebook contact",
+          "value": "0955 788 3574",
+          "sourceId": "sph-facebook",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "PhilHealth directory email",
+          "value": "siquijorpho2@gmail.com",
+          "sourceId": "philhealth-hospitals-2026-09",
+          "sourceAsOf": "2026-09-30"
+        },
+        {
+          "kind": "email",
+          "label": "Hospital Facebook email",
+          "value": "siquijor.hospital@gmail.com",
+          "sourceId": "sph-facebook",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": {
+        "url": "https://www.facebook.com/SiquijorProvincialHospital/",
+        "label": "Facebook page",
+        "sourceId": "sph-facebook"
+      },
+      "details": [
+        {
+          "label": "Facility type",
+          "value": "Government hospital · Level 1",
+          "sourceIds": [
+            "philhealth-hospitals-2026-09"
+          ]
+        },
+        {
+          "label": "Beds listed",
+          "value": "75 (PhilHealth directory, 30 September 2026)",
+          "sourceIds": [
+            "philhealth-hospitals-2026-09"
+          ]
+        },
+        {
+          "label": "Hours listed on the hospital page",
+          "value": "Always open; contact the hospital for clinic schedules.",
+          "sourceIds": [
+            "sph-facebook"
+          ]
+        }
+      ],
+      "notes": [
+        "PhilHealth and the hospital Facebook page publish different contact channels; both are identified by source. Bed count is directory capacity, not live bed availability.",
+        "PhilHealth spells the barangay CAPILAN; PIA and the hospital page identify it as Caipilan."
+      ],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "lazi-medicare-community-hospital",
+      "name": "Lazi Medicare Community Hospital",
+      "kind": "hospital",
+      "municipality": "Lazi",
+      "barangay": "Nagerong",
+      "address": "Nagerong, Lazi, Siquijor",
+      "addressSourceIds": [
+        "philhealth-hospitals-2026-09"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Hospital contact",
+          "value": "0975 269 2638",
+          "sourceId": "philhealth-hospitals-2026-09",
+          "sourceAsOf": "2026-09-30"
+        },
+        {
+          "kind": "phone",
+          "label": "Other hospital contact",
+          "value": "0965 477 1878",
+          "sourceId": "philhealth-hospitals-2026-09",
+          "sourceAsOf": "2026-09-30"
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "lazi.mch@gmail.com",
+          "sourceId": "philhealth-hospitals-2026-09",
+          "sourceAsOf": "2026-09-30"
+        }
+      ],
+      "facebook": null,
+      "details": [
+        {
+          "label": "Facility type",
+          "value": "Government facility · Infirmary / dispensary (INF/DISP)",
+          "sourceIds": [
+            "philhealth-hospitals-2026-09"
+          ]
+        },
+        {
+          "label": "Beds listed",
+          "value": "10 (PhilHealth directory, 30 September 2026)",
+          "sourceIds": [
+            "philhealth-hospitals-2026-09"
+          ]
+        }
+      ],
+      "notes": [],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "siquijor-police-provincial-office",
+      "name": "Siquijor Police Provincial Office",
+      "kind": "police-office",
+      "municipality": "Siquijor",
+      "barangay": "Caipilan",
+      "address": "Caipilan, Siquijor, Siquijor",
+      "addressSourceIds": [
+        "sppo-facebook",
+        "sppo-station-locations"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Provincial police office",
+          "value": "0927 249 9482",
+          "sourceId": "sppo-facebook",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "popbsppo2018@yahoo.com",
+          "sourceId": "sppo-facebook",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": {
+        "url": "https://www.facebook.com/people/PNP-Siquijor-Police-Provincial-Office/61558544321314/",
+        "label": "Facebook page",
+        "sourceId": "sppo-facebook"
+      },
+      "details": [],
+      "notes": [],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "enrique-villanueva-police",
+      "name": "Enrique Villanueva Municipal Police Station",
+      "kind": "police-station",
+      "municipality": "Enrique Villanueva",
+      "barangay": "Poblacion",
+      "address": "Poblacion, Enrique Villanueva, Siquijor",
+      "addressSourceIds": [
+        "sppo-station-locations",
+        "pnp-itms-stations"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Station contact",
+          "value": "0906 835 1602",
+          "sourceId": "enrique-police-facebook",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "evmps.sppo@yahoo.com",
+          "sourceId": "enrique-police-facebook",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": {
+        "url": "https://www.facebook.com/people/PNP-Enrique-Villanueva-MPS/100069031275905/",
+        "label": "Facebook page",
+        "sourceId": "enrique-police-facebook"
+      },
+      "details": [],
+      "notes": [],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "larena-police",
+      "name": "Larena Municipal Police Station",
+      "kind": "police-station",
+      "municipality": "Larena",
+      "barangay": "Helen",
+      "address": "Helen, Larena, Siquijor",
+      "addressSourceIds": [
+        "sppo-station-locations",
+        "larena-police-site",
+        "pnp-itms-stations"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Station directory contact",
+          "value": "0927 249 9551",
+          "sourceId": "larena-police-site",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "larenamps.sppo@yahoo.com",
+          "sourceId": "larena-police-site",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": null,
+      "details": [],
+      "notes": [
+        "The station-specific directory is undated. The SPPO aggregate page lists a different Larena number; this entry uses the station page.",
+        "These contacts come from an undated station directory. The station website is currently unavailable; telephone operation has not been tested. For urgent police assistance call 911."
+      ],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "lazi-police",
+      "name": "Lazi Municipal Police Station",
+      "kind": "police-station",
+      "municipality": "Lazi",
+      "barangay": "Tigbawan",
+      "address": "Tigbawan, Lazi, Siquijor",
+      "addressSourceIds": [
+        "sppo-station-locations",
+        "lazi-police-facebook",
+        "pnp-itms-stations"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Station contact",
+          "value": "0927 249 9545",
+          "sourceId": "lazi-police-facebook",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "policelazi@yahoo.com",
+          "sourceId": "lazi-police-facebook",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": {
+        "url": "https://www.facebook.com/lazipnp/",
+        "label": "Facebook page",
+        "sourceId": "lazi-police-facebook"
+      },
+      "details": [],
+      "notes": [],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "maria-police",
+      "name": "Maria Municipal Police Station",
+      "kind": "police-station",
+      "municipality": "Maria",
+      "barangay": "Poblacion Sur",
+      "address": "Poblacion Sur, Maria, Siquijor",
+      "addressSourceIds": [
+        "maria-police-facebook",
+        "pnp-itms-stations"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Station contact",
+          "value": "0927 249 9547",
+          "sourceId": "maria-police-facebook",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "mariapolicestationcads@gmail.com",
+          "sourceId": "maria-police-facebook",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": {
+        "url": "https://www.facebook.com/mariangpulis/",
+        "label": "Facebook page",
+        "sourceId": "maria-police-facebook"
+      },
+      "details": [],
+      "notes": [
+        "The station’s Facebook Intro lists Poblacion Sur; that directly published address is used here."
+      ],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "san-juan-police",
+      "name": "San Juan Municipal Police Station",
+      "kind": "police-station",
+      "municipality": "San Juan",
+      "barangay": "Poblacion",
+      "address": "Poblacion, San Juan, Siquijor",
+      "addressSourceIds": [
+        "sppo-station-locations",
+        "sanjuan-police-site",
+        "pnp-itms-stations"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Station directory contact",
+          "value": "0926 324 2820",
+          "sourceId": "sanjuan-police-site",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "sanjuanpolicestations@ymail.com",
+          "sourceId": "sanjuan-police-site",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": null,
+      "details": [],
+      "notes": [
+        "These contacts come from an undated station directory. The station website is currently unavailable; telephone operation has not been tested. For urgent police assistance call 911."
+      ],
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "siquijor-police",
+      "name": "Siquijor Municipal Police Station",
+      "kind": "police-station",
+      "municipality": "Siquijor",
+      "barangay": "Poblacion",
+      "address": "Poblacion, Siquijor, Siquijor",
+      "addressSourceIds": [
+        "sppo-station-locations",
+        "siquijor-police-site",
+        "pnp-itms-stations"
+      ],
+      "contacts": [
+        {
+          "kind": "phone",
+          "label": "Station directory contact",
+          "value": "0977 180 3999",
+          "sourceId": "siquijor-police-site",
+          "sourceAsOf": null
+        },
+        {
+          "kind": "email",
+          "label": "Email",
+          "value": "siquijorps@yahoo.com",
+          "sourceId": "siquijor-police-site",
+          "sourceAsOf": null
+        }
+      ],
+      "facebook": null,
+      "details": [],
+      "notes": [
+        "The station-specific directory is undated. SPPO’s aggregate page lists a different station number; this entry uses the station page.",
+        "These contacts come from an undated station directory. The station website is currently unavailable; telephone operation has not been tested. For urgent police assistance call 911."
+      ],
+      "reviewedAt": "2026-11-18"
+    }
+  ]
+}

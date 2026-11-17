@@ -1,0 +1,415 @@
+{
+  "title": "Published Siquijor office contacts",
+  "reviewedAt": "2026-11-17",
+  "coverage": {
+    "records": 24,
+    "phoneAvailabilityTested": false
+  },
+  "sources": [
+    {
+      "id": "dilg-officials-2026-02",
+      "publisher": "Department of the Interior and Local Government",
+      "title": "Directory of LGU Elective Officials for Term 2025–2028 as of February 2026",
+      "url": "https://docs.google.com/spreadsheets/d/1B2N5SjZEBP-29tUioFHaSk-6R_1YFGcYIkSPjuApxZw/htmlview/sheet?headers=true&gid=1213553854",
+      "asOf": "2026-02",
+      "retrievedAt": "2026-11-17",
+      "coverage": "Sixty municipal and ten provincial elected-office records; source rows 27145–27214. A dated directory snapshot, not a live tenure register.",
+      "provenance": "Directory linked from DILG key-officials; DILG FOI response to request DILG-322932022542 directs requesters to the DILG LGU Directory.",
+      "provenanceUrl": "https://www.foi.gov.ph/agencies/dilg/lgu-elective-officials-for-term-2025-2028/"
+    },
+    {
+      "id": "dbm-directory-2026",
+      "publisher": "Department of Budget and Management",
+      "title": "2026 Philippine Government Directory",
+      "url": "https://www.dbm.gov.ph/wp-content/uploads/AboutDBM/2026-Government-Directory.pdf",
+      "localDocument": "/documents/2026-philippine-government-directory.pdf",
+      "sourceYear": 2026,
+      "retrievedAt": "2026-11-17",
+      "pages": [
+        {
+          "pdfPage": 151,
+          "printedPage": 147,
+          "coverage": "Siquijor State College"
+        },
+        {
+          "pdfPage": 171,
+          "printedPage": 167,
+          "coverage": "Siquijor lone-district House representative"
+        },
+        {
+          "pdfPage": 195,
+          "printedPage": 191,
+          "coverage": "Siquijor governor/vice governor and provincial office phones"
+        },
+        {
+          "pdfPage": 237,
+          "printedPage": 233,
+          "coverage": "Six municipal mayors and vice mayors"
+        }
+      ]
+    },
+    {
+      "id": "tourism-office-contacts",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "title": "Contact Information",
+      "url": "https://siquijorprovince.com/contact-information/",
+      "publicationDate": null,
+      "retrievedAt": "2026-11-17",
+      "coverage": "Published office telephone list. Source does not show a contact update date. Named staff and their individual numbers are omitted."
+    },
+    {
+      "id": "deped-division-contacts",
+      "publisher": "Schools Division of Siquijor, Department of Education",
+      "title": "Schools Division Office",
+      "url": "https://www.deped-siquijor.com/districts/",
+      "publicationDate": null,
+      "retrievedAt": "2026-11-17",
+      "coverage": "Division office address, email, and mobile number shown on its official website."
+    },
+    {
+      "id": "philhealth-office-directory",
+      "publisher": "PhilHealth",
+      "title": "Regional Offices Directory — Siquijor",
+      "url": "https://www.philhealth.gov.ph/about_us/directory/",
+      "retrievedAt": "2026-11-17"
+    }
+  ],
+  "offices": [
+    {
+      "id": "provincial-governor",
+      "office": "Provincial Governor office",
+      "scope": "Province of Siquijor",
+      "address": "CAPITOL SITE, POLANGYUTA, SIQUIJOR, SIQUIJOR",
+      "phones": [
+        "(035) 344-2015",
+        "(035) 344-0225"
+      ],
+      "email": "siquijorprovince2025@gmail.com",
+      "official": "Jake Vincent Sarmiento Villa",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "Address/email: DILG February2026; telephone lines: DBM2026 p191."
+    },
+    {
+      "id": "provincial-vice-governor",
+      "office": "Provincial Vice Governor office",
+      "scope": "Province of Siquijor",
+      "address": "PULANGYUTA, SIQUIJOR, SIQUIJOR",
+      "phones": [],
+      "email": "tumaladindo@gmail.com",
+      "official": "Dindo Anghag Tumala",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "Address/email: DILG February2026. Governor-office phones: DBM2026 p191. No direct vice-governor telephone is verified."
+    },
+    {
+      "id": "provincial-board",
+      "office": "Sangguniang Panlalawigan",
+      "scope": "Province of Siquijor",
+      "address": "SIQUIJOR PROVINCIAL CAPITOL, POLANGYUTA, SIQUIJOR, SIQUIJOR",
+      "phones": [],
+      "email": null,
+      "official": null,
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "Eight elected-member records in the DILG snapshot. Member-specific published emails are included in the officials JSON. No complete board switchboard number is supplied."
+    },
+    {
+      "id": "enrique-villanueva-municipal-mayor",
+      "office": "Municipal Mayor office — Enrique Villanueva",
+      "scope": "Enrique Villanueva",
+      "address": "POBLACION, ENRIQUE VILLANUEVA, SIQUIJOR",
+      "phones": [],
+      "email": "lgu.evillanueva2025@gmail.com",
+      "official": "Ruth Bon Aque",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "enrique-villanueva-municipal-vice-mayor",
+      "office": "Municipal Vice Mayor office — Enrique Villanueva",
+      "scope": "Enrique Villanueva",
+      "address": "POBLACION, ENRIQUE VILLANUEVA, SIQUIJOR",
+      "phones": [],
+      "email": null,
+      "official": "Gerold Viernes Pal-Ing",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "larena-municipal-mayor",
+      "office": "Municipal Mayor office — Larena",
+      "scope": "Larena",
+      "address": "F.TAN.ST.NORTH POBLACION, LARENA, SIQUIJOR",
+      "phones": [
+        "(035) 542-6029"
+      ],
+      "email": "calibocyrusvincent@gmail.com",
+      "official": "Cyrus Vincent Marchan Calibo",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; Larena mayor-office phone from DBM2026 p233."
+    },
+    {
+      "id": "larena-municipal-vice-mayor",
+      "office": "Municipal Vice Mayor office — Larena",
+      "scope": "Larena",
+      "address": "F.TAN.ST.NORTH POBLACION, LARENA, SIQUIJOR",
+      "phones": [],
+      "email": "lgularena@gmail.com",
+      "official": "Jan Dean Ocao Villa",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "lazi-municipal-mayor",
+      "office": "Municipal Mayor office — Lazi",
+      "scope": "Lazi",
+      "address": "LGU-LAZI,TIGBAWAN,LAZI",
+      "phones": [],
+      "email": "sec.lgulazi@gmail.com",
+      "official": "Phil Moore Duhaylungsod Largo",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "lazi-municipal-vice-mayor",
+      "office": "Municipal Vice Mayor office — Lazi",
+      "scope": "Lazi",
+      "address": "LAZI MUNICIPAL BUILDING, TIGBAWAN,LAZI",
+      "phones": [],
+      "email": "michaelomictin1975@gmail.com",
+      "official": "Michael Ondo Omictin",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "maria-municipal-mayor",
+      "office": "Municipal Mayor office — Maria",
+      "scope": "Maria",
+      "address": "POBLACION SUR, MARIA, SIQUIJOR",
+      "phones": [
+        "5426539"
+      ],
+      "email": "lgumaria6229@gmail.com",
+      "official": "Roselyn Tancio Asok",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check. Source gives local telephone 5426539 without an area code; it is reproduced as published."
+    },
+    {
+      "id": "maria-municipal-vice-mayor",
+      "office": "Municipal Vice Mayor office — Maria",
+      "scope": "Maria",
+      "address": "POBLACION SUR, MARIA, SIQUIJOR",
+      "phones": [],
+      "email": "lgumariasiquijor@gmail.com",
+      "official": "Meynard Real Asok",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "san-juan-municipal-mayor",
+      "office": "Municipal Mayor office — San Juan",
+      "scope": "San Juan",
+      "address": "POBLACION SAN JUAN SIQUIJOR",
+      "phones": [],
+      "email": "equinoxmann@gmail.com",
+      "official": "Rubilyn Maata Ragay",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "san-juan-municipal-vice-mayor",
+      "office": "Municipal Vice Mayor office — San Juan",
+      "scope": "San Juan",
+      "address": "2ND FLOOR, NEW MUNICIPAL BLDG., POBLACION, SAN JUAN. SIQUIJOR",
+      "phones": [],
+      "email": "jaysoncapundag@gmail.com",
+      "official": "Jayson Maata Capundag",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "siquijor-municipal-mayor",
+      "office": "Municipal Mayor office — Siquijor",
+      "scope": "Siquijor",
+      "address": "CARIDAD STREET, POBLACION, SIQUIJOR, SIQUIJOR",
+      "phones": [],
+      "email": "lgusiquijormayorsoffice@gmail.com",
+      "official": "Adam Samson Duhaylungsod",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "siquijor-municipal-vice-mayor",
+      "office": "Municipal Vice Mayor office — Siquijor",
+      "scope": "Siquijor",
+      "address": "LEGISLATIVE BUILDING, POBLACION, SIQUIJOR, SIQUIJOR",
+      "phones": [],
+      "email": "lgusiquijormayorsoffice@gmail.com",
+      "official": "Jayson Pactol Dawami",
+      "sourceId": "dilg-officials-2026-02",
+      "sourceAsOf": "2026-02",
+      "reviewedAt": "2026-11-17",
+      "notes": "DILG February2026 directory; not a live contact check."
+    },
+    {
+      "id": "house-representative",
+      "office": "Siquijor lone-district representative",
+      "scope": "National legislature",
+      "address": null,
+      "phones": [
+        "(02) 8931-5430"
+      ],
+      "email": null,
+      "official": "Zaldy S. Villa",
+      "sourceId": "dbm-directory-2026",
+      "sourceAsOf": "2026",
+      "reviewedAt": "2026-11-17",
+      "notes": "DBM2026 p167 lists direct telephone (02)8931-5430 and local7362; no Siquijor district-office address is supplied in that row."
+    },
+    {
+      "id": "deped-division",
+      "office": "Schools Division Office",
+      "scope": "Education",
+      "address": "Helen, Larena, Siquijor",
+      "phones": [
+        "0906-432-9162"
+      ],
+      "email": "deped.siquijor@deped.gov.ph",
+      "official": null,
+      "sourceId": "deped-division-contacts",
+      "sourceAsOf": null,
+      "reviewedAt": "2026-11-17",
+      "notes": "Published contact record. Office availability and telephone operation have not been tested."
+    },
+    {
+      "id": "state-college",
+      "office": "Siquijor State College — Office of the President",
+      "scope": "Higher education",
+      "address": "Larena, Siquijor",
+      "phones": [],
+      "email": "presoffice@siquijorstate.edu.ph",
+      "official": "Steven J. Sumaylo",
+      "sourceId": "dbm-directory-2026",
+      "sourceAsOf": "2026",
+      "reviewedAt": "2026-11-17",
+      "notes": "President, address, and email listed in DBM2026 p147. No office telephone is printed in the college row."
+    },
+    {
+      "id": "tourism",
+      "office": "Provincial Tourism Office",
+      "scope": "Published assistance contacts",
+      "address": null,
+      "phones": [
+        "0935-055-9866"
+      ],
+      "email": null,
+      "official": null,
+      "sourceId": "tourism-office-contacts",
+      "sourceAsOf": null,
+      "reviewedAt": "2026-11-17",
+      "notes": "Undated contact listing on the official Provincial Tourism Office website, retrieved17November2026. Not verified as a current emergency-response number; named individual staff contacts are excluded."
+    },
+    {
+      "id": "hospital",
+      "office": "Siquijor Provincial Hospital",
+      "scope": "Published assistance contacts",
+      "address": null,
+      "phones": [
+        "0953-110-4069"
+      ],
+      "email": null,
+      "official": null,
+      "sourceId": "tourism-office-contacts",
+      "sourceAsOf": null,
+      "reviewedAt": "2026-11-17",
+      "notes": "Undated contact listing on the official Provincial Tourism Office website, retrieved17November2026. Not verified as a current emergency-response number; named individual staff contacts are excluded."
+    },
+    {
+      "id": "disaster",
+      "office": "Provincial Disaster Risk Reduction and Management Office",
+      "scope": "Published assistance contacts",
+      "address": null,
+      "phones": [
+        "0953-209-9165"
+      ],
+      "email": null,
+      "official": null,
+      "sourceId": "tourism-office-contacts",
+      "sourceAsOf": null,
+      "reviewedAt": "2026-11-17",
+      "notes": "Undated contact listing on the official Provincial Tourism Office website, retrieved17November2026. Not verified as a current emergency-response number; named individual staff contacts are excluded."
+    },
+    {
+      "id": "police",
+      "office": "Siquijor Provincial Police Office",
+      "scope": "Published assistance contacts",
+      "address": null,
+      "phones": [
+        "0927-249-9482"
+      ],
+      "email": null,
+      "official": null,
+      "sourceId": "tourism-office-contacts",
+      "sourceAsOf": null,
+      "reviewedAt": "2026-11-17",
+      "notes": "Undated contact listing on the official Provincial Tourism Office website, retrieved17November2026. Not verified as a current emergency-response number; named individual staff contacts are excluded."
+    },
+    {
+      "id": "coastguard",
+      "office": "Philippine Coastguard — Siquijor",
+      "scope": "Published assistance contacts",
+      "address": null,
+      "phones": [
+        "0917-842-7654"
+      ],
+      "email": null,
+      "official": null,
+      "sourceId": "tourism-office-contacts",
+      "sourceAsOf": null,
+      "reviewedAt": "2026-11-17",
+      "notes": "Undated contact listing on the official Provincial Tourism Office website, retrieved17November2026. Not verified as a current emergency-response number; named individual staff contacts are excluded."
+    },
+    {
+      "id": "philhealth-siquijor",
+      "office": "PhilHealth Siquijor",
+      "scope": "National agency office serving Siquijor",
+      "address": "Ground Floor, Multi-Purpose Center, Poblacion, Siquijor 6225, Siquijor",
+      "phones": [
+        "(035) 480-9844",
+        "0975 241 6827"
+      ],
+      "email": "satelliteofficesiquijor.pro7@philhealth.gov.ph",
+      "official": null,
+      "sourceId": "philhealth-office-directory",
+      "sourceAsOf": null,
+      "reviewedAt": "2026-11-17",
+      "notes": "Published in the PhilHealth office directory."
+    }
+  ]
+}

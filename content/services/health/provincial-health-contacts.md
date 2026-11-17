@@ -1,22 +1,37 @@
-# Find provincial health contacts
+# Health office contacts
 
-Provincial information: a route to the published office directory.
+Find PhilHealth and provincial health contacts for membership, hospital, and administrative enquiries.
 
-## Published office directory
+[Find hospitals in Siquijor](/services/health/hospitals) for hospital locations, contacts, and Facebook pages.
 
-The [Provincial Tourism Office contact page](https://siquijorprovince.com/contact-information/) includes entries for the Provincial Health Office and Siquijor Provincial Hospital.
+## PhilHealth Siquijor
 
-The page contains older contact listings. We have not confirmed by telephone that the listed numbers remain operational, so this portal does not present them as verified emergency hotlines.
+**Address:** Ground Floor, Multi-Purpose Center, Poblacion, Siquijor 6225. [1]
 
-For administrative routing, the DBM 2026 directory lists the provincial office numbers **(035) 344-2015** and **(035) 344-0225**, and **siquijorprovince@gmail.com**. These are provincial office contacts, not hospital booking or emergency lines.
+**Telephone:** (035) 480-9844 or 0975 241 6827.  
+**Email:** satelliteofficesiquijor.pro7@philhealth.gov.ph.
 
-## Information still being gathered
+For membership, contribution records, or your Member Data Record, see [PhilHealth registration and member services](/services/health/philhealth).
 
-Current clinic schedules, facility service hours, appointment requirements, and a verified emergency contact list are not yet available in our local dataset.
+## Provincial enquiries
 
-## Sources and review
+Call **(035) 344-2015** or **(035) 344-0225** for the provincial administrative office. [2] For health enquiries, ask to be directed to the office handling your concern.
 
-- [Provincial office contacts](https://www.dbm.gov.ph/wp-content/uploads/AboutDBM/2026-Government-Directory.pdf)
-- [Published provincial contact directory](https://siquijorprovince.com/contact-information/)
+The Provincial Tourism Office’s undated directory lists **0953 110 4069** for Siquijor Provincial Hospital. [3] Check this office contact before relying on it for a non-urgent visit; its operation has not been tested.
 
-Source review: **17 November 2026**. This is a community reference. Confirm current requirements with the responsible office; BetterSiquijor does not process applications.
+## Report violence or threats
+
+**Call 911** to report violence or threats. Siquijor police promoted this reporting channel during a CampuSaya activity reported by PIA on **16 November 2026**. [4]
+
+## Before a non-urgent visit
+
+Ask the office about its location, schedule, appointment arrangements, required documents, and any fees. Share personal health or membership information directly with the responsible office.
+
+## Sources and dates
+
+1. [PhilHealth — Regional Offices Directory, Siquijor entry](https://www.philhealth.gov.ph/about_us/directory/)
+2. [DBM — 2026 Philippine Government Directory](https://www.dbm.gov.ph/wp-content/uploads/AboutDBM/2026-Government-Directory.pdf)
+3. [Siquijor Provincial Tourism Office — Published Contact Directory (older listing)](https://siquijorprovince.com/contact-information/)
+4. [Philippine Information Agency — Calling 911: Lesson Siquijor students learn from CampusSaya activity, 16 November 2026](https://pia.gov.ph/news/calling-911-lesson-siquijor-students-learn-from-campussaya-activity/)
+
+Source review: **17 November 2026**. Source editions and publication dates are identified above.

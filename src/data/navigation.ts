@@ -2,6 +2,7 @@ import type { NavigationItem } from '../types';
 import { serviceCategories, governmentCategories } from './yamlLoader';
 
 export const mainNavigation: NavigationItem[] = [
+  { label: 'Data', href: '/data' },
   {
     label: 'Services',
     href: '/services',
@@ -29,6 +30,7 @@ export const footerNavigation: {
       title: 'About',
       links: [
         { label: 'About BetterSiquijor', href: '/about' },
+        { label: 'Local records', href: '/data' },
         { label: 'Sources & Methodology', href: '/government/sources' },
         { label: 'Accessibility', href: '/accessibility' },
         { label: 'Privacy', href: '/privacy' },
