@@ -247,6 +247,105 @@
       "sourceType": "agency-authorized-provider",
       "reviewed": "2026-11-17",
       "sourceDate": null
+    },
+    {
+      "id": "pdrrmo-facebook",
+      "title": "PDRRMO Siquijor — Official Facebook page Intro",
+      "url": "https://www.facebook.com/pdrrmo.siquijor/",
+      "publisher": "Provincial Disaster Risk Reduction and Management Office, Siquijor",
+      "sourceType": "office-published-social",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "ppa-pmo-nos",
+      "title": "PPA PMO Negros Oriental / Siquijor — Official Portal",
+      "url": "https://ppapmo-nos.com/",
+      "publisher": "Philippine Ports Authority — PMO Negros Oriental / Siquijor",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "ppa-tmo-larena",
+      "title": "PPA PMO-NOS — TMO-Larena and Siquijor Port Profiles",
+      "url": "https://ppapmo-nos.com/sub-ports/539-2/",
+      "publisher": "Philippine Ports Authority — PMO Negros Oriental / Siquijor",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "ppa-siquijor-schedule",
+      "title": "PPA PMO-NOS — Port of Siquijor schedule listing",
+      "url": "https://ppapmo-nos.com/schedules/port-of-sqiuijor/",
+      "publisher": "Philippine Ports Authority — PMO Negros Oriental / Siquijor",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "ppa-larena-schedule",
+      "title": "PPA PMO-NOS — Port of Larena schedule listing",
+      "url": "https://ppapmo-nos.com/schedules/port-of-larena/",
+      "publisher": "Philippine Ports Authority — PMO Negros Oriental / Siquijor",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "ppa-pmo-nos-facebook",
+      "title": "PPA PMO Negros Oriental / Siquijor — Official Facebook page",
+      "url": "https://www.facebook.com/pmo.nos.7/",
+      "publisher": "Philippine Ports Authority — PMO Negros Oriental / Siquijor",
+      "sourceType": "office-published-social",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "tourism-gateways",
+      "title": "Siquijor Provincial Tourism Office — Gateways",
+      "url": "https://siquijorprovince.com/gateways/",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "sourceType": "government-published-directory",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "prosielco-contact",
+      "title": "PROSIELCO — Contact Us",
+      "url": "https://prosielco.com/contact-us/",
+      "publisher": "Province of Siquijor Electric Cooperative, Inc.",
+      "sourceType": "utility-official",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "prosielco-profile",
+      "title": "PROSIELCO — Corporate Profile",
+      "url": "https://prosielco.com/corporate-profile/",
+      "publisher": "Province of Siquijor Electric Cooperative, Inc.",
+      "sourceType": "utility-official",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "lwua-portal",
+      "title": "LWUA Transparency Portal and Operational Water Districts Directory (CCC No. 142, row 453)",
+      "url": "https://open.gov.ph/lwua",
+      "publisher": "Local Water Utilities Administration",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
+    },
+    {
+      "id": "mswd-facebook",
+      "title": "Metro Siquijor Water District — Official Facebook page Intro",
+      "url": "https://www.facebook.com/metrosiquijorwaterdistrict/",
+      "publisher": "Metro Siquijor Water District",
+      "sourceType": "office-published-social",
+      "reviewed": "2026-11-18",
+      "sourceDate": null
     }
   ]
 }

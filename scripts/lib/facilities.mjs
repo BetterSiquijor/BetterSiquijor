@@ -84,7 +84,9 @@ export function writeFacilities() {
       md += `- [${s.publisher}: ${s.title}](${s.url}). ${s.sourceDate ? 'Publication: ' + s.sourceDate + '. ' : ''}Checked ${s.reviewed}.\n`;
     }
     md +=
-      '\nContact availability has not been tested by telephone. Hospital capacity is a dated directory count, not current bed availability.\n';
+      kind === 'hospital'
+        ? '\nContact availability has not been tested by telephone. Hospital capacity is a dated directory count, not current bed availability.\n'
+        : '\nContact availability has not been tested by telephone.\n';
     writeFileSync(file, md);
   }
   console.log(

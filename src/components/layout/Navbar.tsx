@@ -1,17 +1,12 @@
 import React, { useState } from 'react';
-import {
-  X,
-  Menu,
-  ChevronDown,
-  Globe,
-  Search,
-} from 'lucide-react';
+import { X, Menu, ChevronDown, Globe, Search } from 'lucide-react';
 import { mainNavigation } from '../../data/navigation';
 import type { LanguageType } from '../../types/index';
 import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { LANGUAGES } from '../../i18n/languages';
 const isMeilisearchEnabled = true;
+const hasMultipleLanguages = Object.keys(LANGUAGES).length > 1;
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,51 +37,55 @@ const Navbar: React.FC = () => {
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top bar with language switcher and additional links */}
       <div className="border-b border-gray-200">
-        <div className="container mx-auto px-4 flex justify-end items-center h-10">
-          <div className="flex items-center space-x-4">
+        <div className="container mx-auto px-4 flex justify-end items-center min-h-10 py-1.5">
+          <div className="flex flex-wrap items-center justify-end gap-x-4 gap-y-1">
             <a
               href="https://bettergov.ph/join-us"
-              className="text-xs text-primary-600 hover:text-primary-700 font-semibold transition-colors"
-              target="_blank" rel="noopener noreferrer"
+              className="hidden sm:inline text-xs text-primary-600 hover:text-primary-700 font-semibold transition-colors whitespace-nowrap"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               🚀 Join Us
             </a>
             <a
               href="https://bettergov.ph/about"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank" rel="noopener noreferrer"
+              className="text-xs text-gray-800 hover:text-primary-600 transition-colors whitespace-nowrap"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               About BetterGov
             </a>
             <a
               href="https://www.gov.ph"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank" rel="noopener noreferrer"
+              className="text-xs text-gray-800 hover:text-primary-600 transition-colors whitespace-nowrap"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Official Gov.ph
             </a>
 
-            <a
-              href="/government/departments/office-directory"
-              className="text-xs text-gray-800 hover:text-primary-600 transition-colors"
-              target="_blank" rel="noopener noreferrer"
+            <Link
+              to="/government/departments/office-directory"
+              className="text-xs text-gray-800 hover:text-primary-600 transition-colors whitespace-nowrap"
             >
               Office contacts
-            </a>
-            <div className="hidden md:block">
-              <select
-                aria-label="Display language"
-                value={i18n.language}
-                onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
-              >
-                {Object.entries(LANGUAGES).map(([code, lang]) => (
-                  <option key={code} value={code}>
-                    {lang.nativeName}
-                  </option>
-                ))}
-              </select>
-            </div>
+            </Link>
+            {hasMultipleLanguages && (
+              <div className="hidden md:block">
+                <select
+                  aria-label="Display language"
+                  value={i18n.language}
+                  onChange={e => changeLanguage(e.target.value as LanguageType)}
+                  className="text-xs border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
+                >
+                  {Object.entries(LANGUAGES).map(([code, lang]) => (
+                    <option key={code} value={code}>
+                      {lang.nativeName}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -105,7 +104,7 @@ const Navbar: React.FC = () => {
               />
               <div>
                 <div className="text-black font-bold">
-                  {(import.meta.env.VITE_GOVERNMENT_NAME || 'BetterSiquijor')}
+                  {import.meta.env.VITE_GOVERNMENT_NAME || 'BetterSiquijor'}
                 </div>
                 <div className="text-xs text-gray-800">
                   {t('site_description')}
@@ -118,15 +117,18 @@ const Navbar: React.FC = () => {
           <div className="hidden lg:flex items-center space-x-8 pr-4">
             {mainNavigation.map(item => (
               <div key={item.label} className="relative group">
-                <a
-                  href={item.href}
+                <Link
+                  to={item.href}
                   className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
                 >
                   {t(`navbar.${item.label.replace(' ', '').toLowerCase()}`)}
                   {item.children && (
-                    <ChevronDown className="ml-1 h-4 w-4 text-gray-800 group-hover:text-primary-600 transition-colors" />
+                    <ChevronDown
+                      aria-hidden="true"
+                      className="ml-1 h-4 w-4 text-gray-800 group-hover:text-primary-600 transition-colors"
+                    />
                   )}
-                </a>
+                </Link>
                 {item.children && (
                   <div className="absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200 z-50">
                     <div
@@ -162,16 +164,10 @@ const Navbar: React.FC = () => {
                 to="/search"
                 className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
               >
-                <Search className="h-4 w-4 mr-1" />
+                <Search className="h-4 w-4 mr-1" aria-hidden="true" />
                 Search
               </Link>
             )}
-            {/* <Link
-              to="/sitemap"
-              className="flex items-center text-gray-700 hover:text-primary-600 font-medium transition-colors"
-            >
-              Sitemap
-            </Link> */}
           </div>
 
           {/* Mobile menu button */}
@@ -194,24 +190,38 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Mobile menu */}
-      <div id="mobile-navigation" className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
+      <div
+        id="mobile-navigation"
+        className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}
+      >
         <div className="container mx-auto px-2 pt-2 pb-4 space-y-1 border-t border-gray-200 bg-white">
           {mainNavigation.map(item => (
             <div key={item.label}>
-              {item.children ? <button
-                onClick={() => toggleSubmenu(item.label)}
-                aria-expanded={activeMenu === item.label}
-                className="w-full flex justify-between items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
-              >
-                {t(`navbar.${item.label.toLowerCase()}`)}
-                {item.children && (
-                  <ChevronDown
-                    className={`h-5 w-5 transition-transform ${
-                      activeMenu === item.label ? 'transform rotate-180' : ''
-                    }`}
-                  />
-                )}
-              </button> : <Link to={item.href} onClick={closeMenu} className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500">{t(`navbar.${item.label.toLowerCase()}`)}</Link>}
+              {item.children ? (
+                <button
+                  onClick={() => toggleSubmenu(item.label)}
+                  aria-expanded={activeMenu === item.label}
+                  className="w-full flex justify-between items-center px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
+                >
+                  {t(`navbar.${item.label.toLowerCase()}`)}
+                  {item.children && (
+                    <ChevronDown
+                      aria-hidden="true"
+                      className={`h-5 w-5 transition-transform ${
+                        activeMenu === item.label ? 'transform rotate-180' : ''
+                      }`}
+                    />
+                  )}
+                </button>
+              ) : (
+                <Link
+                  to={item.href}
+                  onClick={closeMenu}
+                  className="block px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-primary-500"
+                >
+                  {t(`navbar.${item.label.toLowerCase()}`)}
+                </Link>
+              )}
               {item.children && activeMenu === item.label && (
                 <div className="pl-6 py-2 space-y-1 bg-gray-50">
                   {item.children.map(child => (
@@ -228,13 +238,15 @@ const Navbar: React.FC = () => {
               )}
             </div>
           ))}
-          <Link
-            to="https://bettergov.ph/join-us"
+          <a
+            href="https://bettergov.ph/join-us"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={closeMenu}
             className="block px-4 py-2 text-base font-semibold text-primary-600 hover:bg-primary-50 hover:text-primary-700"
           >
             🚀 Join Us
-          </Link>
+          </a>
           <Link
             to="/about"
             onClick={closeMenu}
@@ -258,23 +270,28 @@ const Navbar: React.FC = () => {
           >
             Sitemap
           </Link>
-          <div className="px-4 py-3 border-t border-gray-200">
-            <div className="flex items-center">
-              <Globe className="h-5 w-5 text-gray-800 mr-2" />
-              <select
-                aria-label="Display language"
-                value={i18n.language}
-                onChange={e => changeLanguage(e.target.value as LanguageType)}
-                className="text-sm border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
-              >
-                {Object.entries(LANGUAGES).map(([code, lang]) => (
-                  <option key={code} value={code}>
-                    {lang.nativeName}
-                  </option>
-                ))}
-              </select>
+          {hasMultipleLanguages && (
+            <div className="px-4 py-3 border-t border-gray-200">
+              <div className="flex items-center">
+                <Globe
+                  className="h-5 w-5 text-gray-800 mr-2"
+                  aria-hidden="true"
+                />
+                <select
+                  aria-label="Display language"
+                  value={i18n.language}
+                  onChange={e => changeLanguage(e.target.value as LanguageType)}
+                  className="text-sm border border-gray-300 rounded px-2 py-1 bg-white text-gray-700 hover:border-primary-600 focus:outline-none focus:ring-1 focus:ring-primary-600 focus:border-primary-600"
+                >
+                  {Object.entries(LANGUAGES).map(([code, lang]) => (
+                    <option key={code} value={code}>
+                      {lang.nativeName}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </nav>

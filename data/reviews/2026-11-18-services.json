@@ -1,0 +1,75 @@
+{
+  "reviewDate": "2026-11-18",
+  "scope": "Primary-source review for emergency assistance, ports and sea travel, provincial electricity and water utilities, and municipal business-permit office links.",
+  "checks": [
+    {
+      "guide": "content/services/public-safety/emergency-response.md",
+      "sources": [
+        "https://www.pna.gov.ph/articles/1278040",
+        "https://pia.gov.ph/news/calling-911-lesson-siquijor-students-learn-from-campussaya-activity/",
+        "https://siquijorprovince.com/contact-information/",
+        "https://www.facebook.com/pdrrmo.siquijor/"
+      ],
+      "result": "Confirmed 911 promotion and PDRRMO/Coast Guard directory listings; directly read PDRRMO Siquijor official Facebook Intro for pdrrmosiquijor07@gmail.com. Telephone numbers have not been call-tested."
+    },
+    {
+      "guide": "content/services/tourism/ports-and-ferries.md",
+      "sources": [
+        "https://ppapmo-nos.com/",
+        "https://ppapmo-nos.com/sub-ports/539-2/",
+        "https://ppapmo-nos.com/schedules/port-of-sqiuijor/",
+        "https://ppapmo-nos.com/schedules/port-of-larena/",
+        "https://www.facebook.com/pmo.nos.7/",
+        "https://pia.gov.ph/news/new-ferry-route-links-siquijor-bohol-misamis-occidental/",
+        "https://siquijorprovince.com/gateways/"
+      ],
+      "result": "Directly read PPA PMO Negros Oriental / Siquijor portal, TMO-Larena port profiles, schedule pages, and official Facebook page. Preserved older undated Provincial Tourism Office gateway status separately rather than erasing conflicting historical notes."
+    },
+    {
+      "guide": "content/services/citizen-services/utilities.md",
+      "sources": [
+        "https://prosielco.com/contact-us/",
+        "https://prosielco.com/corporate-profile/",
+        "https://open.gov.ph/lwua",
+        "https://www.facebook.com/metrosiquijorwaterdistrict/"
+      ],
+      "result": "Directly read PROSIELCO contact and corporate-profile pages (Nonoc, Larena; (035) 377-2065; 0926 601 8671; prosielco23@yahoo.com.ph). Directly read LWUA Operational Water Districts Directory (CCC No. 142, row 453) and MSWD's linked official Facebook page; retained differing address, phone, and email variants with source labels."
+    },
+    {
+      "guide": "content/services/business/municipal-business-permit.md",
+      "sources": [
+        "https://bnrs.dti.gov.ph/faq",
+        "https://business.gov.ph/home",
+        "https://www.dti.gov.ph/dti-regions/dti-region-7"
+      ],
+      "result": "Confirmed business-name vs. municipal Business/Mayor's Permit distinction, Philippine Business Hub RA 11032 portal and helpdesk contact, DTI Region 7 email, and cross-referenced the six municipal office records from data/records/offices.json."
+    }
+  ],
+  "accessLimitations": [
+    {
+      "publisher": "Bureau of Fire Protection",
+      "url": "https://bfp.gov.ph/",
+      "result": "Blocked by Cloudflare security verification during review. Unverified third-party fire-station numbers were omitted."
+    },
+    {
+      "publisher": "Philippine Coast Guard",
+      "url": "https://www.coastguard.gov.ph/",
+      "result": "Blocked by Cloudflare security verification during review."
+    },
+    {
+      "publisher": "Anti-Red Tape Authority",
+      "url": "https://arta.gov.ph/eboss/",
+      "result": "Blocked by Cloudflare security verification during review."
+    },
+    {
+      "publisher": "Municipality of Larena",
+      "url": "https://larena.gov.ph/",
+      "result": "Returned HTTP 403 Forbidden during review. No local BPLO fee schedule or counter hours were guessed."
+    },
+    {
+      "publisher": "DTI Siquijor Facebook",
+      "url": "https://www.facebook.com/DTI7.Siquijor",
+      "result": "Unavailable in unauthenticated browser view during review."
+    }
+  ]
+}

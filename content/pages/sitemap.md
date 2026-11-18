@@ -13,6 +13,13 @@
 
 - [Hospitals in Siquijor](/services/health/hospitals)
 - [Police stations](/services/public-safety/police-stations)
+- [Emergency and disaster assistance](/services/public-safety/emergency-response)
+
+## Travel, utilities, and business
+
+- [Ports and sea travel](/services/tourism/ports-and-ferries)
+- [Electricity and water utilities](/services/citizen-services/utilities)
+- [Municipal business permits and local offices](/services/business/municipal-business-permit)
 
 ## Education
 

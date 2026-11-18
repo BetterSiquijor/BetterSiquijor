@@ -102,6 +102,22 @@
       "url": "https://peis.philjobnet.gov.ph/register.aspx",
       "coverage": "Online or PESO-assisted jobseeker registration and National Skills Registry.",
       "reviewedAt": "2026-11-17"
+    },
+    {
+      "id": "pbh-portal",
+      "publisher": "Department of Information and Communications Technology / Philippine Business Hub",
+      "title": "Philippine Business Hub",
+      "url": "https://business.gov.ph/home",
+      "coverage": "Central portal under RA 11032 for business registration, permits, and helpdesk contact.",
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "id": "dti-region-7",
+      "publisher": "Department of Trade and Industry",
+      "title": "DTI Region 7 (Central Visayas)",
+      "url": "https://www.dti.gov.ph/dti-regions/dti-region-7",
+      "coverage": "Regional office email R07@dti.gov.ph and Negosyo Center / business registration links.",
+      "reviewedAt": "2026-11-18"
     }
   ]
 }

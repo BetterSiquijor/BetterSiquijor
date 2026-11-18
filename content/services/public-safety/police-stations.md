@@ -70,4 +70,4 @@ For urgent assistance, **call 911**.
 - [San Juan Municipal Police Station: San Juan police station contact directory](https://sanjuan.mystiquesppo.site/). Checked 2026-11-18.
 - [Siquijor Municipal Police Station: Siquijor police station contact directory](https://siquijor.mystiquesppo.site/). Checked 2026-11-18.
 
-Contact availability has not been tested by telephone. Hospital capacity is a dated directory count, not current bed availability.
+Contact availability has not been tested by telephone.

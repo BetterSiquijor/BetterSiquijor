@@ -7,3 +7,6 @@ pages:
 - name: First-time adult Philippine passport
   slug: adult-passport
   description: Citizenship documents, identification, application stages, and published domestic fees.
+- name: Electricity and water utilities
+  slug: utilities
+  description: Contact PROSIELCO and Metro Siquijor Water District for outages, billing, and service enquiries.

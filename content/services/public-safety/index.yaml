@@ -4,3 +4,6 @@ pages:
   - name: Police stations
     slug: police-stations
     description: Find station locations, contact numbers, email addresses, and police Facebook pages.
+  - name: Emergency and disaster assistance
+    slug: emergency-response
+    description: Call 911 or contact PDRRMO, Coast Guard, police, and hospital lines in Siquijor.

@@ -3,7 +3,7 @@ import officials from '../../data/records/officials.json';
 import offices from '../../data/records/offices.json';
 import finances from '../../data/records/financial-records.json';
 
-export const localDatasets = [
+const localDatasets = [
   { id: 'barangays', label: 'Barangays', count: 134 },
   { id: 'officials', label: 'Officials', count: officials.officials.length },
   { id: 'offices', label: 'Offices', count: offices.offices.length },

@@ -32,4 +32,4 @@ Maintainer: [@frenzjay](https://github.com/frenzjay).
 
 [Open a source suggestion or correction on GitHub](https://github.com/BetterSiquijor/BetterSiquijor/issues/new). Include the affected page, the original official source, its document date, and the proposed correction. Issues are public; do not include private or sensitive information.
 
-[View the source code](https://github.com/BetterSiquijor/BetterSiquijor) · [Privacy](/privacy) · [Accessibility](/accessibility)
+[View the source code](https://github.com/BetterSiquijor/BetterSiquijor) · [Facebook page](https://facebook.com/bettersiquijor) · [Privacy](/privacy) · [Accessibility](/accessibility)

@@ -57,6 +57,7 @@ writeFileSync(
 );
 
 const citizenDetails = read('data/records/citizen-services.json');
+let exportedGuideCount = 0;
 for (const group of read('data/guide-exports.json').groups) {
   const guides = group.guides.map(guide => {
     const content = readFileSync(guide.path, 'utf8');
@@ -70,6 +71,7 @@ for (const group of read('data/guide-exports.json').groups) {
     else result.contentMarkdown = content;
     return result;
   });
+  exportedGuideCount += guides.length;
   write(group.exportFile, { ...group.metadata, guides });
 }
 
@@ -111,5 +113,5 @@ writeFileSync('content/government/transparency/receipts-2025.md', receiptPage);
 // This import produces the catalogue from the same canonical source registers.
 await import('./update-source-catalogue.mjs');
 console.log(
-  'Generated record downloads, barangay CSV, and 16 guide exports from canonical files.'
+  `Generated record downloads, barangay CSV, and ${exportedGuideCount} guide exports from canonical files.`
 );

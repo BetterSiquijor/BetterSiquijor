@@ -88,37 +88,27 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
               {t('footer.copyright')}
             </p>
-            <div className="flex space-x-6">
-              {/* <a
-                href="/privacy"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Privacy Policy
-              </a>
+            <div className="flex flex-wrap gap-6">
               <a
-                href="/terms"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Terms of Use
-              </a> */}
-              <Link
-                to="https://github.com/BetterSiquijor/BetterSiquijor"
+                href="https://github.com/BetterSiquijor/BetterSiquijor"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Contribute at GitHub
-              </Link>
+              </a>
               <Link
                 to="/sitemap"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Sitemap
               </Link>
-              <a
-                href="/accessibility"
+              <Link
+                to="/accessibility"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Accessibility
-              </a>
+              </Link>
             </div>
           </div>
         </div>

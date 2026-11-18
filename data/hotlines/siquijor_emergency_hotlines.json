@@ -1,0 +1,202 @@
+{
+  "header": {
+    "country": "Republic of the Philippines",
+    "province": "Province of Siquijor",
+    "office": "PROVINCIAL DISASTER RISK REDUCTION MANAGEMENT OFFICE",
+    "address": "New Capitol Building, Polangyuta, Siquijor, Siquijor",
+    "emails": ["sptpdrrmosiquijor@gmail.com", "pdrmosiquijor07@gmail.com"],
+    "contact_numbers": ["09616175474", "09532099165"],
+    "title": "EMERGENCY HOTLINE DIRECTORY",
+    "tagline": "Be Prepared. Be Informed. Be Safe, Siquijor!",
+    "slogans": [
+      "Siquijor Stronger Safer Together",
+      "A Safer and More Resilient Siquijor",
+      "PREPARE • RESPOND • RECOVER • BUILD A SAFER SIQUIJOR",
+      "Disaster Preparedness is Everyone's Responsibility."
+    ]
+  },
+  "directories": {
+    "Province of Siquijor": [
+      {
+        "agency_office_response_group": "Provincial Disaster Risk Reduction and Management Office (PDRRMO)",
+        "contact_numbers": ["0933-209-9165", "0961-617-5474"]
+      },
+      {
+        "agency_office_response_group": "Siquijor Provincial Hospital",
+        "contact_numbers": ["0953-761-1944", "0953-110-4069"]
+      },
+      {
+        "agency_office_response_group": "Lazi Medicare Community Hospital",
+        "contact_numbers": ["0975-269-2638"]
+      },
+      {
+        "agency_office_response_group": "PROSIELCO",
+        "contact_numbers": ["0917-506-8857"]
+      },
+      {
+        "agency_office_response_group": "Philippine Coast Guard",
+        "contact_numbers": ["0970-467-3521", "0965-937-7588"]
+      },
+      {
+        "agency_office_response_group": "Bureau of Fire Protection",
+        "contact_numbers": ["035-480-9051"]
+      },
+      {
+        "agency_office_response_group": "Philippine National Police - SPPO",
+        "contact_numbers": ["0917-274-0879", "0927-249-9482"]
+      },
+      {
+        "agency_office_response_group": "DPWH",
+        "contact_numbers": [
+          "0926-268-2726",
+          "0905-945-6280",
+          "0928-841-5263",
+          "0906-321-2664"
+        ]
+      }
+    ],
+    "Municipality of Siquijor": [
+      {
+        "agency_office": "Rural Health Unit",
+        "contact_numbers": ["0935-913-5326", "0935-924-7077"]
+      },
+      {
+        "agency_office": "Police Station",
+        "contact_numbers": ["0997-558-9114"]
+      },
+      {
+        "agency_office": "Fire Station",
+        "contact_numbers": ["035-480-0054", "0926-410-2433", "0935-480-9123"]
+      },
+      {
+        "agency_office": "MDRRMO Siquijor",
+        "contact_numbers": ["0927-235-5009"]
+      },
+      {
+        "agency_office": "Coast Guard (Sub-station)",
+        "contact_numbers": ["0927-979-3595", "0975-642-5239", "0947-595-3590"]
+      }
+    ],
+    "Municipality of Lazi": [
+      {
+        "agency_office": "Rural Health Unit",
+        "contact_numbers": ["0953-408-6711"]
+      },
+      {
+        "agency_office": "Police Station",
+        "contact_numbers": ["0927-249-9545"]
+      },
+      {
+        "agency_office": "Fire Station",
+        "contact_numbers": ["0917-531-8392"]
+      },
+      {
+        "agency_office": "MDRRMO Lazi",
+        "contact_numbers": ["0995-535-2152"]
+      },
+      {
+        "agency_office": "Coast Guard (Sub-station)",
+        "contact_numbers": ["0926-170-2450"]
+      }
+    ],
+    "Municipality of Maria": [
+      {
+        "agency_office": "Rural Health Unit",
+        "contact_numbers": ["0915-541-3450", "0917-314-3994", "0906-144-0433"]
+      },
+      {
+        "agency_office": "Police Station",
+        "contact_numbers": ["0927-249-9547"]
+      },
+      {
+        "agency_office": "Fire Station",
+        "contact_numbers": ["0905-864-2929"]
+      },
+      {
+        "agency_office": "MDRRMO Maria",
+        "contact_numbers": ["0916-830-6401"]
+      },
+      {
+        "agency_office": "Coast Guard (Sub-station)",
+        "contact_numbers": ["0926-170-2436", "0908-323-6950"]
+      }
+    ],
+    "Municipality of San Juan": [
+      {
+        "agency_office": "Rural Health Unit",
+        "contact_numbers": ["0935-913-5326", "0935-924-7077"]
+      },
+      {
+        "agency_office": "Police Station",
+        "contact_numbers": ["0997-558-9114"]
+      },
+      {
+        "agency_office": "Fire Station",
+        "contact_numbers": ["035-480-0054", "0926-410-2433", "0935-480-9123"]
+      },
+      {
+        "agency_office": "MDRRMO San Juan",
+        "contact_numbers": ["0927-235-5009"]
+      },
+      {
+        "agency_office": "Coast Guard (Sub-station)",
+        "contact_numbers": ["0927-979-3595", "0975-642-5239", "0947-595-3590"]
+      }
+    ],
+    "Municipality of Enrique Villanueva": [
+      {
+        "agency_office": "Rural Health Unit",
+        "contact_numbers": ["0953-093-2426"]
+      },
+      {
+        "agency_office": "Police Station",
+        "contact_numbers": ["0996-835-1602"]
+      },
+      {
+        "agency_office": "Fire Station",
+        "contact_numbers": ["0917-702-2685", "0969-279-4573"]
+      },
+      {
+        "agency_office": "MDRRMO Enrique Villanueva",
+        "contact_numbers": ["0961-087-0800", "0928-076-8527"]
+      },
+      {
+        "agency_office": "Coast Guard (Sub-station)",
+        "contact_numbers": ["0926-170-2700"]
+      }
+    ],
+    "Municipality of Larena": [
+      {
+        "agency_office": "Rural Health Unit",
+        "contact_numbers": ["0975-268-1913"]
+      },
+      {
+        "agency_office": "Police Station",
+        "contact_numbers": ["0927-249-9551", "0998-598-6455"]
+      },
+      {
+        "agency_office": "Fire Station",
+        "contact_numbers": ["0917-100-9895", "0999-348-2393"]
+      },
+      {
+        "agency_office": "MDRRMO Larena",
+        "contact_numbers": ["0995-310-0259"]
+      },
+      {
+        "agency_office": "Coast Guard (Sub-station)",
+        "contact_numbers": ["0953-168-6099"]
+      }
+    ]
+  },
+  "footer": {
+    "national_emergency_hotline": "IN CASE OF EMERGENCY CALL 911",
+    "categories": [
+      "MEDICAL",
+      "POLICE",
+      "FIRE",
+      "DRRM",
+      "COAST GUARD",
+      "UTILITIES"
+    ]
+  }
+}

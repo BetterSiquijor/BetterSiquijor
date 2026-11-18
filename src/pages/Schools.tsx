@@ -151,8 +151,8 @@ export default function Schools() {
           location, then open a school for its contact details and programs.
         </p>
         <p className="text-sm text-gray-600 mb-7">
-          {schools.length} schools across six municipalities · Directory export:
-          17 November 2026
+          {schools.length} schools across six municipalities · Directory export:{' '}
+          {exportDates.join(' / ')}
         </p>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-6">
           <div>

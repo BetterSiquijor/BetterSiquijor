@@ -4,6 +4,9 @@ pages:
   - name: Register a sole-proprietor business name
     slug: business-name-registration
     description: Eligibility, registration steps, territorial-scope fees, and the distinction from a municipal business permit.
+  - name: Municipal business permits and local offices
+    slug: municipal-business-permit
+    description: How local Mayor’s Permits fit with DTI and BIR registration, plus municipal contacts for Siquijor’s six towns.
   - name: Register a business with the BIR
     slug: tax-registration
     description: Documentary requirements, ORUS and NewBizReg workflows, registration charges, and the Siquijor revenue district.

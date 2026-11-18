@@ -8,7 +8,7 @@ import {
   type Subcategory,
   type CategoryIndex,
 } from '../data/yamlLoader';
-import { getCategoryIcon } from '../lib/categoryIcons';
+import CategoryIcon from '../components/ui/CategoryIcon';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import ServicesSection from '../components/home/ServicesSection';
 import SEO from '../components/SEO';
@@ -16,31 +16,41 @@ import { Card, CardContent } from '@bettergov/kapwa/card';
 import { Banner } from '@bettergov/kapwa/banner';
 import { useState, useEffect } from 'react';
 
+const emptyIndex: CategoryIndex = { layout: 'list', pages: [] };
+
 const Services: React.FC = () => {
   const { category } = useParams();
-  const [categoryIndex, setCategoryIndex] = useState<CategoryIndex>({
-    layout: 'list',
-    pages: [],
-  });
-  const [loading, setLoading] = useState(false);
-  const subcategories: Subcategory[] = categoryIndex.pages;
+  const [loaded, setLoaded] = useState<{
+    category?: string;
+    index: CategoryIndex;
+  }>({ index: emptyIndex });
 
-  const getCategory = () => {
-    return serviceCategories.categories.find(c => c.slug === category);
-  };
-
-  const categoryData = getCategory();
-  const Icon = getCategoryIcon(categoryData?.icon);
+  const categoryData = serviceCategories.categories.find(
+    c => c.slug === category
+  );
 
   useEffect(() => {
-    if (category && categoryData) {
-      setLoading(true);
-      getCategorySubcategories(category)
-        .then(setCategoryIndex)
-        .catch(console.error)
-        .finally(() => setLoading(false));
-    }
+    if (!category || !categoryData) return;
+    let active = true;
+    getCategorySubcategories(category)
+      .then(index => {
+        if (active) setLoaded({ category, index });
+      })
+      .catch(err => {
+        console.error(err);
+        if (active) setLoaded({ category, index: emptyIndex });
+      });
+    return () => {
+      active = false;
+    };
   }, [category, categoryData]);
+
+  const loading = Boolean(
+    category && categoryData && loaded.category !== category
+  );
+  const categoryIndex =
+    loaded.category === category ? loaded.index : emptyIndex;
+  const subcategories: Subcategory[] = categoryIndex.pages;
 
   if (!category) {
     return (
@@ -80,7 +90,10 @@ const Services: React.FC = () => {
       />
       <Section className="p-3 mb-12">
         <Breadcrumbs className="mb-8" />
-        <Icon className="h-8 w-8 mb-4 text-primary-600 rounded-md" />
+        <CategoryIcon
+          name={categoryData.icon}
+          className="h-8 w-8 mb-4 text-primary-600 rounded-md"
+        />
         <Heading>{categoryData.category || category}</Heading>
         <Text className="text-gray-600 mb-6">{categoryData.description}</Text>
 

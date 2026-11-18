@@ -24,11 +24,7 @@
           "title": "National ID registration and Digital National ID",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "id-steps",
-            "id-charter",
-            "id-register"
-          ]
+          "sources": ["id-steps", "id-charter", "id-register"]
         },
         {
           "path": "content/services/health/philhealth.md",
@@ -49,84 +45,94 @@
           "title": "Health offices and published contacts",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "ph-dir",
-            "dbm",
-            "local-contacts",
-            "pia-911"
-          ]
+          "sources": ["ph-dir", "dbm", "local-contacts", "pia-911"]
         },
         {
           "path": "content/services/education/schools-division.md",
           "title": "Basic education enrollment in Siquijor",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "edu-office",
-            "edu-policy",
-            "edu-enroll"
-          ]
+          "sources": ["edu-office", "edu-policy", "edu-enroll"]
         },
         {
           "path": "content/services/education/school-directory.md",
           "title": "School records and school enquiries",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "edu-charter",
-            "edu-office",
-            "edu-directory"
-          ]
+          "sources": ["edu-charter", "edu-office", "edu-directory"]
         },
         {
           "path": "content/services/education/public-higher-education.md",
           "title": "Public higher education in Siquijor",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "ssc-location",
-            "ssc-programs"
-          ]
+          "sources": ["ssc-location", "ssc-programs"]
         },
         {
           "path": "content/services/tourism/provincial-tourism-office.md",
           "title": "Provincial Tourism Office",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "tourism",
-            "local-contacts"
-          ]
+          "sources": ["tourism", "local-contacts"]
         },
         {
           "path": "content/services/tourism/official-destination-guide.md",
           "title": "Siquijor destination guide",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "dot",
-            "pia-ferry",
-            "local-contacts"
-          ]
+          "sources": ["dot", "pia-ferry", "local-contacts"]
         },
         {
           "path": "content/government/departments/education-office.md",
           "title": "Schools Division of Siquijor",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
-          "sources": [
-            "edu-office",
-            "edu-charter"
-          ]
+          "sources": ["edu-office", "edu-charter"]
         },
         {
           "path": "content/government/departments/tourism-office.md",
           "title": "Provincial Tourism Office",
           "scope": "Provincial information or national service available to Siquijor residents",
           "reviewed": "2026-11-17",
+          "sources": ["tourism", "local-contacts"]
+        },
+        {
+          "path": "content/services/public-safety/emergency-response.md",
+          "title": "Emergency and disaster assistance",
+          "scope": "Provincial emergency, disaster management, and maritime contacts in Siquijor",
+          "reviewed": "2026-11-18",
           "sources": [
-            "tourism",
-            "local-contacts"
+            "pna-safe-nir-911",
+            "pia-911",
+            "local-contacts",
+            "pdrrmo-facebook"
+          ]
+        },
+        {
+          "path": "content/services/tourism/ports-and-ferries.md",
+          "title": "Ports and sea travel",
+          "scope": "PPA port profiles and shipping-line contacts serving Siquijor",
+          "reviewed": "2026-11-18",
+          "sources": [
+            "ppa-pmo-nos",
+            "ppa-tmo-larena",
+            "ppa-siquijor-schedule",
+            "ppa-larena-schedule",
+            "ppa-pmo-nos-facebook",
+            "pia-ferry",
+            "tourism-gateways"
+          ]
+        },
+        {
+          "path": "content/services/citizen-services/utilities.md",
+          "title": "Electricity and water utilities",
+          "scope": "Provincial electric cooperative (PROSIELCO) and Metro Siquijor Water District contacts",
+          "reviewed": "2026-11-18",
+          "sources": [
+            "prosielco-contact",
+            "prosielco-profile",
+            "lwua-portal",
+            "mswd-facebook"
           ]
         }
       ]
@@ -142,12 +148,16 @@
           "title": "Register a sole-proprietor business name",
           "url": "/services/business/business-name-registration",
           "reviewedAt": "2026-11-17",
-          "sourceIds": [
-            "dti-bnrs-faq",
-            "dti-bnrs-guide",
-            "boi-costs-2026"
-          ],
+          "sourceIds": ["dti-bnrs-faq", "dti-bnrs-guide", "boi-costs-2026"],
           "path": "content/services/business/business-name-registration.md"
+        },
+        {
+          "slug": "municipal-business-permit",
+          "title": "Municipal business permits and local offices",
+          "url": "/services/business/municipal-business-permit",
+          "reviewedAt": "2026-11-18",
+          "sourceIds": ["dti-bnrs-faq", "pbh-portal", "dti-region-7"],
+          "path": "content/services/business/municipal-business-permit.md"
         },
         {
           "slug": "tax-registration",

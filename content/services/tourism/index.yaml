@@ -4,6 +4,9 @@ pages:
   - name: Provincial Tourism Office
     slug: provincial-tourism-office
     description: Get help with destinations, accommodation, transport, and visitor information.
+  - name: Ports and sea travel
+    slug: ports-and-ferries
+    description: Find Siquijor, Larena, and Lazi port profiles, PPA contacts, and shipping-line numbers.
   - name: Siquijor destination guide
     slug: official-destination-guide
     description: Discover waterfalls, heritage sites, and local traditions.
