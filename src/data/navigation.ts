@@ -34,7 +34,10 @@ export const footerNavigation: {
         { label: 'Sources & Methodology', href: '/government/sources' },
         { label: 'Accessibility', href: '/accessibility' },
         { label: 'Privacy', href: '/privacy' },
-        { label: 'Suggest a Correction', href: '/government/sources/corrections' },
+        {
+          label: 'Suggest a Correction',
+          href: '/government/sources/corrections',
+        },
       ],
     },
     {
@@ -55,5 +58,7 @@ export const footerNavigation: {
       })),
     },
   ],
-  socialLinks: [],
+  socialLinks: [
+    { label: 'Facebook', href: 'https://facebook.com/bettersiquijor' },
+  ],
 };

@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Youtube,
-} from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 import { footerNavigation } from '../../data/navigation';
 import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
@@ -15,13 +10,13 @@ const Footer: React.FC = () => {
   const getSocialIcon = (label: string) => {
     switch (label) {
       case 'Facebook':
-        return <Facebook className="h-5 w-5" />;
+        return <Facebook className="h-5 w-5" aria-hidden="true" />;
       case 'Twitter':
-        return <Twitter className="h-5 w-5" />;
+        return <Twitter className="h-5 w-5" aria-hidden="true" />;
       case 'Instagram':
-        return <Instagram className="h-5 w-5" />;
+        return <Instagram className="h-5 w-5" aria-hidden="true" />;
       case 'YouTube':
-        return <Youtube className="h-5 w-5" />;
+        return <Youtube className="h-5 w-5" aria-hidden="true" />;
       default:
         return null;
     }
@@ -43,23 +38,28 @@ const Footer: React.FC = () => {
 
               <div>
                 <div className="font-bold">{t('site_name')}</div>
-                <div className="text-xs text-gray-400">Siquijor Province · Community portal</div>
+                <div className="text-xs text-gray-400">
+                  Siquijor Province · Community portal
+                </div>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              An independent, volunteer-run guide to Siquijor’s services and public information. Not an official government website.
+              An independent, volunteer-run guide to Siquijor’s services and
+              public information. Not an official government website.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap gap-4">
               {footerNavigation.socialLinks.map(link => (
-                <Link
+                <a
                   key={link.label}
-                  to={link.href}
-                  className="text-gray-400 hover:text-white transition-colors"
+                  href={link.href}
+                  aria-label={`BetterSiquijor on ${link.label}`}
+                  className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {getSocialIcon(link.label)}
-                </Link>
+                  <span>{link.label}</span>
+                </a>
               ))}
             </div>
           </div>
