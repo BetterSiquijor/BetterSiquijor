@@ -8,6 +8,7 @@ Find the government and institutional publications behind Siquijor’s service g
 - [71 officials (JSON)](/data/officials.json).
 - [24 office contacts (JSON)](/data/offices.json).
 - [Colleges (JSON)](/data/colleges.json) and [CSV](/data/colleges.csv).
+- [Emergency and disaster hotlines (JSON)](/data/emergency-hotlines.json) and [CSV](/data/emergency-hotlines.csv).
 - [Provincial financial records (JSON)](/data/financial-records.json).
 - [Source catalogue (JSON)](/data/source-catalogue.json) and [CSV](/data/source-catalogue.csv).
 

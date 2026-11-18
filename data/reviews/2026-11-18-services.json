@@ -10,7 +10,7 @@
         "https://siquijorprovince.com/contact-information/",
         "https://www.facebook.com/pdrrmo.siquijor/"
       ],
-      "result": "Confirmed 911 promotion and PDRRMO/Coast Guard directory listings; directly read PDRRMO Siquijor official Facebook Intro for pdrrmosiquijor07@gmail.com. Telephone numbers have not been call-tested."
+      "result": "Confirmed 911 promotion and PDRRMO/Coast Guard directory listings; directly read PDRRMO Siquijor official Facebook Intro for pdrrmosiquijor07@gmail.com. Also integrated two user-supplied, undated hotline JSON files under data/hotlines/ (siquijor_emergency_assistance_contacts.json, sha256 5e4ddcb2e8f8a7f77f0539321f257aea657041abf62bf67e50565811b73a8a37; siquijor_emergency_hotlines.json, sha256 663e4e54756326d6eb8ea4b7f4b1d53f7d1e17a5dd26a741f9236944e55899ab) covering provincial DPWH/BFP/PROSIELCO/PDRRMO/Coast Guard/hospitals and all six municipal hotline tables. Preserved verbatim discrepancies without silent edits: PDRRMO 0953 vs 0933 and pdrrmosiquijor07 vs pdrmosiquijor07; Provincial BFP 035-480-9051 vs 035 480 9123 / 0926 410 2433 / 0935-480-9123; Provincial Hospital 0935 924 7077 vs Siquijor RHU; San Juan five-row duplicate of Siquijor town (vs 0926 324 2820 in San Juan MPS site); Enrique Villanueva police 0996 vs 0906; Siquijor police 0997 vs 0977. Telephone numbers have not been call-tested."
     },
     {
       "guide": "content/services/tourism/ports-and-ferries.md",
@@ -33,7 +33,7 @@
         "https://open.gov.ph/lwua",
         "https://www.facebook.com/metrosiquijorwaterdistrict/"
       ],
-      "result": "Directly read PROSIELCO contact and corporate-profile pages (Nonoc, Larena; (035) 377-2065; 0926 601 8671; prosielco23@yahoo.com.ph). Directly read LWUA Operational Water Districts Directory (CCC No. 142, row 453) and MSWD's linked official Facebook page; retained differing address, phone, and email variants with source labels."
+      "result": "Directly read PROSIELCO contact and corporate-profile pages (Nonoc, Larena; (035) 377-2065; 0926 601 8671; prosielco23@yahoo.com.ph), plus noted 0917 506 8857 separately from the user-supplied PDRRMO hotline files. Directly read LWUA Operational Water Districts Directory (CCC No. 142, row 453) and MSWD's linked official Facebook page; retained differing address, phone, and email variants with source labels."
     },
     {
       "guide": "content/services/business/municipal-business-permit.md",

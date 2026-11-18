@@ -301,3 +301,4 @@ await import('./check-schools.mjs');
 
 await import('./check-facilities.mjs');
 await import('./check-colleges.mjs');
+await import('./check-hotlines.mjs');

@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { writeFacilities } from './lib/facilities.mjs';
 import { writeColleges } from './lib/colleges.mjs';
 import { writeSchoolDirectory } from './lib/schools.mjs';
+import { writeHotlineDirectory } from './lib/hotlines.mjs';
 
 const read = path => JSON.parse(readFileSync(path, 'utf8'));
 const write = (name, value) =>
@@ -10,6 +11,7 @@ mkdirSync('public/data', { recursive: true });
 writeSchoolDirectory();
 writeFacilities();
 writeColleges();
+writeHotlineDirectory();
 
 // Editable records live under data/. public/data is generated for visitors.
 for (const name of ['census', 'officials', 'offices', 'financial-records']) {

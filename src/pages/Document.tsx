@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router';
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown, { defaultUrlTransform } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
@@ -18,6 +18,8 @@ const standalonePages = import.meta.glob('../../content/pages/*.md', {
   import: 'default',
 });
 const components = createMarkdownComponents(getTypographyTheme('default'));
+const urlTransform = (url: string) =>
+  /^tel:[0-9+]+$/i.test(url) ? url : defaultUrlTransform(url);
 export default function Document({
   categoryType,
 }: {
@@ -94,6 +96,7 @@ export default function Document({
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 components={components}
+                urlTransform={urlTransform}
               >
                 {mainContent}
               </ReactMarkdown>
@@ -106,6 +109,7 @@ export default function Document({
                     <ReactMarkdown
                       remarkPlugins={[remarkGfm]}
                       components={components}
+                      urlTransform={urlTransform}
                     >
                       {citations}
                     </ReactMarkdown>

@@ -59,7 +59,7 @@ export const defaultTheme: TypographyTheme = {
     em: 'italic text-gray-700 ',
     hr: 'border-t-2 border-gray-300 my-8',
     table:
-      'w-full border-collapse border border-gray-300 rounded-lg overflow-hidden min-w-max',
+      'w-full border-collapse border border-gray-300 rounded-lg overflow-hidden',
     thead: 'bg-gray-50',
     tbody: '',
     tr: 'border-b border-gray-200 hover:bg-gray-50 transition-colors [&:hover_td:first-child]:bg-gray-100',

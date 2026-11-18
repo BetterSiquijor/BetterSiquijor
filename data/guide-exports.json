@@ -99,13 +99,14 @@
         {
           "path": "content/services/public-safety/emergency-response.md",
           "title": "Emergency and disaster assistance",
-          "scope": "Provincial emergency, disaster management, and maritime contacts in Siquijor",
+          "scope": "Provincial and municipal emergency, disaster, fire, police, coast guard, health, DPWH, and utility contacts in Siquijor",
           "reviewed": "2026-11-18",
           "sources": [
             "pna-safe-nir-911",
             "pia-911",
             "local-contacts",
-            "pdrrmo-facebook"
+            "pdrrmo-facebook",
+            "prosielco-contact"
           ]
         },
         {

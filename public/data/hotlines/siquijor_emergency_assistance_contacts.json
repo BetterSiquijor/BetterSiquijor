@@ -1,0 +1,58 @@
+{
+  "header": {
+    "province": "Province of Siquijor",
+    "title": "LIST OF EMERGENCY ASSISTANCE CONTACT NUMBERS",
+    "tagline": "BE PREPARED • BE INFORMED • BE SAFE, SIQUIJOR!",
+    "slogans": [
+      "PREPARE • RESPOND • RECOVER • BUILD A SAFER SIQUIJOR",
+      "A Safer and More Resilient Siquijor!",
+      "SIQUIJOR STRONGER SAFER TOGETHER",
+      "DISASTER PREPAREDNESS IS EVERYONE'S RESPONSIBILITY."
+    ]
+  },
+  "national_emergency_hotline": "IN CASE OF EMERGENCY CALL 911",
+  "contacts": [
+    {
+      "agency_office": "Provincial Hospital",
+      "contact_numbers": ["0953 110 4069", "0935 924 7077"]
+    },
+    {
+      "agency_office": "PDRRMO",
+      "contact_numbers": ["0953 209 9165", "0961 617 5474"]
+    },
+    {
+      "agency_office": "MDRRMO",
+      "contact_numbers": ["0927 235 5009"]
+    },
+    {
+      "agency_office": "PNP",
+      "contact_numbers": [
+        "0997 558 9114",
+        "0917 274 0879",
+        "0927 249 9526",
+        "0927 249 9482"
+      ]
+    },
+    {
+      "agency_office": "BFP",
+      "contact_numbers": ["035 480 9123", "0926 410 2433"]
+    },
+    {
+      "agency_office": "DPWH",
+      "contact_numbers": [
+        "0926 268 2726",
+        "0905 945 6280",
+        "0928 841 5263",
+        "0906 321 2664"
+      ]
+    },
+    {
+      "agency_office": "Philippine Coast Guard",
+      "contact_numbers": ["0947 595 3590", "0970 467 3521"]
+    },
+    {
+      "agency_office": "PROSIELCO",
+      "contact_numbers": ["0917 506 8857", "035 377 2065"]
+    }
+  ]
+}

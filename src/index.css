@@ -119,9 +119,15 @@
   @apply text-base text-gray-700 leading-relaxed relative flex items-start gap-3 font-sans rounded-md mb-5 transition-all duration-200 border border-transparent cursor-pointer items-center;
 }
 
+/* Keep phone numbers intact on a single line while allowing between-number wrapping */
+a[href^='tel:'] {
+  white-space: nowrap;
+}
+
 /* Sticky table styling */
 .sticky-table {
-  min-width: max-content;
+  min-width: 48rem;
+  width: 100%;
 }
 
 .sticky-table th:first-child,
@@ -144,5 +150,16 @@
 }
 
 /* Accessibility additions; the Better Local Gov theme above is unchanged. */
-:focus-visible { outline: 3px solid #0066eb; outline-offset: 3px; }
-@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+:focus-visible {
+  outline: 3px solid #0066eb;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
