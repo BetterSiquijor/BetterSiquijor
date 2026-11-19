@@ -177,6 +177,17 @@
       "sourceDate": null
     },
     {
+      "id": "ssc-programs-fb-2025",
+      "title": "Siquijor State College — Official Facebook post: Undergraduate Program Offerings (7 college posters)",
+      "url": "https://www.facebook.com/siquijorstatecollege.officialpage/posts/pfbid037xkL1pCM4npNoFTjCz9s8pD5QCt5tok2xMD7LxoHbGnS3vMBvorPiRHRyJLtFdPRl",
+      "publisher": "Siquijor State College",
+      "sourceType": "institution-published-social",
+      "reviewed": "2026-11-20",
+      "sourceDate": "2025-06-18",
+      "localPage": "/services/education/public-higher-education",
+      "coverage": "17 undergraduate programs across 7 colleges (album pcb.1216286693628539), including new Civil, Electrical, and Mechanical Engineering degrees, BA in Filipino Language, and BSBA majors in General, Financial, Marketing, and Human Resource Management."
+    },
+    {
       "id": "ssc-programs",
       "title": "Siquijor State College — Published Program Offerings",
       "url": "https://siquijorstate.edu.ph/programs-offered/",
@@ -346,6 +357,16 @@
       "sourceType": "office-published-social",
       "reviewed": "2026-11-18",
       "sourceDate": null
+    },
+    {
+      "id": "hotosm-phl-education-osm",
+      "title": "HOTOSM Philippines Education Facilities (OpenStreetMap ODbL 1.0 extract, Siquijor subset)",
+      "url": "https://data.humdata.org/organization/hot/",
+      "publisher": "OpenStreetMap contributors via HOTOSM / HDX",
+      "sourceType": "community-mapped-geodata",
+      "reviewed": "2026-11-20",
+      "sourceDate": "2026-11-15",
+      "localPage": "/services/education/find-school"
     }
   ]
 }

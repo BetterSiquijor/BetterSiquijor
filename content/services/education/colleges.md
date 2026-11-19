@@ -14,20 +14,23 @@ Find a college, compare courses, and contact the admissions or registrar’s off
 
 ### Courses
 
-- Bachelor of Science in Criminology (Undergraduate).
+- Bachelor of Science in Civil Engineering (Undergraduate).
+- Bachelor of Science in Electrical Engineering (Undergraduate).
+- Bachelor of Science in Mechanical Engineering (Undergraduate).
+- Bachelor of Arts in Filipino Language (Undergraduate).
 - Bachelor of Arts in English Language (Undergraduate).
-- Bachelor of Arts in Filipino (Undergraduate).
-- Bachelor of Science in Development Communication (Undergraduate).
 - Bachelor of Arts in Political Science (Undergraduate).
-- Bachelor of Science in Business Administration — General Management, Human Resource Management, Marketing (Undergraduate).
+- Bachelor of Science in Development Communication (Undergraduate).
+- Bachelor of Science in Business Administration — General Management, Financial Management, Marketing Management, Human Resource Management (Undergraduate).
 - Bachelor of Science in Hospitality Management (Undergraduate).
 - Bachelor of Science in Tourism Management (Undergraduate).
+- Bachelor of Science in Criminology (Undergraduate).
+- Bachelor of Science in Information Technology (Undergraduate).
+- Bachelor of Science in Industrial Technology — Automotive Technology, Mechanical Technology, Electrical Technology, Electronics Technology (Undergraduate).
 - Bachelor of Elementary Education (Undergraduate).
 - Bachelor of Secondary Education — English, Mathematics, Filipino (Undergraduate).
-- Bachelor of Science in Industrial Technology — Electronics Technology, Electrical Technology, Mechanical Technology, Automotive Technology (Undergraduate).
-- Bachelor of Science in Information Technology (Undergraduate).
-- Bachelor of Science in Marine Transportation (Undergraduate).
 - Bachelor of Science in Marine Engineering (Undergraduate).
+- Bachelor of Science in Marine Transportation (Undergraduate).
 - Master in Public Management (Graduate).
 - Master in Educational Management (Graduate).
 - Master of Arts in Industrial Education (Graduate).
@@ -84,6 +87,7 @@ Contact the college about degree programs and admission requirements.
 
 - [UniFAST: List of RA 10931 Participating Higher Education Institutions](https://unifast.gov.ph/hei-list.html). Checked 2026-11-18; publication date not stated.
 - [Siquijor State College: Official Facebook page — Intro and contacts](https://www.facebook.com/siquijorstatecollege.officialpage). Checked 2026-11-18; publication date not stated.
+- [Siquijor State College: Official Facebook post — Undergraduate Program Offerings (7 college posters)](https://www.facebook.com/siquijorstatecollege.officialpage/posts/pfbid037xkL1pCM4npNoFTjCz9s8pD5QCt5tok2xMD7LxoHbGnS3vMBvorPiRHRyJLtFdPRl). Publication: 2025-06-18. Checked 2026-11-20.
 - [Siquijor State College: Program offerings](https://siquijorstate.edu.ph/programs-offered/). Checked 2026-11-18; publication date not stated.
 - [Siquijor State College: Contact us — office emails](https://siquijorstate.edu.ph/contact-us/). Checked 2026-11-18; publication date not stated.
 - [BIT International College Siquijor: Campus Facebook page — Intro and contacts](https://www.facebook.com/BITICSIQUIJOR15). Checked 2026-11-18; publication date not stated.
@@ -97,4 +101,4 @@ Contact the college about degree programs and admission requirements.
 - [Commission on Higher Education: HEIDA — Carmelite College of Siquijor, Inc.](https://heida.ched.gov.ph/hei-directory/18?search=Carmelite). Checked 2026-11-18; publication date not stated.
 - [Commission on Higher Education: HEIDA — BIT International College – Siquijor, Inc.](https://heida.ched.gov.ph/hei-directory/18?search=BIT+International). Checked 2026-11-18; publication date not stated.
 
-Degree lists follow each institution’s catalogue. Contact your chosen college for intake availability, fees, application dates, and admission requirements. UniFAST listing does not guarantee scholarship eligibility.
+Degree lists follow each institution’s published catalogue or official Facebook announcement. Contact your chosen college for intake availability, fees, application dates, and admission requirements. UniFAST listing does not guarantee scholarship eligibility.

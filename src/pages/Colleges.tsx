@@ -2,12 +2,20 @@ import { Link, useSearchParams } from 'react-router';
 import { ExternalLink, Mail, MapPin, Phone } from 'lucide-react';
 import directory from '../../data/records/colleges.json';
 import register from '../../data/sources/college-sources.json';
+import educationOsm from '../../data/derived/education-osm.json';
+import EducationMap, { type EducationMapPin } from '../components/EducationMap';
 import SEO from '../components/SEO';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
 
 type College = (typeof directory.colleges)[number];
+type OsmCollegeEntry =
+  (typeof educationOsm.collegesById)[keyof typeof educationOsm.collegesById];
+const osmByCollegeId = educationOsm.collegesById as Record<
+  string,
+  OsmCollegeEntry
+>;
 const sourceById = new Map(register.sources.map(s => [s.id, s]));
 const municipalities = [
   ...new Set(directory.colleges.map(c => c.municipality)),
@@ -28,6 +36,7 @@ const control =
 const link = 'text-primary-600 underline';
 
 function CollegeCard({ college }: { college: College }) {
+  const osmEntry = osmByCollegeId[college.id];
   const sourceIds = [
     ...new Set([
       college.identitySourceId,
@@ -52,17 +61,59 @@ function CollegeCard({ college }: { college: College }) {
         <MapPin className="w-5 h-5 shrink-0 mt-0.5" aria-hidden="true" />
         {college.address}
       </p>
-      <a
-        className={`${link} inline-flex items-center gap-2 text-sm mt-3 mb-5`}
-        href={
-          'https://www.google.com/maps/search/?api=1&query=' +
-          encodeURIComponent(college.name + ', ' + college.address)
-        }
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Open in Maps <ExternalLink className="w-4 h-4" aria-hidden="true" />
-      </a>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mt-3 mb-2 text-sm">
+        <a
+          className={`${link} inline-flex items-center gap-1.5`}
+          href={
+            osmEntry
+              ? osmEntry.primary.googleMapsUrl
+              : 'https://www.google.com/maps/search/?api=1&query=' +
+                encodeURIComponent(college.name + ', ' + college.address)
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open in Google Maps{' '}
+          <ExternalLink className="w-4 h-4" aria-hidden="true" />
+        </a>
+        {osmEntry ? (
+          <a
+            className={`${link} inline-flex items-center gap-1.5`}
+            href={osmEntry.primary.osmUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OpenStreetMap{' '}
+            <ExternalLink className="w-4 h-4" aria-hidden="true" />
+          </a>
+        ) : null}
+      </div>
+      {osmEntry ? (
+        <p className="text-xs text-gray-600 mb-5">
+          Mapped coordinates: {osmEntry.primary.lat.toFixed(5)},{' '}
+          {osmEntry.primary.lon.toFixed(5)} (OpenStreetMap · 15 Nov 2026)
+          {osmEntry.additionalCampuses.length ? (
+            <span className="block mt-1">
+              Other mapped campus:{' '}
+              {osmEntry.additionalCampuses.map((campus, index) => (
+                <span key={campus.osmId}>
+                  {index > 0 ? ' · ' : ''}
+                  <a
+                    className={link}
+                    href={campus.osmUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {campus.osmName}
+                  </a>
+                </span>
+              ))}
+            </span>
+          ) : null}
+        </p>
+      ) : (
+        <div className="mb-5" />
+      )}
       <dl className="space-y-4">
         {college.contacts.map(contact => (
           <div key={contact.value}>
@@ -157,6 +208,12 @@ function CollegeCard({ college }: { college: College }) {
           {college.notes.map(note => (
             <p key={note}>{note}</p>
           ))}
+          {osmEntry && osmEntry.primary.osmName !== college.name ? (
+            <p>
+              OpenStreetMap feature {osmEntry.primary.osmId} records the label “
+              {osmEntry.primary.osmName}”.
+            </p>
+          ) : null}
           <ul className="space-y-3">
             {sourceIds.map(id => {
               const source = sourceById.get(id);
@@ -171,7 +228,10 @@ function CollegeCard({ college }: { college: College }) {
                     {source.publisher}: {source.title}
                   </a>
                   <span className="block text-xs mt-1">
-                    Publication date not stated · Checked: {source.reviewed}
+                    {source.sourceDate
+                      ? 'Publication: ' + source.sourceDate
+                      : 'Publication date not stated'}{' '}
+                    · Checked: {source.reviewed}
                   </span>
                 </li>
               ) : null;
@@ -195,6 +255,53 @@ export default function Colleges() {
       (!sector || c.sector === sector) &&
       words.every(word => c.searchText.includes(word))
   );
+  const primaryCollegePins: EducationMapPin[] = rows
+    .filter(college => Boolean(osmByCollegeId[college.id]))
+    .map(college => {
+      const osmEntry = osmByCollegeId[college.id];
+      return {
+        id: college.id,
+        targetId: college.id,
+        name: college.name,
+        municipality: college.municipality,
+        category: college.sector === 'Private' ? 'Private' : 'Public',
+        badgeLabel: `${college.sector} college · ${college.municipality}`,
+        subtitle: college.address,
+        lat: osmEntry.primary.lat,
+        lon: osmEntry.primary.lon,
+        osmId: osmEntry.primary.osmId,
+        osmName: osmEntry.primary.osmName,
+        osmUrl: osmEntry.primary.osmUrl,
+        googleMapsUrl: osmEntry.primary.googleMapsUrl,
+        osmMunicipality: osmEntry.primary.osmMunicipality,
+        municipalityDiffers: osmEntry.primary.municipalityDiffers,
+      };
+    });
+  const branchCampusPins: EducationMapPin[] = rows.flatMap(college => {
+    const osmEntry = osmByCollegeId[college.id];
+    if (!osmEntry) return [];
+    return osmEntry.additionalCampuses.map(campus => ({
+      id: `${college.id}-${campus.osmId}`,
+      targetId: college.id,
+      name: campus.osmName,
+      municipality: campus.osmMunicipality,
+      category: college.sector === 'Private' ? 'Private' : 'Public',
+      badgeLabel: `${college.sector} college (mapped branch campus)`,
+      subtitle: `${campus.osmMunicipality}, Siquijor · Part of ${college.name}`,
+      lat: campus.lat,
+      lon: campus.lon,
+      osmId: campus.osmId,
+      osmName: campus.osmName,
+      osmUrl: campus.osmUrl,
+      googleMapsUrl: campus.googleMapsUrl,
+      osmMunicipality: campus.osmMunicipality,
+    }));
+  });
+  function jumpToCollege(collegeId: string) {
+    const card = document.getElementById(collegeId);
+    if (!card) return;
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
   function update(key: string, value: string) {
     const next = new URLSearchParams(params);
     if (value) next.set(key, value);
@@ -282,6 +389,16 @@ export default function Colleges() {
             Clear filters
           </button>
         </div>
+        <EducationMap
+          title="Explore colleges on the Siquijor map"
+          itemLabel="colleges"
+          pins={primaryCollegePins}
+          additionalPins={branchCampusPins}
+          additionalToggleLabel="Show branch campuses"
+          totalFilteredCount={rows.length}
+          jumpLabel="Jump to college details below"
+          onJumpToItem={jumpToCollege}
+        />
         <div className="grid gap-6 lg:grid-cols-2 items-start">
           {rows.map(college => (
             <CollegeCard key={college.id} college={college} />
@@ -316,9 +433,22 @@ export default function Colleges() {
               Institutions follow UniFAST’s participating-HEI directory.
               Locations and contacts come from CHED and the colleges’ own
               websites or Facebook pages. Course lists follow each college’s
-              catalogue. Checked 18 November 2026; undated publications retain
-              that status. Phone numbers have not been call-tested. Map links
-              search the college name and published address.
+              catalogue or official Facebook announcements (Siquijor State
+              College undergraduate programs updated from its 18 June 2025
+              Facebook post, checked 20 November 2026; other college entries
+              checked 18 November 2026). Undated publications retain that
+              status. Phone numbers have not been call-tested. Campus
+              coordinates and OpenStreetMap links come from the HOTOSM /
+              OpenStreetMap Philippines extract (15 November 2026 snapshot,{' '}
+              <a
+                className={link}
+                href={educationOsm.metadata.licenseUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ODC-ODbL 1.0
+              </a>
+              ).
             </p>
             <p>
               Contact your chosen college for current intakes, fees, and
@@ -335,6 +465,20 @@ export default function Colleges() {
               </a>
               <a className={link} href="/data/college-sources.json" download>
                 Download source records (JSON)
+              </a>
+              <a
+                className={link}
+                href="/data/education-facilities-osm.geojson"
+                download
+              >
+                Download OpenStreetMap education map (GeoJSON)
+              </a>
+              <a
+                className={link}
+                href="/data/education-facilities-osm.csv"
+                download
+              >
+                Download OpenStreetMap coordinates (CSV)
               </a>
             </p>
           </div>

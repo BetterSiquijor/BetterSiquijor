@@ -48,11 +48,7 @@ const sections = [
       ['contact.email', 'Email'],
       ['contact.email_note', 'Email details'],
       ['contact.phone', 'Telephone'],
-      ['official_website', 'Website'],
       ['social_media.facebook_url', 'Facebook'],
-      ['division_portal', 'Schools Division website'],
-      ['contact.division_email', 'Schools Division email'],
-      ['contact.division_mobile', 'Schools Division telephone'],
     ],
   ],
   [

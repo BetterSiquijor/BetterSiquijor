@@ -65,8 +65,8 @@
           "path": "content/services/education/public-higher-education.md",
           "title": "Public higher education in Siquijor",
           "scope": "Provincial information or national service available to Siquijor residents",
-          "reviewed": "2026-11-17",
-          "sources": ["ssc-location", "ssc-programs"]
+          "reviewed": "2026-11-20",
+          "sources": ["ssc-location", "ssc-programs-fb-2025", "ssc-programs"]
         },
         {
           "path": "content/services/tourism/provincial-tourism-office.md",

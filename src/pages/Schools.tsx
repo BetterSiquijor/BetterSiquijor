@@ -1,5 +1,8 @@
 import { Link, useSearchParams } from 'react-router';
+import { ExternalLink, MapPin } from 'lucide-react';
 import schoolData from '../../data/derived/schools.json';
+import educationOsm from '../../data/derived/education-osm.json';
+import EducationMap, { type EducationMapPin } from '../components/EducationMap';
 import SEO from '../components/SEO';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
@@ -11,6 +14,10 @@ type DirectoryField = {
   label: string;
   values: { value: FieldValue; sources: string[] }[];
 };
+type OsmLocation =
+  (typeof educationOsm.schoolsById)[keyof typeof educationOsm.schoolsById];
+
+const osmBySchoolId = educationOsm.schoolsById as Record<string, OsmLocation>;
 
 const municipalities = [
   ...new Set(schoolData.schools.map(s => s.municipality)),
@@ -30,13 +37,22 @@ const exportDates = [
 ];
 const schools = schoolData.schools.map(s => ({
   ...s,
+  osm: osmBySchoolId[s.id] ?? null,
   searchText: [
     s.name,
     s.schoolId,
     s.municipality,
     s.barangay,
+    osmBySchoolId[s.id]?.osmName,
     JSON.stringify(s.sections),
   ]
+    .join(' ')
+    .toLowerCase(),
+}));
+const additionalOsmFacilities = educationOsm.additionalFacilities.map(f => ({
+  ...f,
+  searchText: [f.name, f.municipality, f.osmBarangay, f.category, f.osmId]
+    .filter(Boolean)
     .join(' ')
     .toLowerCase(),
 }));
@@ -131,6 +147,63 @@ export default function Schools() {
       (!sector || s.sector === sector) &&
       words.every(word => s.searchText.includes(word))
   );
+  const matchingAdditional = additionalOsmFacilities.filter(
+    f =>
+      (!municipality || f.municipality === municipality) &&
+      (!sector || sector === 'Public') &&
+      (!level || (level === 'Kindergarten' && f.amenity === 'kindergarten')) &&
+      words.every(word => f.searchText.includes(word))
+  );
+  const schoolPins: EducationMapPin[] = rows
+    .filter(s => s.osm !== null)
+    .map(s => ({
+      id: s.id,
+      targetId: s.id,
+      name: s.name,
+      municipality: s.municipality,
+      barangay: s.barangay,
+      category: s.sector === 'Private' ? 'Private' : 'Public',
+      badgeLabel: `${s.sector} school · ${s.levels.join(' / ')}`,
+      subtitle: [
+        [s.barangay, s.municipality].filter(Boolean).join(', '),
+        s.schoolId ? `DepEd ID ${s.schoolId}` : null,
+      ]
+        .filter(Boolean)
+        .join(' · '),
+      lat: s.osm!.lat,
+      lon: s.osm!.lon,
+      osmId: s.osm!.osmId,
+      osmName: s.osm!.osmName,
+      osmUrl: s.osm!.osmUrl,
+      googleMapsUrl: s.osm!.googleMapsUrl,
+      osmMunicipality: s.osm!.osmMunicipality,
+      municipalityDiffers: s.osm!.municipalityDiffers,
+    }));
+  const additionalPins: EducationMapPin[] = matchingAdditional.map(f => ({
+    id: f.id,
+    name: f.name,
+    municipality: f.municipality,
+    barangay: f.osmBarangay,
+    category: 'Community',
+    badgeLabel: `${f.category} · OpenStreetMap`,
+    subtitle: `${f.municipality}${f.osmBarangay ? ` (OSM area: ${f.osmBarangay})` : ''}`,
+    lat: f.lat,
+    lon: f.lon,
+    osmId: f.osmId,
+    osmName: f.osmName,
+    osmUrl: f.osmUrl,
+    googleMapsUrl: f.googleMapsUrl,
+    osmMunicipality: f.osmMunicipality,
+  }));
+  function jumpToSchool(schoolId: string) {
+    const details = document.getElementById(
+      `school-${schoolId}`
+    ) as HTMLDetailsElement | null;
+    if (!details) return;
+    details.open = true;
+    details.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    details.querySelector('summary')?.focus();
+  }
   function update(key: string, value: string) {
     const next = new URLSearchParams(params);
     if (value) next.set(key, value);
@@ -151,8 +224,9 @@ export default function Schools() {
           location, then open a school for its contact details and programs.
         </p>
         <p className="text-sm text-gray-600 mb-7">
-          {schools.length} schools across six municipalities · Directory export:{' '}
-          {exportDates.join(' / ')}
+          {schools.length} schools across six municipalities (
+          {educationOsm.metadata.matchedSchools} mapped on OpenStreetMap) ·
+          Directory export: {exportDates.join(' / ')}
         </p>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-6">
           <div>
@@ -240,10 +314,21 @@ export default function Schools() {
             Clear filters
           </button>
         </div>
+        <EducationMap
+          title="Explore schools on the Siquijor map"
+          itemLabel="schools"
+          pins={schoolPins}
+          additionalPins={additionalPins}
+          additionalToggleLabel="Show day care & technical"
+          totalFilteredCount={rows.length}
+          jumpLabel="Open school details in list below"
+          onJumpToItem={jumpToSchool}
+        />
         <div className="space-y-4">
           {rows.map(school => (
             <details
               key={school.id}
+              id={`school-${school.id}`}
               className="rounded-lg border border-gray-300 border-t-4 border-t-primary-500 bg-white"
             >
               <summary className="cursor-pointer p-5 focus-visible:outline-2 focus-visible:outline-primary-600">
@@ -255,6 +340,7 @@ export default function Schools() {
                     .filter(Boolean)
                     .join(', ')}{' '}
                   · {school.sector} · {school.levels.join(' / ')}
+                  {school.osm ? ' · Map available' : ''}
                 </span>
                 {school.schoolId ? (
                   <span className="block text-xs text-gray-600 mt-2">
@@ -271,6 +357,71 @@ export default function Schools() {
                     <Fields fields={section.fields} />
                   </section>
                 ))}
+                {school.osm ? (
+                  <section className="min-w-0">
+                    <h2 className="text-lg font-semibold mb-4">
+                      Map location (OpenStreetMap)
+                    </h2>
+                    <div className="space-y-3 text-sm text-gray-700">
+                      <p className="flex items-start gap-2">
+                        <MapPin
+                          className="w-4 h-4 shrink-0 mt-0.5 text-primary-600"
+                          aria-hidden="true"
+                        />
+                        <span>
+                          {school.osm.lat.toFixed(5)},{' '}
+                          {school.osm.lon.toFixed(5)} (
+                          {school.osm.geometryType === 'Point'
+                            ? 'point marker'
+                            : 'campus outline'}
+                          , OpenStreetMap {school.osm.osmId})
+                        </span>
+                      </p>
+                      <div className="flex flex-wrap gap-4">
+                        <a
+                          href={school.osm.googleMapsUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 text-primary-600 underline font-medium"
+                        >
+                          Open in Google Maps
+                          <ExternalLink
+                            className="w-3.5 h-3.5"
+                            aria-hidden="true"
+                          />
+                        </a>
+                        <a
+                          href={school.osm.osmUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 text-primary-600 underline font-medium"
+                        >
+                          View on OpenStreetMap
+                          <ExternalLink
+                            className="w-3.5 h-3.5"
+                            aria-hidden="true"
+                          />
+                        </a>
+                      </div>
+                      {school.osm.osmName !== school.name ? (
+                        <p className="text-xs text-gray-600">
+                          OpenStreetMap label: “{school.osm.osmName}”
+                        </p>
+                      ) : null}
+                      {school.osm.municipalityDiffers ? (
+                        <p className="text-xs text-gray-600">
+                          HOTOSM’s administrative boundary polygon assigns this
+                          border coordinate to {school.osm.osmMunicipality};
+                          DepEd’s directory lists {school.municipality}.
+                        </p>
+                      ) : null}
+                      <p className="text-xs text-gray-600">
+                        Source: OpenStreetMap contributors via HOTOSM (15
+                        November 2026 snapshot, ODbL 1.0).
+                      </p>
+                    </div>
+                  </section>
+                ) : null}
               </div>
             </details>
           ))}
@@ -280,6 +431,57 @@ export default function Schools() {
             No schools match these filters. Try another name or clear the
             filters.
           </p>
+        ) : null}
+        {matchingAdditional.length > 0 ? (
+          <details className="mt-8 rounded-lg border border-gray-300 bg-white p-5">
+            <summary className="cursor-pointer font-semibold text-primary-700">
+              Community-mapped day care centers and technical institute in
+              OpenStreetMap ({matchingAdditional.length})
+            </summary>
+            <div className="mt-4 space-y-4">
+              <p className="text-sm text-gray-700">
+                These additional named education sites appear in the HOTOSM /
+                OpenStreetMap extract (15 November 2026) outside the 93-school
+                DepEd directory. OpenStreetMap is volunteer-mapped and not
+                exhaustive—other barangays and municipalities also have day care
+                centers not yet tagged in this snapshot.
+              </p>
+              <div className="grid gap-3 md:grid-cols-2">
+                {matchingAdditional.map(site => (
+                  <div
+                    key={site.id}
+                    className="rounded-md border border-gray-200 p-4 text-sm space-y-1.5"
+                  >
+                    <p className="font-medium text-gray-900">{site.name}</p>
+                    <p className="text-xs text-gray-600">
+                      {site.category} · {site.municipality} ·{' '}
+                      {site.lat.toFixed(5)}, {site.lon.toFixed(5)}
+                    </p>
+                    <div className="flex flex-wrap gap-4 pt-1 text-xs">
+                      <a
+                        href={site.googleMapsUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-primary-600 underline"
+                      >
+                        Open in Google Maps
+                        <ExternalLink className="w-3 h-3" aria-hidden="true" />
+                      </a>
+                      <a
+                        href={site.osmUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-primary-600 underline"
+                      >
+                        OpenStreetMap ({site.osmId})
+                        <ExternalLink className="w-3 h-3" aria-hidden="true" />
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </details>
         ) : null}
         <div className="mt-10">
           <Heading level={2}>Education office contacts</Heading>
@@ -352,6 +554,25 @@ export default function Schools() {
               citations; the export date is not a certification of current
               staffing, enrollment, accreditation, or course availability.
             </p>
+            <p>
+              Map coordinates, campus links, and community-mapped day care and
+              technical sites come from the HOTOSM / HDX Philippines Education
+              Facilities extract (OpenStreetMap snapshot 15 November 2026,
+              exported 16 November 2026, licensed under{' '}
+              <a
+                className="text-primary-600 underline"
+                href={educationOsm.metadata.licenseUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ODC-ODbL 1.0
+              </a>
+              ). The Siquijor subset contains{' '}
+              {educationOsm.metadata.featureCount} mapped features (
+              {educationOsm.metadata.namedFeatureCount} named facilities and{' '}
+              {educationOsm.metadata.unnamedBuildingFootprints} unnamed school
+              building footprints).
+            </p>
             <ul className="list-disc pl-5 space-y-2">
               <li>
                 <a
@@ -369,6 +590,25 @@ export default function Schools() {
                   download
                 >
                   Download the school list (CSV)
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-primary-600 underline"
+                  href="/data/education-facilities-osm.geojson"
+                  download
+                >
+                  OpenStreetMap Siquijor education facilities — all{' '}
+                  {educationOsm.metadata.featureCount} features (GeoJSON)
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-primary-600 underline"
+                  href="/data/education-facilities-osm.csv"
+                  download
+                >
+                  OpenStreetMap named education facilities and coordinates (CSV)
                 </a>
               </li>
               <li>

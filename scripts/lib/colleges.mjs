@@ -65,9 +65,9 @@ export function writeColleges() {
   md +=
     '\n## More education services\n\n- [Find an elementary or secondary school](/services/education/find-school).\n- [Explore Siquijor State College courses](/services/education/public-higher-education).\n\n## Sources and reference dates\n\n';
   for (const s of register.sources)
-    md += `- [${s.publisher}: ${s.title}](${s.url}). Checked ${s.reviewed}; publication date not stated.\n`;
+    md += `- [${s.publisher}: ${s.title}](${s.url}). ${s.sourceDate ? 'Publication: ' + s.sourceDate + '. Checked ' + s.reviewed : 'Checked ' + s.reviewed + '; publication date not stated'}.\n`;
   md +=
-    '\nDegree lists follow each institution’s catalogue. Contact your chosen college for intake availability, fees, application dates, and admission requirements. UniFAST listing does not guarantee scholarship eligibility.\n';
+    '\nDegree lists follow each institution’s published catalogue or official Facebook announcement. Contact your chosen college for intake availability, fees, application dates, and admission requirements. UniFAST listing does not guarantee scholarship eligibility.\n';
   writeFileSync('content/services/education/colleges.md', md);
   console.log(
     `Generated college directory: ${directory.colleges.length} institutions.`

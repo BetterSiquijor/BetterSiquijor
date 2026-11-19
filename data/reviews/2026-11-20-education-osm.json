@@ -1,0 +1,38 @@
+{
+  "reviewDate": "2026-11-20",
+  "scope": "Extraction and matching of Siquijor Province education facilities from the user-supplied HOTOSM / OpenStreetMap Philippines GeoJSON archive (hotosm_phl_education_facilities_osm_geojson.zip).",
+  "sourceArchive": {
+    "filename": "hotosm_phl_education_facilities_osm_geojson.zip",
+    "sha256": "22c93e8c99eaddbd30777699ed5a0955e5a2a508d652de38997876e66ec1f8fe",
+    "datasetId": "hotosm_phl_education_facilities-osm",
+    "snapshotDate": "2026-11-15",
+    "exportedAt": "2026-11-16T08:41:35Z",
+    "oexVersion": "0.4.30",
+    "publisher": "OpenStreetMap contributors via HOTOSM / HDX oex",
+    "sourceUrl": "https://www.openstreetmap.org/",
+    "hdxUrl": "https://data.humdata.org/organization/hot/",
+    "license": "Open Database License (ODC-ODbL 1.0)",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/"
+  },
+  "extract": {
+    "file": "data/osm/siquijor_education_facilities.geojson",
+    "sha256": "a151f0e79ecdc3cf6d72af2d38c319d00a531ff5746450899c21ccef1c0ab59d",
+    "filter": "adm2_pcode == PH07061 (adm2_name == Siquijor), 100% agreement with Siquijor Island bounding box [123.43, 9.05, 123.76, 9.34]",
+    "totalPhilippinesFeaturesScanned": 303559,
+    "siquijorFeatures": 566,
+    "namedFeatures": 103,
+    "unnamedBuildingFootprints": 463,
+    "matchedSchools": 86,
+    "totalSchools": 93,
+    "matchedColleges": 4,
+    "totalColleges": 4,
+    "additionalCollegeCampuses": 2,
+    "additionalMappedFacilities": 15
+  },
+  "preservedDiscrepanciesAndCaveats": [
+    "OpenStreetMap data is volunteer-mapped and not exhaustive; 7 small private schools/learning centers in data/derived/schools.json are not named in this OSM snapshot, and community-mapped day care centers appear mainly in Enrique Villanueva (13) and Siquijor (1).",
+    "HOTOSM attaches OCHA administrative polygons (adm1_name='Region VII (Central Visayas)' and coarse ADM3/ADM4 polygons) that place 9 border-area schools under neighbouring municipalities compared to DepEd school records (Candigum ES, New Bataan ES, Pisong B ES, Bogo IS, Cantugbas ES/IS, Cadoldolan ES, Ytaya ES, Tambisan ES, Tambisan NHS). DepEd municipal assignments are retained as primary for the school directory; OSM adm3_name is preserved separately.",
+    "OSM node/8493963917 spells Carmelite College of Siquijor, Inc. as 'Carmelite Collegr of Siquijor, Inc.' and way/1101369641 uses 'Cantugbas Elementary School' where DepEd lists 'Cantugbas Integrated School'; original OSM names are preserved verbatim in osmName.",
+    "Siquijor State College has two additional mapped Lazi campus features in OSM (way/715268787 and way/710670379), and Lazi Technical Institute (way/730978913) is tagged amenity=college in OSM; it is kept under additional community-mapped facilities rather than altering the UniFAST/CHED four-college directory."
+  ]
+}

@@ -47,7 +47,12 @@ for (const c of directory.colleges) {
   assert.equal(new Set(c.programs.map(p => p.name)).size, c.programs.length);
   for (const p of c.programs) {
     assert(['Undergraduate', 'Graduate'].includes(p.level));
-    assert.equal(sources.get(p.sourceId).sourceType, 'institution-published');
+    assert(
+      ['institution-published', 'institution-published-social'].includes(
+        sources.get(p.sourceId).sourceType
+      ),
+      `Program source must be published by the institution: ${p.sourceId}`
+    );
   }
 }
 const bit = directory.colleges.find(c => c.id === 'bit-siquijor');

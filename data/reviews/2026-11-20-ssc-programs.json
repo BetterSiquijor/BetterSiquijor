@@ -1,0 +1,90 @@
+{
+  "reviewedAt": "2026-11-20",
+  "scope": "Direct browser review of Siquijor State College's 18 June 2025 official Facebook post ('UNDERGRADUATE PROGRAM OFFERINGS', album pcb.1216286693628539) and all seven attached full-resolution college posters. Updates SSC's undergraduate program list in data/records/colleges.json and content/services/education/public-higher-education.md; other colleges and SSC graduate programs were not re-reviewed in this pass.",
+  "source": {
+    "id": "ssc-programs-fb-2025",
+    "publisher": "Siquijor State College",
+    "pageHandle": "siquijorstatecollege.officialpage",
+    "url": "https://www.facebook.com/siquijorstatecollege.officialpage/posts/pfbid037xkL1pCM4npNoFTjCz9s8pD5QCt5tok2xMD7LxoHbGnS3vMBvorPiRHRyJLtFdPRl",
+    "albumId": "pcb.1216286693628539",
+    "publishedDate": "2025-06-18",
+    "publishedAt": "2025-06-18T11:07:00+08:00"
+  },
+  "postersReviewed": [
+    {
+      "college": "College of Engineering",
+      "badge": "NEW PROGRAMS OFFERED!",
+      "photoUrl": "https://www.facebook.com/photo/?fbid=1216286550295220&set=pcb.1216286693628539",
+      "programs": [
+        "Bachelor of Science in Civil Engineering",
+        "Bachelor of Science in Electrical Engineering",
+        "Bachelor of Science in Mechanical Engineering"
+      ]
+    },
+    {
+      "college": "College of Arts and Sciences",
+      "badge": null,
+      "photoUrl": "https://www.facebook.com/photo/?fbid=1216286560295219&set=pcb.1216286693628539",
+      "programs": [
+        "Bachelor of Arts in Filipino Language",
+        "Bachelor of Arts in English Language",
+        "Bachelor of Arts in Political Science",
+        "Bachelor of Science in Development Communication"
+      ]
+    },
+    {
+      "college": "College of Business and Management",
+      "badge": null,
+      "photoUrl": "https://www.facebook.com/photo/?fbid=1216286546961887&set=pcb.1216286693628539",
+      "programs": [
+        "Bachelor of Science in Business Administration (General Management, Financial Management, Marketing Management, Human Resource Management)",
+        "Bachelor of Science in Hospitality Management",
+        "Bachelor of Science in Tourism Management"
+      ]
+    },
+    {
+      "college": "College of Criminal Justice Education",
+      "badge": null,
+      "photoUrl": "https://www.facebook.com/photo/?fbid=1216286610295214&set=pcb.1216286693628539",
+      "programs": ["Bachelor of Science in Criminology"]
+    },
+    {
+      "college": "College of Technology",
+      "badge": null,
+      "photoUrl": "https://www.facebook.com/photo/?fbid=1216286593628549&set=pcb.1216286693628539",
+      "programs": [
+        "Bachelor of Science in Information Technology",
+        "Bachelor of Science in Industrial Technology (Automotive Technology, Mechanical Technology, Electrical Technology, Electronics Technology)"
+      ]
+    },
+    {
+      "college": "College of Teacher Education",
+      "badge": null,
+      "photoUrl": "https://www.facebook.com/photo/?fbid=1216286583628550&set=pcb.1216286693628539",
+      "programs": [
+        "Bachelor of Elementary Education",
+        "Bachelor of Secondary Education (English, Mathematics, Filipino)"
+      ]
+    },
+    {
+      "college": "College of Maritime Education",
+      "badge": null,
+      "photoUrl": "https://www.facebook.com/photo/?fbid=1216291643628044&set=pcb.1216286693628539",
+      "programs": [
+        "Bachelor of Science in Marine Engineering",
+        "Bachelor of Science in Marine Transportation"
+      ]
+    }
+  ],
+  "differencesFromPreviousCatalogue": [
+    "Adds College of Engineering with three undergraduate programs marked 'NEW PROGRAMS OFFERED!': Bachelor of Science in Civil Engineering, Bachelor of Science in Electrical Engineering, and Bachelor of Science in Mechanical Engineering.",
+    "Adds 'Financial Management' under Bachelor of Science in Business Administration and labels the marketing major 'Marketing Management' (the undated website catalogue listed General Management, Human Resource Management, and Marketing).",
+    "Lists 'Bachelor of Arts in Filipino Language' (the undated website catalogue listed 'Bachelor of Arts in Filipino')."
+  ],
+  "limits": [
+    "The 18 June 2025 Facebook post covers undergraduate programs only. SSC's three graduate programs (Master in Public Management, Master in Educational Management, Master of Arts in Industrial Education) remain sourced from the undated website catalogue (ssc-programs, reviewed 2026-11-18).",
+    "Posters do not break down programs by campus (e.g., Larena main campus vs. Lazi branch campus) and do not include accreditation/COPC tags.",
+    "SSC-QUEST application (June 16-20, 2025) and exam dates (June 23-25, 2025) in the post caption are historical and are not presented as current intake dates.",
+    "BIT International College Siquijor, Carmelite College of Siquijor, and Quezon Memorial Institute of Siquijor were not re-reviewed in this pass and retain their 2026-11-18 review dates."
+  ]
+}

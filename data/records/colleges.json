@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "reviewedAt": "2026-11-18",
+    "reviewedAt": "2026-11-20",
     "title": "Colleges in Siquijor",
     "scope": "Four Siquijor institutions listed in the UniFAST RA 10931 participating-HEI directory. This is a directory of institutions, not a certification of current degree accreditation or scholarship eligibility.",
     "identitySourceId": "unifast-colleges"
@@ -42,97 +42,116 @@
       ],
       "programs": [
         {
-          "name": "Bachelor of Science in Criminology",
+          "name": "Bachelor of Science in Civil Engineering",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
+        },
+        {
+          "name": "Bachelor of Science in Electrical Engineering",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs-fb-2025"
+        },
+        {
+          "name": "Bachelor of Science in Mechanical Engineering",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs-fb-2025"
+        },
+        {
+          "name": "Bachelor of Arts in Filipino Language",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Bachelor of Arts in English Language",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
-        },
-        {
-          "name": "Bachelor of Arts in Filipino",
-          "level": "Undergraduate",
-          "majors": [],
-          "sourceId": "ssc-programs"
-        },
-        {
-          "name": "Bachelor of Science in Development Communication",
-          "level": "Undergraduate",
-          "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Bachelor of Arts in Political Science",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
+        },
+        {
+          "name": "Bachelor of Science in Development Communication",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Bachelor of Science in Business Administration",
           "level": "Undergraduate",
           "majors": [
             "General Management",
-            "Human Resource Management",
-            "Marketing"
+            "Financial Management",
+            "Marketing Management",
+            "Human Resource Management"
           ],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Bachelor of Science in Hospitality Management",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Bachelor of Science in Tourism Management",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
-          "name": "Bachelor of Elementary Education",
+          "name": "Bachelor of Science in Criminology",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
-        },
-        {
-          "name": "Bachelor of Secondary Education",
-          "level": "Undergraduate",
-          "majors": ["English", "Mathematics", "Filipino"],
-          "sourceId": "ssc-programs"
-        },
-        {
-          "name": "Bachelor of Science in Industrial Technology",
-          "level": "Undergraduate",
-          "majors": [
-            "Electronics Technology",
-            "Electrical Technology",
-            "Mechanical Technology",
-            "Automotive Technology"
-          ],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Bachelor of Science in Information Technology",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
-          "name": "Bachelor of Science in Marine Transportation",
+          "name": "Bachelor of Science in Industrial Technology",
+          "level": "Undergraduate",
+          "majors": [
+            "Automotive Technology",
+            "Mechanical Technology",
+            "Electrical Technology",
+            "Electronics Technology"
+          ],
+          "sourceId": "ssc-programs-fb-2025"
+        },
+        {
+          "name": "Bachelor of Elementary Education",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
+        },
+        {
+          "name": "Bachelor of Secondary Education",
+          "level": "Undergraduate",
+          "majors": ["English", "Mathematics", "Filipino"],
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Bachelor of Science in Marine Engineering",
           "level": "Undergraduate",
           "majors": [],
-          "sourceId": "ssc-programs"
+          "sourceId": "ssc-programs-fb-2025"
+        },
+        {
+          "name": "Bachelor of Science in Marine Transportation",
+          "level": "Undergraduate",
+          "majors": [],
+          "sourceId": "ssc-programs-fb-2025"
         },
         {
           "name": "Master in Public Management",
@@ -154,9 +173,10 @@
         }
       ],
       "notes": [
-        "Program names follow the college’s undated catalogue. Its indexed publisher text was readable; direct access to the catalogue and contact pages returned 403 during this review. Admission schedules and current program intakes require confirmation with the college."
+        "Undergraduate programs follow the college’s 18 June 2025 official Facebook post (seven college posters, including Civil, Electrical, and Mechanical Engineering marked as newly offered programs). Graduate programs remain sourced from the college’s undated website catalogue.",
+        "Compared with the undated website catalogue (whose indexed text was read while direct access returned 403), the 18 June 2025 post adds the three Engineering degrees and BSBA Financial Management, lists BSBA Marketing Management (instead of Marketing), and titles the Filipino degree Bachelor of Arts in Filipino Language (instead of Bachelor of Arts in Filipino). Admission schedules and current program intakes require confirmation with the college."
       ],
-      "reviewedAt": "2026-11-18",
+      "reviewedAt": "2026-11-20",
       "websiteSourceId": "ssc-facebook",
       "additionalSourceIds": []
     },

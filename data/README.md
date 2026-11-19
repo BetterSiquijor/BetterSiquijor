@@ -2,26 +2,27 @@
 
 This folder contains the editable records used by BetterSiquijor. Public downloads are generated; do not edit `public/data/` directly.
 
-| Location                                                | Purpose                                                                                                           |
-| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `schools/*.json`                                        | Supplied elementary and secondary school lists; edit these original files to update schools                       |
-| `hotlines/*.json`                                       | Supplied emergency assistance and PDRRMO hotline lists; exported verbatim alongside normalized JSON/CSV downloads |
-| `derived/schools.json` and `derived/school-search.json` | Generated school directory and site-search entries; do not edit                                                   |
-| `records/colleges.json`                                 | College identities, sectors, locations, contacts and campus-specific degree catalogues with field-level sources   |
-| `sources/college-sources.json`                          | UniFAST, CHED HEIDA, college websites and directly read institutional Facebook pages                              |
-| `reviews/colleges-2026-11-18.json`                      | College source review, telephone discrepancies and catalogue access limits                                        |
-| `records/facilities.json`                               | Hospital and police locations, contacts and substantiated Facebook links; field-level source references           |
-| `sources/facility-sources.json`                         | PhilHealth September 2026 PDF, office-published pages, source access and date notes                               |
-| `records/census.json`                                   | Province, municipalities, and all 134 barangays; PSA codes, classifications, and 2024 populations                 |
-| `records/officials.json`                                | 71 dated elected-office records, with source IDs and row references                                               |
-| `records/offices.json`                                  | Office addresses, telephone numbers, email addresses, and per-record source dates                                 |
-| `records/financial-records.json`                        | 2024 complete statement, 2025 page-one extract, procurement notices, and COA catalogue entry                      |
-| `records/citizen-services.json`                         | Structured AICS and adult-passport requirements and steps                                                         |
-| `sources/*-sources.json`                                | Agency publications, original URLs, editions, reference locators, and review dates                                |
-| `guide-exports.json`                                    | Maps Markdown guides to download filenames and source IDs                                                         |
-| `reviews/2026-11-17.json`                               | Review evidence, newer editions checked, and unresolved source discrepancies                                      |
-| `../content/`                                           | Citizen-facing guides and page text                                                                               |
-| `../public/documents/`                                  | Unmodified source PDFs and clearly identified notice transcriptions                                               |
+| Location                                                                               | Purpose                                                                                                                                  |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `schools/*.json`                                                                       | Supplied elementary and secondary school lists; edit these original files to update schools                                              |
+| `osm/siquijor_education_facilities.geojson`                                            | Siquijor Province subset (`adm2_pcode == PH07061`) extracted from the HOTOSM / OpenStreetMap Philippines education facilities (ODbL 1.0) |
+| `hotlines/*.json`                                                                      | Supplied emergency assistance and PDRRMO hotline lists; exported verbatim alongside normalized JSON/CSV downloads                        |
+| `derived/schools.json`, `derived/school-search.json`, and `derived/education-osm.json` | Generated school directory, site-search entries, and OpenStreetMap coordinate lookups; do not edit                                       |
+| `records/colleges.json`                                                                | College identities, sectors, locations, contacts and campus-specific degree catalogues with field-level sources                          |
+| `sources/college-sources.json`                                                         | UniFAST, CHED HEIDA, college websites and directly read institutional Facebook pages                                                     |
+| `reviews/colleges-2026-11-18.json`                                                     | College source review, telephone discrepancies and catalogue access limits                                                               |
+| `records/facilities.json`                                                              | Hospital and police locations, contacts and substantiated Facebook links; field-level source references                                  |
+| `sources/facility-sources.json`                                                        | PhilHealth September 2026 PDF, office-published pages, source access and date notes                                                      |
+| `records/census.json`                                                                  | Province, municipalities, and all 134 barangays; PSA codes, classifications, and 2024 populations                                        |
+| `records/officials.json`                                                               | 71 dated elected-office records, with source IDs and row references                                                                      |
+| `records/offices.json`                                                                 | Office addresses, telephone numbers, email addresses, and per-record source dates                                                        |
+| `records/financial-records.json`                                                       | 2024 complete statement, 2025 page-one extract, procurement notices, and COA catalogue entry                                             |
+| `records/citizen-services.json`                                                        | Structured AICS and adult-passport requirements and steps                                                                                |
+| `sources/*-sources.json`                                                               | Agency publications, original URLs, editions, reference locators, and review dates                                                       |
+| `guide-exports.json`                                                                   | Maps Markdown guides to download filenames and source IDs                                                                                |
+| `reviews/2026-11-17.json`                                                              | Review evidence, newer editions checked, and unresolved source discrepancies                                                             |
+| `../content/`                                                                          | Citizen-facing guides and page text                                                                                                      |
+| `../public/documents/`                                                                 | Unmodified source PDFs and clearly identified notice transcriptions                                                                      |
 
 The React data tables import `records/` directly. The school directory imports generated `derived/schools.json`; `scripts/lib/schools.mjs` combines the two original school files by DepEd ID, preserves different source values, and excludes secondary-focused references from elementary-level counts. Original school JSON exports remain unchanged. `scripts/build-data.mjs` generates the public JSON/CSV files and guide downloads from these records and the Markdown pages. It also generates the 2025 financial extract page. `scripts/update-source-catalogue.mjs` generates the source catalogue.
 
