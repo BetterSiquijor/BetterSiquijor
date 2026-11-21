@@ -70,17 +70,30 @@
         },
         {
           "path": "content/services/tourism/provincial-tourism-office.md",
-          "title": "Provincial Tourism Office",
-          "scope": "Provincial information or national service available to Siquijor residents",
-          "reviewed": "2026-11-17",
-          "sources": ["tourism", "local-contacts"]
+          "title": "Provincial Tourism Office & visitor guidelines",
+          "scope": "Provincial Tourism Office contacts, DOT NIR directory, online accreditation, and visitor eco-rules",
+          "reviewed": "2026-11-21",
+          "sources": [
+            "tourism",
+            "local-contacts",
+            "pto-about-siquijor",
+            "dot-regional-directory"
+          ]
         },
         {
           "path": "content/services/tourism/official-destination-guide.md",
           "title": "Siquijor destination guide",
-          "scope": "Provincial information or national service available to Siquijor residents",
-          "reviewed": "2026-11-17",
-          "sources": ["dot", "pia-ferry", "local-contacts"]
+          "scope": "Verified destinations across all six municipalities, heritage sites, marine sanctuaries, and festivals",
+          "reviewed": "2026-11-21",
+          "sources": [
+            "dot",
+            "pto-coastal-tour",
+            "pto-about-siquijor",
+            "ncca-lazi-church",
+            "unesco-lazi-tentative",
+            "denr-siquijor-forest-reserve",
+            "pia-ferry"
+          ]
         },
         {
           "path": "content/government/departments/education-office.md",

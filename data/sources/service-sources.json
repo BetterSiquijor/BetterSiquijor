@@ -556,6 +556,60 @@
       "sourceType": "primary-government",
       "reviewed": "2026-11-21",
       "sourceDate": "2025-03"
+    },
+    {
+      "id": "pto-coastal-tour",
+      "title": "Siquijor Provincial Tourism Office — Coastal, Mountain, Marine & Healing Tours",
+      "url": "https://siquijorprovince.com/siquijor-coastal-tour/",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "sourceType": "government-published-directory",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "pto-about-siquijor",
+      "title": "Siquijor Provincial Tourism Office — About Siquijor, Festivals & Visitor Guidelines",
+      "url": "https://siquijorprovince.com/about-siquijor/",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "sourceType": "government-published-directory",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "dot-regional-directory",
+      "title": "Department of Tourism — Regional Offices Directory (NIR) & Online Accreditation",
+      "url": "https://www.tourism.gov.ph/dot/directory/local-regional-offices/",
+      "publisher": "Department of Tourism",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "ncca-lazi-church",
+      "title": "NCCA — Restoration of 26 Philippine Churches (Lazi Church National Cultural Treasure)",
+      "url": "https://www.ncca.gov.ph/about-culture-and-arts/in-focus/the-restoration-of-26-philippine-churches/",
+      "publisher": "National Commission for Culture and the Arts",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2003-09-29"
+    },
+    {
+      "id": "unesco-lazi-tentative",
+      "title": "UNESCO World Heritage Centre — Baroque Churches of the Philippines (Extension): Lazi Church Complex",
+      "url": "https://whc.unesco.org/en/tentativelists/3860/",
+      "publisher": "UNESCO World Heritage Centre",
+      "sourceType": "international-organization",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2006"
+    },
+    {
+      "id": "denr-siquijor-forest-reserve",
+      "title": "DENR Region VII — Siquijor Forest Reserve (Proclamation No. 523, s. 1940) & Adlaw sa Probinsya",
+      "url": "https://r7.denr.gov.ph/news-events/82nd-anniversary-of-siquijor-forest-reserve/",
+      "publisher": "Department of Environment and Natural Resources — Region VII",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2022"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "reviewed": "2026-11-21",
-  "sourceCount": 124,
+  "sourceCount": 130,
   "sources": [
     {
       "id": "unifast-colleges",
@@ -1264,6 +1264,78 @@
       "sourceDate": "2025-03",
       "reviewed": "2026-11-21",
       "coverage": "DA RSBSA Registration and Updating & RSBSA Finder",
+      "sourceType": "primary-government",
+      "localPages": ["/services"],
+      "localDocument": null
+    },
+    {
+      "id": "pto-coastal-tour",
+      "name": "Siquijor Provincial Tourism Office — Coastal, Mountain, Marine & Healing Tours",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "url": "https://siquijorprovince.com/siquijor-coastal-tour/",
+      "sourceDate": null,
+      "reviewed": "2026-11-21",
+      "coverage": "Siquijor Provincial Tourism Office — Coastal, Mountain, Marine & Healing Tours",
+      "sourceType": "government-published-directory",
+      "localPages": ["/services"],
+      "localDocument": null
+    },
+    {
+      "id": "pto-about-siquijor",
+      "name": "Siquijor Provincial Tourism Office — About Siquijor, Festivals & Visitor Guidelines",
+      "publisher": "Provincial Tourism Office, Province of Siquijor",
+      "url": "https://siquijorprovince.com/about-siquijor/",
+      "sourceDate": null,
+      "reviewed": "2026-11-21",
+      "coverage": "Siquijor Provincial Tourism Office — About Siquijor, Festivals & Visitor Guidelines",
+      "sourceType": "government-published-directory",
+      "localPages": ["/services"],
+      "localDocument": null
+    },
+    {
+      "id": "dot-regional-directory",
+      "name": "Department of Tourism — Regional Offices Directory (NIR) & Online Accreditation",
+      "publisher": "Department of Tourism",
+      "url": "https://www.tourism.gov.ph/dot/directory/local-regional-offices/",
+      "sourceDate": null,
+      "reviewed": "2026-11-21",
+      "coverage": "Department of Tourism — Regional Offices Directory (NIR) & Online Accreditation",
+      "sourceType": "primary-government",
+      "localPages": ["/services"],
+      "localDocument": null
+    },
+    {
+      "id": "ncca-lazi-church",
+      "name": "NCCA — Restoration of 26 Philippine Churches (Lazi Church National Cultural Treasure)",
+      "publisher": "National Commission for Culture and the Arts",
+      "url": "https://www.ncca.gov.ph/about-culture-and-arts/in-focus/the-restoration-of-26-philippine-churches/",
+      "sourceDate": "2003-09-29",
+      "reviewed": "2026-11-21",
+      "coverage": "NCCA — Restoration of 26 Philippine Churches (Lazi Church National Cultural Treasure)",
+      "sourceType": "primary-government",
+      "localPages": ["/services"],
+      "localDocument": null
+    },
+    {
+      "id": "unesco-lazi-tentative",
+      "name": "UNESCO World Heritage Centre — Baroque Churches of the Philippines (Extension): Lazi Church Complex",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/3860/",
+      "sourceDate": "2006",
+      "reviewed": "2026-11-21",
+      "coverage": "UNESCO World Heritage Centre — Baroque Churches of the Philippines (Extension): Lazi Church Complex",
+      "sourceType": "international-organization",
+      "localPages": ["/services"],
+      "localDocument": null
+    },
+    {
+      "id": "denr-siquijor-forest-reserve",
+      "name": "DENR Region VII — Siquijor Forest Reserve (Proclamation No. 523, s. 1940) & Adlaw sa Probinsya",
+      "publisher": "Department of Environment and Natural Resources — Region VII",
+      "url": "https://r7.denr.gov.ph/news-events/82nd-anniversary-of-siquijor-forest-reserve/",
+      "sourceDate": "2022",
+      "reviewed": "2026-11-21",
+      "coverage": "DENR Region VII — Siquijor Forest Reserve (Proclamation No. 523, s. 1940) & Adlaw sa Probinsya",
       "sourceType": "primary-government",
       "localPages": ["/services"],
       "localDocument": null

@@ -1,12 +1,12 @@
 title: Tourism
 layout: list
 pages:
-  - name: Provincial Tourism Office
+  - name: Siquijor destination guide
+    slug: official-destination-guide
+    description: Explore verified waterfalls, heritage churches, marine sanctuaries, Mt. Bandilaan, and annual festivals across all six municipalities.
+  - name: Provincial Tourism Office & visitor guidelines
     slug: provincial-tourism-office
-    description: Get help with destinations, accommodation, transport, and visitor information.
+    description: Contact the Provincial Tourism Office and DOT NIR, check DOT accreditation, and read Siquijor’s zero-waste visitor rules.
   - name: Ports and sea travel
     slug: ports-and-ferries
     description: Find Siquijor, Larena, and Lazi port profiles, PPA contacts, and shipping-line numbers.
-  - name: Siquijor destination guide
-    slug: official-destination-guide
-    description: Discover waterfalls, heritage sites, and local traditions.
