@@ -135,6 +135,73 @@
             "lwua-portal",
             "mswd-facebook"
           ]
+        },
+        {
+          "path": "content/services/citizen-services/lto-drivers-license-and-vehicles.md",
+          "title": "LTO driver’s license and vehicle registration",
+          "scope": "LTO Siquijor District Office contacts, LTMS Online Portal, and official Citizen’s Charter references",
+          "reviewed": "2026-11-21",
+          "sources": [
+            "lto-directory-2026",
+            "lto-ltms-portal",
+            "lto-citizens-charter-2026"
+          ]
+        },
+        {
+          "path": "content/services/citizen-services/social-protection-ids.md",
+          "title": "Senior Citizen, PWD, and Solo Parent IDs",
+          "scope": "Statutory requirements, national portals, and DSWD SWAD contacts for Siquijor residents",
+          "reviewed": "2026-11-21",
+          "sources": [
+            "ra-9994-senior-citizens",
+            "ncsc-portal",
+            "ncda-ao-001-2021",
+            "doh-prpwd",
+            "dswd-solo-parent-2025",
+            "dswd-satellite-directory"
+          ]
+        },
+        {
+          "path": "content/services/citizen-services/sss-pagibig-gsis.md",
+          "title": "SSS, Pag-IBIG, and GSIS in Siquijor",
+          "scope": "On-island SSS and Pag-IBIG offices, nearest GSIS Dumaguete branch, and official online portals",
+          "reviewed": "2026-11-21",
+          "sources": [
+            "sss-branch-locator",
+            "pagibig-branches",
+            "gsis-contact-branches"
+          ]
+        },
+        {
+          "path": "content/services/public-safety/police-and-nbi-clearances.md",
+          "title": "Police clearance and NBI clearance",
+          "scope": "National Police Clearance System steps and NBI Clearance (nearest branch: Dumaguete City)",
+          "reviewed": "2026-11-21",
+          "sources": [
+            "pnp-npcs-portal",
+            "nbi-offices-directory",
+            "nbi-clearance-portal"
+          ]
+        },
+        {
+          "path": "content/services/civil-documents/civil-registry-and-corrections.md",
+          "title": "Marriage licenses, civil registry, and record corrections",
+          "scope": "Family Code marriage license steps, PSA certificates, and RA 9048 / RA 10172 clerical corrections",
+          "reviewed": "2026-11-21",
+          "sources": [
+            "eo-209-family-code",
+            "marriage",
+            "death",
+            "psa-cenomar",
+            "psa-ra-9048-10172"
+          ]
+        },
+        {
+          "path": "content/services/business/property-tax-and-rsbsa.md",
+          "title": "Real property tax (Amilyar) and RSBSA agriculture registration",
+          "scope": "Local Government Code RPT due dates and Department of Agriculture RSBSA registration",
+          "reviewed": "2026-11-21",
+          "sources": ["ra-7160-lgc", "blgf-rpt-2026", "da-rsbsa"]
         }
       ]
     },

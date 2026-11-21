@@ -7,6 +7,7 @@ import SEO from '../components/SEO';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
+import ReportIssueLink from '../components/ui/ReportIssueLink';
 
 type FieldValue = string | number | string[];
 type DirectoryField = {
@@ -422,6 +423,14 @@ export default function Schools() {
                     </div>
                   </section>
                 ) : null}
+                <div className="md:col-span-2 border-t border-gray-200 pt-4">
+                  <ReportIssueLink
+                    recordType="School directory entry"
+                    recordId={school.schoolId || school.id}
+                    recordName={school.name}
+                    pagePath="/services/education/find-school"
+                  />
+                </div>
               </div>
             </details>
           ))}

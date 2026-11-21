@@ -3,6 +3,8 @@ import { serviceCategories, governmentCategories } from './yamlLoader';
 
 export const mainNavigation: NavigationItem[] = [
   { label: 'Data', href: '/data' },
+  { label: 'Hotlines', href: '/hotlines' },
+  { label: 'Barangays', href: '/barangays' },
   {
     label: 'Services',
     href: '/services',

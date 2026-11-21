@@ -7,3 +7,6 @@ pages:
   - name: Emergency and disaster assistance
     slug: emergency-response
     description: Call 911 or find provincial and municipal hotlines for DRRMO, fire, police, health units, Coast Guard, DPWH, and utilities.
+  - name: Police clearance and NBI clearance
+    slug: police-and-nbi-clearances
+    description: Apply online for a National Police Clearance or prepare for an NBI Clearance at the nearest branch in Dumaguete.

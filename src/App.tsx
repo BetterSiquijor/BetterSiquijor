@@ -13,6 +13,8 @@ const Data = lazy(() => import('./pages/Data'));
 const Schools = lazy(() => import('./pages/Schools'));
 const Colleges = lazy(() => import('./pages/Colleges'));
 const Facilities = lazy(() => import('./pages/Facilities'));
+const Hotlines = lazy(() => import('./pages/Hotlines'));
+const Barangays = lazy(() => import('./pages/Barangays'));
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
 
@@ -77,6 +79,8 @@ function App() {
                   />
                   <Route path="/search" element={<Search />} />
                   <Route path="/data" element={<Data />} />
+                  <Route path="/hotlines" element={<Hotlines />} />
+                  <Route path="/barangays" element={<Barangays />} />
                   <Route path="/:lang/:documentSlug" element={<Document />} />
                   <Route path="/:documentSlug" element={<Document />} />
                 </Routes>

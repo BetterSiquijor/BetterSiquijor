@@ -101,13 +101,13 @@ export function buildHotlineDirectory() {
 export function writeHotlineDirectory() {
   const directory = buildHotlineDirectory();
   mkdirSync('public/data/hotlines', { recursive: true });
+  mkdirSync('data/derived', { recursive: true });
   for (const input of HOTLINE_INPUTS) {
     writeFileSync(`public/data/${input.publicPath}`, readFileSync(input.file));
   }
-  writeFileSync(
-    'public/data/emergency-hotlines.json',
-    JSON.stringify(directory, null, 2) + '\n'
-  );
+  const serialized = JSON.stringify(directory, null, 2) + '\n';
+  writeFileSync('public/data/emergency-hotlines.json', serialized);
+  writeFileSync('data/derived/hotlines.json', serialized);
 
   const columns = ['dataset', 'area', 'office', 'contact_numbers', 'note'];
   const rows = [

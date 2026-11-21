@@ -2,6 +2,7 @@ import { useSearchParams, Link } from 'react-router';
 import officials from '../../data/records/officials.json';
 import offices from '../../data/records/offices.json';
 import finances from '../../data/records/financial-records.json';
+import { FinancialBreakdownChart } from './DataCharts';
 
 const localDatasets = [
   { id: 'barangays', label: 'Barangays', count: 134 },
@@ -251,6 +252,7 @@ export default function LocalRecordTables({ dataset }: { dataset: string }) {
         <strong>million Philippine pesos</strong>, Financial year: 2024. Source:
         DBM BESF 2026, Table F.10.
       </p>
+      <FinancialBreakdownChart />
       <FilterInput value={q} onChange={setQuery} />
       <p role="status" className="text-sm mb-4">
         {metrics.length} of 50 financial measures

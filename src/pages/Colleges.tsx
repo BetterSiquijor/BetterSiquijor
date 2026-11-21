@@ -8,6 +8,7 @@ import SEO from '../components/SEO';
 import Section from '../components/ui/Section';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
+import ReportIssueLink from '../components/ui/ReportIssueLink';
 
 type College = (typeof directory.colleges)[number];
 type OsmCollegeEntry =
@@ -239,6 +240,14 @@ function CollegeCard({ college }: { college: College }) {
           </ul>
         </div>
       </details>
+      <div className="mt-4 pt-3 border-t border-gray-200">
+        <ReportIssueLink
+          recordType="College directory entry"
+          recordId={college.id}
+          recordName={college.name}
+          pagePath="/services/education/colleges"
+        />
+      </div>
     </article>
   );
 }

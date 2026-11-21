@@ -13,3 +13,6 @@ pages:
   - name: Find work through PhilJobNet and PESO
     slug: job-search
     description: Free account registration, email activation, job searching, employer matching, and assisted employment registration.
+  - name: Real property tax (Amilyar) and RSBSA agriculture registration
+    slug: property-tax-and-rsbsa
+    description: Statutory quarterly due dates for Real Property Tax and how farmers and fisherfolk register in DA’s RSBSA registry.

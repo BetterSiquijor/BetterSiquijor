@@ -7,3 +7,6 @@ pages:
   - name: National ID and Digital National ID
     slug: national-id
     description: Register for your ID or download a digital copy if you are already registered.
+  - name: Marriage licenses, civil registry, and record corrections
+    slug: civil-registry-and-corrections
+    description: Family Code marriage license steps, PSA marriage/death/CENOMAR requests, and RA 9048 / RA 10172 clerical error corrections.

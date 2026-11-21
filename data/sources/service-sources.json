@@ -367,6 +367,195 @@
       "reviewed": "2026-11-20",
       "sourceDate": "2026-11-15",
       "localPage": "/services/education/find-school"
+    },
+    {
+      "id": "lto-directory-2026",
+      "title": "LTO Official Directory — Siquijor District Office (Code 0744)",
+      "url": "https://lto.gov.ph/directory/",
+      "publisher": "Land Transportation Office",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2026-07-24"
+    },
+    {
+      "id": "lto-ltms-portal",
+      "title": "LTMS Online Portal",
+      "url": "https://portal.lto.gov.ph/",
+      "publisher": "Land Transportation Office",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "lto-citizens-charter-2026",
+      "title": "LTO Citizen’s Charter (2026 1st Edition)",
+      "url": "https://lto.gov.ph/citizens-charter/",
+      "publisher": "Land Transportation Office",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2026-07-23"
+    },
+    {
+      "id": "pnp-npcs-portal",
+      "title": "National Police Clearance System (NPCS) Portal and Application Guide",
+      "url": "https://pnpclearance.ph/",
+      "publisher": "Philippine National Police",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "nbi-offices-directory",
+      "title": "NBI Clearance Offices & Regional/District Offices Directory (Dumaguete DUMDO)",
+      "url": "https://nbi.gov.ph/nbi-clearance-offices/",
+      "publisher": "National Bureau of Investigation",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "nbi-clearance-portal",
+      "title": "NBI Clearance Online Portal & Application Guide",
+      "url": "https://clearance.nbi.gov.ph/",
+      "publisher": "National Bureau of Investigation",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "sss-branch-locator",
+      "title": "SSS Official Branch Locator (Siquijor & Dumaguete)",
+      "url": "https://member.sss.gov.ph/member/sss/branchloc",
+      "publisher": "Social Security System",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "pagibig-branches",
+      "title": "Pag-IBIG Fund Branches Directory (Siquijor Service Desk)",
+      "url": "https://www.pagibigfund.gov.ph/branches.html",
+      "publisher": "Home Development Mutual Fund (Pag-IBIG Fund)",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "gsis-contact-branches",
+      "title": "GSIS Branches and Extension Offices Directory & GSIS Touch",
+      "url": "https://www.gsis.gov.ph/contact-gsis/",
+      "publisher": "Government Service Insurance System",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2025-06-16"
+    },
+    {
+      "id": "ra-9994-senior-citizens",
+      "title": "Republic Act No. 9994 (Expanded Senior Citizens Act of 2010)",
+      "url": "https://www.officialgazette.gov.ph/2010/02/15/republic-act-no-9994/",
+      "publisher": "Official Gazette of the Republic of the Philippines",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2010-02-15"
+    },
+    {
+      "id": "ncsc-portal",
+      "title": "National Commission of Senior Citizens — Portal and Online Registration",
+      "url": "https://www.ncsc.gov.ph/",
+      "publisher": "National Commission of Senior Citizens",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "ncda-ao-001-2021",
+      "title": "NCDA Administrative Order No. 001, s. 2021 (PWD ID Issuance)",
+      "url": "https://ncda.gov.ph/disability-laws/administrative-orders/ncda-administrative-order-no-001-series-of-2021/",
+      "publisher": "National Council on Disability Affairs",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2021"
+    },
+    {
+      "id": "doh-prpwd",
+      "title": "Philippine Registry for Persons with Disability (PRPWD)",
+      "url": "https://pwd.doh.gov.ph/home.php",
+      "publisher": "Department of Health",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "dswd-solo-parent-2025",
+      "title": "DSWD Solo Parent ID (RA 11861) Guidance",
+      "url": "https://www.dswd.gov.ph/dswd-urges-solo-moms-dads-to-apply-update-solo-parent-ids-to-avail-of-services/",
+      "publisher": "Department of Social Welfare and Development",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2025-03-12"
+    },
+    {
+      "id": "dswd-satellite-directory",
+      "title": "DSWD Directory of Satellite Offices (SWAD Siquijor)",
+      "url": "https://www.dswd.gov.ph/dswd-directory-satellite-offices/",
+      "publisher": "Department of Social Welfare and Development",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "eo-209-family-code",
+      "title": "Executive Order No. 209 (The Family Code of the Philippines)",
+      "url": "https://www.officialgazette.gov.ph/1987/07/06/executive-order-no-209-s-1987/",
+      "publisher": "Official Gazette of the Republic of the Philippines",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "1987-07-06"
+    },
+    {
+      "id": "psa-cenomar",
+      "title": "PSA Certificate of No Marriage (CENOMAR)",
+      "url": "https://psa.gov.ph/cenomar",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": null
+    },
+    {
+      "id": "psa-ra-9048-10172",
+      "title": "Republic Act No. 9048 & Republic Act No. 10172 (Clerical Error Corrections)",
+      "url": "https://psa.gov.ph/content/republic-act-no-10172",
+      "publisher": "Philippine Statistics Authority",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2012-10-02"
+    },
+    {
+      "id": "ra-7160-lgc",
+      "title": "Republic Act No. 7160 (Local Government Code of 1991 — Real Property Tax)",
+      "url": "https://www.officialgazette.gov.ph/1991/10/10/republic-act-no-7160/",
+      "publisher": "Official Gazette of the Republic of the Philippines",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "1991-10-10"
+    },
+    {
+      "id": "blgf-rpt-2026",
+      "title": "BLGF Notices of Payment of Real Property Tax and SEF Tax of LGUs for CY 2026",
+      "url": "https://blgf.gov.ph/notices-of-payment-of-real-property-tax-and-special-education-fund-tax-of-lgus-for-cy-2026/",
+      "publisher": "Bureau of Local Government Finance",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2026"
+    },
+    {
+      "id": "da-rsbsa",
+      "title": "DA RSBSA Registration and Updating & RSBSA Finder",
+      "url": "https://www.da.gov.ph/rsbsa-registration-and-updating/",
+      "publisher": "Department of Agriculture",
+      "sourceType": "primary-government",
+      "reviewed": "2026-11-21",
+      "sourceDate": "2025-03"
     }
   ]
 }

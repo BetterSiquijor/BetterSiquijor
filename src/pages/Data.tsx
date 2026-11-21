@@ -8,6 +8,7 @@ import LocalRecordTables, {
 } from '../components/LocalRecordTables';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import { Heading } from '../components/ui/Heading';
+import { CensusPopulationChart } from '../components/DataCharts';
 
 const records = census.municipalities.flatMap(m =>
   m.barangays.map(b => ({
@@ -74,9 +75,21 @@ export default function Data() {
               </p>
               <p className="text-sm text-primary-900 mt-3">
                 Choose a municipality or search by barangay name to narrow the
-                list.
+                list, or open the{' '}
+                <Link
+                  to="/barangays"
+                  className="font-semibold underline text-primary-900"
+                >
+                  Barangay Lookup Hub
+                </Link>{' '}
+                to see schools, municipal contacts, and hotlines for each
+                barangay.
               </p>
             </div>
+            <CensusPopulationChart
+              activeMunicipality={municipality}
+              onSelectMunicipality={m => update('municipality', m)}
+            />
             <div className="flex flex-wrap gap-4 mb-8 text-primary-600 font-medium">
               <a
                 className="inline-flex items-center gap-2 underline"

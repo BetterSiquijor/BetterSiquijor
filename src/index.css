@@ -163,3 +163,22 @@ a[href^='tel:'] {
     scroll-behavior: auto !important;
   }
 }
+
+/* Print styles for emergency hotline fridge cards */
+@media print {
+  header,
+  footer,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .print-card {
+    break-inside: avoid;
+    border-color: #343a40 !important;
+    box-shadow: none !important;
+  }
+}

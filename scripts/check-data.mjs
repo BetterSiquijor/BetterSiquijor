@@ -217,7 +217,15 @@ for (const group of readJSON('data/guide-exports.json').groups) {
   }
 }
 
-const routes = new Set(['/', '/services', '/government', '/search', '/data']);
+const routes = new Set([
+  '/',
+  '/services',
+  '/government',
+  '/search',
+  '/data',
+  '/hotlines',
+  '/barangays',
+]);
 const pages = [];
 for (const group of ['services', 'government']) {
   const categories = yaml.load(

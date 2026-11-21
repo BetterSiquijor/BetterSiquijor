@@ -1,0 +1,288 @@
+{
+  "metadata": {
+    "title": "Siquijor emergency and disaster hotlines",
+    "suppliedDate": "2026-11-18",
+    "phoneAvailabilityTested": false,
+    "emergencyNumber": "911",
+    "attribution": "User-supplied PDRRMO and provincial emergency hotline JSON files preserved in data/hotlines/ without alteration; original snapshots are undated and telephone availability has not been tested.",
+    "sources": [
+      {
+        "id": "supplied-emergency-assistance-contacts",
+        "title": "Province of Siquijor — List of Emergency Assistance Contact Numbers",
+        "file": "data/hotlines/siquijor_emergency_assistance_contacts.json",
+        "publicDownload": "/data/hotlines/siquijor_emergency_assistance_contacts.json",
+        "sourceAsOf": null,
+        "sha256": "ab09c0e22b516091f88d039acdac86aac3edf175be30b9af2dfaef67d16c5cbb"
+      },
+      {
+        "id": "supplied-pdrrmo-emergency-hotlines",
+        "title": "Province of Siquijor PDRRMO — Emergency Hotline Directory",
+        "file": "data/hotlines/siquijor_emergency_hotlines.json",
+        "publicDownload": "/data/hotlines/siquijor_emergency_hotlines.json",
+        "sourceAsOf": null,
+        "sha256": "0c2f68d0d90e9ca99b08ccc67b070caa8153e7d9636d62788ee2bfac75b566ee"
+      }
+    ],
+    "discrepancies": [
+      "PDRRMO mobile prefix differs: 0953 209 9165 appears in the assistance contacts list, hotline directory header, siquijorprovince.com, and PDRRMO Facebook, whereas 0933-209-9165 appears under Province of Siquijor in the hotline directory.",
+      "PDRRMO email spelling differs: pdrrmosiquijor07@gmail.com appears on PDRRMO Facebook, whereas the hotline directory header lists pdrmosiquijor07@gmail.com (single r) and sptpdrrmosiquijor@gmail.com.",
+      "Bureau of Fire Protection numbers differ across sections: 035-480-9051 under Province of Siquijor in the hotline directory, 035 480 9123 and 0926 410 2433 in the assistance contacts list, and 035-480-0054, 0926-410-2433, 0935-480-9123 under Municipality of Siquijor.",
+      "Siquijor Provincial Hospital contact 0935 924 7077 in the assistance contacts list appears under Municipality of Siquijor Rural Health Unit in the hotline directory.",
+      "Municipality of San Juan duplicates all five Municipality of Siquijor entries verbatim in the supplied hotline directory; San Juan Municipal Police Station separately lists 0926 324 2820 in its undated station directory.",
+      "Police station numbers differ between the supplied hotline directory and station sources in BetterSiquijor: Enrique Villanueva (0996-835-1602 vs 0906 835 1602 on station Facebook) and Siquijor town (0997-558-9114 vs 0977 180 3999 on undated station site)."
+    ]
+  },
+  "pdrrmoDirectoryHeader": {
+    "office": "PROVINCIAL DISASTER RISK REDUCTION MANAGEMENT OFFICE",
+    "address": "New Capitol Building, Polangyuta, Siquijor, Siquijor",
+    "emails": ["sptpdrrmosiquijor@gmail.com", "pdrmosiquijor07@gmail.com"],
+    "contactNumbers": ["09616175474", "09532099165"]
+  },
+  "provincialAssistanceContacts": [
+    {
+      "office": "Provincial Hospital",
+      "contactNumbers": ["0953 110 4069", "0935 924 7077"]
+    },
+    {
+      "office": "PDRRMO",
+      "contactNumbers": ["0953 209 9165", "0961 617 5474"]
+    },
+    {
+      "office": "MDRRMO",
+      "contactNumbers": ["0927 235 5009"]
+    },
+    {
+      "office": "PNP",
+      "contactNumbers": [
+        "0997 558 9114",
+        "0917 274 0879",
+        "0927 249 9526",
+        "0927 249 9482"
+      ]
+    },
+    {
+      "office": "BFP",
+      "contactNumbers": ["035 480 9123", "0926 410 2433"]
+    },
+    {
+      "office": "DPWH",
+      "contactNumbers": [
+        "0926 268 2726",
+        "0905 945 6280",
+        "0928 841 5263",
+        "0906 321 2664"
+      ]
+    },
+    {
+      "office": "Philippine Coast Guard",
+      "contactNumbers": ["0947 595 3590", "0970 467 3521"]
+    },
+    {
+      "office": "PROSIELCO",
+      "contactNumbers": ["0917 506 8857", "035 377 2065"]
+    }
+  ],
+  "provincialDirectory": [
+    {
+      "office": "Provincial Disaster Risk Reduction and Management Office (PDRRMO)",
+      "contactNumbers": ["0933-209-9165", "0961-617-5474"]
+    },
+    {
+      "office": "Siquijor Provincial Hospital",
+      "contactNumbers": ["0953-761-1944", "0953-110-4069"]
+    },
+    {
+      "office": "Lazi Medicare Community Hospital",
+      "contactNumbers": ["0975-269-2638"]
+    },
+    {
+      "office": "PROSIELCO",
+      "contactNumbers": ["0917-506-8857"]
+    },
+    {
+      "office": "Philippine Coast Guard",
+      "contactNumbers": ["0970-467-3521", "0965-937-7588"]
+    },
+    {
+      "office": "Bureau of Fire Protection",
+      "contactNumbers": ["035-480-9051"]
+    },
+    {
+      "office": "Philippine National Police - SPPO",
+      "contactNumbers": ["0917-274-0879", "0927-249-9482"]
+    },
+    {
+      "office": "DPWH",
+      "contactNumbers": [
+        "0926-268-2726",
+        "0905-945-6280",
+        "0928-841-5263",
+        "0906-321-2664"
+      ]
+    }
+  ],
+  "municipalDirectories": [
+    {
+      "municipality": "Siquijor",
+      "sectionLabel": "Municipality of Siquijor",
+      "entries": [
+        {
+          "office": "Rural Health Unit",
+          "contactNumbers": ["0935-913-5326", "0935-924-7077"]
+        },
+        {
+          "office": "Police Station",
+          "contactNumbers": ["0997-558-9114"]
+        },
+        {
+          "office": "Fire Station",
+          "contactNumbers": ["035-480-0054", "0926-410-2433", "0935-480-9123"]
+        },
+        {
+          "office": "MDRRMO Siquijor",
+          "contactNumbers": ["0927-235-5009"]
+        },
+        {
+          "office": "Coast Guard (Sub-station)",
+          "contactNumbers": ["0927-979-3595", "0975-642-5239", "0947-595-3590"]
+        }
+      ],
+      "note": null
+    },
+    {
+      "municipality": "Lazi",
+      "sectionLabel": "Municipality of Lazi",
+      "entries": [
+        {
+          "office": "Rural Health Unit",
+          "contactNumbers": ["0953-408-6711"]
+        },
+        {
+          "office": "Police Station",
+          "contactNumbers": ["0927-249-9545"]
+        },
+        {
+          "office": "Fire Station",
+          "contactNumbers": ["0917-531-8392"]
+        },
+        {
+          "office": "MDRRMO Lazi",
+          "contactNumbers": ["0995-535-2152"]
+        },
+        {
+          "office": "Coast Guard (Sub-station)",
+          "contactNumbers": ["0926-170-2450"]
+        }
+      ],
+      "note": null
+    },
+    {
+      "municipality": "Maria",
+      "sectionLabel": "Municipality of Maria",
+      "entries": [
+        {
+          "office": "Rural Health Unit",
+          "contactNumbers": ["0915-541-3450", "0917-314-3994", "0906-144-0433"]
+        },
+        {
+          "office": "Police Station",
+          "contactNumbers": ["0927-249-9547"]
+        },
+        {
+          "office": "Fire Station",
+          "contactNumbers": ["0905-864-2929"]
+        },
+        {
+          "office": "MDRRMO Maria",
+          "contactNumbers": ["0916-830-6401"]
+        },
+        {
+          "office": "Coast Guard (Sub-station)",
+          "contactNumbers": ["0926-170-2436", "0908-323-6950"]
+        }
+      ],
+      "note": null
+    },
+    {
+      "municipality": "San Juan",
+      "sectionLabel": "Municipality of San Juan",
+      "entries": [
+        {
+          "office": "Rural Health Unit",
+          "contactNumbers": ["0935-913-5326", "0935-924-7077"]
+        },
+        {
+          "office": "Police Station",
+          "contactNumbers": ["0997-558-9114"]
+        },
+        {
+          "office": "Fire Station",
+          "contactNumbers": ["035-480-0054", "0926-410-2433", "0935-480-9123"]
+        },
+        {
+          "office": "MDRRMO San Juan",
+          "contactNumbers": ["0927-235-5009"]
+        },
+        {
+          "office": "Coast Guard (Sub-station)",
+          "contactNumbers": ["0927-979-3595", "0975-642-5239", "0947-595-3590"]
+        }
+      ],
+      "note": "Supplied hotline entries duplicate Municipality of Siquijor numbers verbatim; see San Juan Municipal Police Station (0926 324 2820) in facilities.json."
+    },
+    {
+      "municipality": "Enrique Villanueva",
+      "sectionLabel": "Municipality of Enrique Villanueva",
+      "entries": [
+        {
+          "office": "Rural Health Unit",
+          "contactNumbers": ["0953-093-2426"]
+        },
+        {
+          "office": "Police Station",
+          "contactNumbers": ["0996-835-1602"]
+        },
+        {
+          "office": "Fire Station",
+          "contactNumbers": ["0917-702-2685", "0969-279-4573"]
+        },
+        {
+          "office": "MDRRMO Enrique Villanueva",
+          "contactNumbers": ["0961-087-0800", "0928-076-8527"]
+        },
+        {
+          "office": "Coast Guard (Sub-station)",
+          "contactNumbers": ["0926-170-2700"]
+        }
+      ],
+      "note": null
+    },
+    {
+      "municipality": "Larena",
+      "sectionLabel": "Municipality of Larena",
+      "entries": [
+        {
+          "office": "Rural Health Unit",
+          "contactNumbers": ["0975-268-1913"]
+        },
+        {
+          "office": "Police Station",
+          "contactNumbers": ["0927-249-9551", "0998-598-6455"]
+        },
+        {
+          "office": "Fire Station",
+          "contactNumbers": ["0917-100-9895", "0999-348-2393"]
+        },
+        {
+          "office": "MDRRMO Larena",
+          "contactNumbers": ["0995-310-0259"]
+        },
+        {
+          "office": "Coast Guard (Sub-station)",
+          "contactNumbers": ["0953-168-6099"]
+        }
+      ],
+      "note": null
+    }
+  ]
+}

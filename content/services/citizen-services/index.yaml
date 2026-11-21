@@ -10,3 +10,12 @@ pages:
 - name: Electricity and water utilities
   slug: utilities
   description: Contact PROSIELCO and Metro Siquijor Water District for outages, billing, and service enquiries.
+- name: LTO driver’s license and vehicle registration
+  slug: lto-drivers-license-and-vehicles
+  description: LTO Siquijor District Office contacts, LTMS Online Portal, and official Citizen’s Charter references.
+- name: Senior Citizen, PWD, and Solo Parent IDs
+  slug: social-protection-ids
+  description: Statutory eligibility, documentary requirements, and local social welfare contacts for social protection IDs.
+- name: SSS, Pag-IBIG, and GSIS in Siquijor
+  slug: sss-pagibig-gsis
+  description: On-island SSS and Pag-IBIG offices, nearest GSIS Dumaguete branch, and official online portals.

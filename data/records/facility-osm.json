@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "title": "Siquijor public facility coordinates (OpenStreetMap)",
+    "reviewedAt": "2026-11-21",
+    "source": "OpenStreetMap Overpass API (https://overpass-api.de/api/interpreter), Siquijor Province bounding box 9.05,123.40,9.35,123.75",
+    "license": "ODC-ODbL 1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "notes": "Only facilities with directly observed OpenStreetMap elements are included. Unmapped facilities (Maria Fire Station, Larena RHU, San Juan RHU, and Coast Guard sub-stations) remain unmapped rather than estimated."
+  },
+  "byId": {
+    "siquijor-provincial-hospital": {
+      "lat": 9.2059245,
+      "lon": 123.48451,
+      "osmId": "way/900658916",
+      "osmName": "Siquijor Provincial Hospital",
+      "osmUrl": "https://www.openstreetmap.org/way/900658916",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2059245,123.48451",
+      "note": "Caipilan site along Siquijor Circumferential Road."
+    },
+    "lazi-medicare-community-hospital": {
+      "lat": 9.1373821,
+      "lon": 123.6570662,
+      "osmId": "way/684490171",
+      "osmName": "Lazi Medicare Community Hospital",
+      "osmUrl": "https://www.openstreetmap.org/way/684490171",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1373821,123.6570662"
+    },
+    "siquijor-police-provincial-office": {
+      "lat": 9.2039145,
+      "lon": 123.4854987,
+      "osmId": "way/1492071273",
+      "osmName": "Siquijor Provincial Police Office",
+      "osmUrl": "https://www.openstreetmap.org/way/1492071273",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2039145,123.4854987"
+    },
+    "siquijor-police": {
+      "lat": 9.2150205,
+      "lon": 123.51533,
+      "osmId": "way/547595274",
+      "osmName": "Siquijor Police Station",
+      "osmUrl": "https://www.openstreetmap.org/way/547595274",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2150205,123.51533"
+    },
+    "larena-police": {
+      "lat": 9.249367,
+      "lon": 123.5950014,
+      "osmId": "way/947619484",
+      "osmName": "Larena Municipal Police Station",
+      "osmUrl": "https://www.openstreetmap.org/way/947619484",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.249367,123.5950014"
+    },
+    "enrique-villanueva-police": {
+      "lat": 9.2782778,
+      "lon": 123.6443418,
+      "osmId": "node/8079432209",
+      "osmName": "Enrique Villanueva New Police Station",
+      "osmUrl": "https://www.openstreetmap.org/node/8079432209",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2782778,123.6443418"
+    },
+    "maria-police": {
+      "lat": 9.1963843,
+      "lon": 123.6546489,
+      "osmId": "way/1089885169",
+      "osmName": "Maria Municipal Police Station",
+      "osmUrl": "https://www.openstreetmap.org/way/1089885169",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1963843,123.6546489"
+    },
+    "lazi-police": {
+      "lat": 9.1288837,
+      "lon": 123.6333238,
+      "osmId": "way/711594076",
+      "osmName": "Lazi Police Station",
+      "osmUrl": "https://www.openstreetmap.org/way/711594076",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1288837,123.6333238"
+    },
+    "san-juan-police": {
+      "lat": 9.1630567,
+      "lon": 123.4938753,
+      "osmId": "way/1443414663",
+      "osmName": "San Juan Municipal Police Station",
+      "osmUrl": "https://www.openstreetmap.org/way/1443414663",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1630567,123.4938753"
+    },
+    "fire-siquijor": {
+      "lat": 9.2143442,
+      "lon": 123.5140672,
+      "osmId": "way/547595458",
+      "osmName": "Siquijor Fire Station",
+      "osmUrl": "https://www.openstreetmap.org/way/547595458",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2143442,123.5140672"
+    },
+    "fire-larena": {
+      "lat": 9.2495064,
+      "lon": 123.5950749,
+      "osmId": "way/947619486",
+      "osmName": "Larena Fire Station",
+      "osmUrl": "https://www.openstreetmap.org/way/947619486",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2495064,123.5950749"
+    },
+    "fire-enrique-villanueva": {
+      "lat": 9.2795568,
+      "lon": 123.64388,
+      "osmId": "node/8079432210",
+      "osmName": "Enrique Villanueva Fire Station",
+      "osmUrl": "https://www.openstreetmap.org/node/8079432210",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2795568,123.64388"
+    },
+    "fire-lazi": {
+      "lat": 9.1285494,
+      "lon": 123.6335257,
+      "osmId": "node/3870437515",
+      "osmName": "Lazi Fire Station",
+      "osmUrl": "https://www.openstreetmap.org/node/3870437515",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1285494,123.6335257"
+    },
+    "fire-san-juan": {
+      "lat": 9.1634363,
+      "lon": 123.493667,
+      "osmId": "node/3870482889",
+      "osmName": "San Juan Fire Station",
+      "osmUrl": "https://www.openstreetmap.org/node/3870482889",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1634363,123.493667"
+    },
+    "rhu-siquijor": {
+      "lat": 9.2141404,
+      "lon": 123.5146261,
+      "osmId": "way/750354990",
+      "osmName": "Siquijor Rural Health Unit",
+      "osmUrl": "https://www.openstreetmap.org/way/750354990",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2141404,123.5146261"
+    },
+    "rhu-enrique-villanueva": {
+      "lat": 9.2754824,
+      "lon": 123.6467147,
+      "osmId": "way/1442068723",
+      "osmName": "Enrique Villanueva Rural Health Unit",
+      "osmUrl": "https://www.openstreetmap.org/way/1442068723",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2754824,123.6467147"
+    },
+    "rhu-maria": {
+      "lat": 9.1958682,
+      "lon": 123.6549781,
+      "osmId": "way/630845775",
+      "osmName": "Maria Rural Health Unit",
+      "osmUrl": "https://www.openstreetmap.org/way/630845775",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1958682,123.6549781"
+    },
+    "rhu-lazi": {
+      "lat": 9.1272301,
+      "lon": 123.6345008,
+      "osmId": "way/717902066",
+      "osmName": "Lazi Primary Care Facility",
+      "osmUrl": "https://www.openstreetmap.org/way/717902066",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1272301,123.6345008"
+    },
+    "port-siquijor": {
+      "lat": 9.2176819,
+      "lon": 123.5122284,
+      "osmId": "relation/13880435",
+      "osmName": "Port of Siquijor",
+      "osmUrl": "https://www.openstreetmap.org/relation/13880435",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2176819,123.5122284"
+    },
+    "port-larena": {
+      "lat": 9.2511455,
+      "lon": 123.5909853,
+      "osmId": "relation/13880288",
+      "osmName": "Port of Larena",
+      "osmUrl": "https://www.openstreetmap.org/relation/13880288",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.2511455,123.5909853"
+    },
+    "port-lazi": {
+      "lat": 9.1231733,
+      "lon": 123.6376434,
+      "osmId": "way/1248729942",
+      "osmName": "Port of Lazi",
+      "osmUrl": "https://www.openstreetmap.org/way/1248729942",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=9.1231733,123.6376434"
+    }
+  }
+}
