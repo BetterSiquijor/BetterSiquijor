@@ -4,6 +4,7 @@ import { writeColleges } from './lib/colleges.mjs';
 import { writeSchoolDirectory } from './lib/schools.mjs';
 import { writeHotlineDirectory } from './lib/hotlines.mjs';
 import { writeEducationOsm } from './lib/education-osm.mjs';
+import { writeWaterwaysOsm } from './lib/waterways-osm.mjs';
 
 const read = path => JSON.parse(readFileSync(path, 'utf8'));
 const write = (name, value) =>
@@ -14,6 +15,7 @@ writeFacilities();
 writeColleges();
 writeHotlineDirectory();
 writeEducationOsm();
+writeWaterwaysOsm();
 
 // Editable records live under data/. public/data is generated for visitors.
 for (const name of ['census', 'officials', 'offices', 'financial-records']) {

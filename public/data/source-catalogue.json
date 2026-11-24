@@ -1013,7 +1013,7 @@
       "reviewed": "2026-11-20",
       "coverage": "HOTOSM Philippines Education Facilities (OpenStreetMap ODbL 1.0 extract, Siquijor subset)",
       "sourceType": "community-mapped-geodata",
-      "localPages": ["/services/education/find-school"],
+      "localPages": ["/services/education/find-school", "/waterways"],
       "localDocument": null
     },
     {

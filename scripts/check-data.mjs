@@ -225,6 +225,7 @@ const routes = new Set([
   '/data',
   '/hotlines',
   '/barangays',
+  '/waterways',
 ]);
 const pages = [];
 for (const group of ['services', 'government']) {
@@ -311,3 +312,4 @@ await import('./check-facilities.mjs');
 await import('./check-colleges.mjs');
 await import('./check-hotlines.mjs');
 await import('./check-education-osm.mjs');
+await import('./check-waterways-osm.mjs');

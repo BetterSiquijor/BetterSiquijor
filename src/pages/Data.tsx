@@ -264,6 +264,12 @@ export default function Data() {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/waterways">
+                    Siquijor waterways &amp; water bodies map (1,058 OSM
+                    features) →
+                  </Link>
+                </li>
+                <li>
                   <Link to="/services">
                     Service requirements and procedures →
                   </Link>

@@ -479,6 +479,12 @@ export default function Hotlines() {
             PROSIELCO &amp; Water utilities →
           </Link>
           <Link
+            to="/waterways"
+            className="text-primary-700 underline font-medium"
+          >
+            Waterways &amp; drainage map (OSM) →
+          </Link>
+          <Link
             to="/services/public-safety/emergency-response"
             className="text-primary-700 underline font-medium"
           >

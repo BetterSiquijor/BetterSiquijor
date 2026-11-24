@@ -73,6 +73,7 @@ The Provincial Tourism Office recommends planning snorkeling and dive stops by m
 - **Sea travel:** See [Ports and sea travel](/services/tourism/ports-and-ferries) for Port of Siquijor, Port of Larena, and Port of Lazi profiles and PPA shipping-line contacts (including the Lazi–Tagbilaran–Plaridel ferry route launched 23 October 2026). [11]
 - **Island transport:** Siquijor has no metered taxis or public buses. Visitors travel by **tricycle**, **jeepney/easyride** (fixed routes), **van for hire**, or **rented motorbike**. [9]
 - **Visitor assistance & eco-rules:** See [Provincial Tourism Office & visitor guidelines](/services/tourism/provincial-tourism-office) for PTO contacts, DOT NIR details, and zero-waste rules.
+- **Rivers, waterfalls & springs map:** Explore mapped rivers, streams, lagoons, and waterfalls across all six municipalities on the [Siquijor waterways map](/waterways).
 
 ## Sources and reference dates
 

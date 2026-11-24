@@ -2,7 +2,7 @@ import {readFile,mkdir,writeFile,readdir} from 'node:fs/promises';
 import {join,dirname} from 'node:path';
 import * as yaml from 'js-yaml';
 const html=await readFile('dist/index.html','utf8');
-const routes=new Set(['services','government','search','data','hotlines','barangays']);
+const routes=new Set(['services','government','search','data','hotlines','barangays','waterways']);
 for(const group of ['services','government']){
  const data=yaml.load(await readFile(`src/data/${group}.yaml`,'utf8'));
  for(const category of data.categories){

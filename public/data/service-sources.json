@@ -610,6 +610,16 @@
       "sourceType": "primary-government",
       "reviewed": "2026-11-21",
       "sourceDate": "2022"
+    },
+    {
+      "id": "hotosm-phl-waterways-osm",
+      "title": "HOTOSM Philippines Waterways (OpenStreetMap ODbL 1.0 extract, Siquijor subset)",
+      "url": "https://data.humdata.org/organization/hot/",
+      "publisher": "OpenStreetMap contributors via HOTOSM / HDX",
+      "sourceType": "community-mapped-geodata",
+      "reviewed": "2026-11-24",
+      "sourceDate": "2026-11-15",
+      "localPage": "/waterways"
     }
   ]
 }
